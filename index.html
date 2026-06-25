@@ -180,7 +180,7 @@
     </div>
 
     <!-- Mobile Hamburger -->
-    <button class="md:hidden flex items-center p-unit-sm" id="menuBtn" aria-label="Abrir menú">
+    <button class="md:hidden flex items-center p-unit-sm" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">
       <span class="material-symbols-outlined text-3xl text-primary" id="menuIcon">menu</span>
     </button>
   </div>
@@ -270,7 +270,7 @@
         <span class="material-symbols-outlined text-secondary text-4xl mb-unit-md">apartment</span>
         <h3 class="font-headline-lg text-headline-lg text-primary mb-unit-sm">Construcción General</h3>
         <p class="font-body-md text-body-md text-on-surface-variant mb-unit-lg grow">Desarrollo civil completo desde obra gris hasta acabados finos. Superamos estándares de calidad asegurando el bienestar estructural de cada proyecto en el Pacífico.</p>
-        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors">
+        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors cursor-pointer service-trigger" data-service="0">
           Saber más <span class="material-symbols-outlined">chevron_right</span>
         </span>
       </div>
@@ -278,7 +278,7 @@
         <span class="material-symbols-outlined text-secondary text-4xl mb-unit-md">bolt</span>
         <h3 class="font-headline-lg text-headline-lg text-primary mb-unit-sm">Electricidad</h3>
         <p class="font-body-md text-body-md text-on-surface-variant mb-unit-lg grow">Soluciones eléctricas certificadas. Brindamos automatización de cuartos, acometidas industriales, cableado estructurado e instalación de paneles residenciales inteligentes.</p>
-        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors">
+        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors cursor-pointer service-trigger" data-service="1">
           Saber más <span class="material-symbols-outlined">chevron_right</span>
         </span>
       </div>
@@ -286,7 +286,7 @@
         <span class="material-symbols-outlined text-secondary text-4xl mb-unit-md">architecture</span>
         <h3 class="font-headline-lg text-headline-lg text-primary mb-unit-sm">Remodelaciones Integrales</h3>
         <p class="font-body-md text-body-md text-on-surface-variant mb-unit-lg grow">Transformación milimétrica de espacios comerciales y residencias. Amplia experiencia en divisiones en Drywall, fachadas exteriores, restauración y pintura especializada.</p>
-        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors">
+        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors cursor-pointer service-trigger" data-service="2">
           Saber más <span class="material-symbols-outlined">chevron_right</span>
         </span>
       </div>
@@ -294,7 +294,7 @@
         <span class="material-symbols-outlined text-secondary text-4xl mb-unit-md">build</span>
         <h3 class="font-headline-lg text-headline-lg text-primary mb-unit-sm">Mantenimiento</h3>
         <p class="font-body-md text-body-md text-on-surface-variant mb-unit-lg grow">Tranquilidad operativa garantizada. Brindamos soporte regular de fontanería, bombas, sistemas de alcantarillado, limpieza de fachadas y reparaciones misceláneas.</p>
-        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors">
+        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors cursor-pointer service-trigger" data-service="3">
           Saber más <span class="material-symbols-outlined">chevron_right</span>
         </span>
       </div>
@@ -302,7 +302,7 @@
         <span class="material-symbols-outlined text-secondary text-4xl mb-unit-md">yard</span>
         <h3 class="font-headline-lg text-headline-lg text-primary mb-unit-sm">Jardinería Institucional</h3>
         <p class="font-body-md text-body-md text-on-surface-variant mb-unit-lg grow">Instalación y soporte de los equipos de riego de más alta calidad del mercado. Sistemas de irrigación automáticos y paisajismo planificado para residenciales y hotelería.</p>
-        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors">
+        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors cursor-pointer service-trigger" data-service="4">
           Saber más <span class="material-symbols-outlined">chevron_right</span>
         </span>
       </div>
@@ -310,7 +310,7 @@
         <span class="material-symbols-outlined text-secondary text-4xl mb-unit-md">handyman</span>
         <h3 class="font-headline-lg text-headline-lg text-primary mb-unit-sm">Instalación</h3>
         <p class="font-body-md text-body-md text-on-surface-variant mb-unit-lg grow">Despliegue ágil y montaje estructural especializado. Coordinamos y aseguramos todos los componentes críticos necesarios en su nueva línea o desarrollo comercial.</p>
-        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors">
+        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors cursor-pointer service-trigger" data-service="5">
           Saber más <span class="material-symbols-outlined">chevron_right</span>
         </span>
       </div>
@@ -419,7 +419,7 @@
 
 <!-- ========== WHY TRUST US ========== -->
 <section class="py-unit-xxl bg-surface-container">
-  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 lg:grid-cols-2 gap-unit-xl items-start">
+  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-unit-xl items-start">
     <div data-animate="slide-left">
       <h2 class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-unit-lg">¿Por qué confían en nosotros?</h2>
       <p class="font-body-lg text-body-lg text-on-surface-variant mb-unit-xl">
@@ -611,10 +611,10 @@
           </div>
         </div>
       </div>
-      <button class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-3 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center hover:bg-secondary transition-colors z-10 shadow-lg" id="testimonialPrev" aria-label="Anterior">
+      <button class="absolute left-0 md:-translate-x-3 top-1/2 -translate-y-1/2 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center hover:bg-secondary transition-colors z-10 shadow-lg" id="testimonialPrev" aria-label="Anterior">
         <span class="material-symbols-outlined">chevron_left</span>
       </button>
-      <button class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-3 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center hover:bg-secondary transition-colors z-10 shadow-lg" id="testimonialNext" aria-label="Siguiente">
+      <button class="absolute right-0 md:translate-x-3 top-1/2 -translate-y-1/2 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center hover:bg-secondary transition-colors z-10 shadow-lg" id="testimonialNext" aria-label="Siguiente">
         <span class="material-symbols-outlined">chevron_right</span>
       </button>
       <div class="flex justify-center gap-unit-sm mt-unit-lg" id="testimonialDots"></div>
@@ -624,8 +624,8 @@
 
 <!-- ========== CONTACT ========== -->
 <section id="contacto" class="py-unit-xxl bg-tertiary-container">
-  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 lg:grid-cols-2 gap-unit-xl">
-    <div class="text-white" data-animate="slide-left">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-unit-xl">
+      <div class="text-white" data-animate="slide-left">
       <h2 class="font-display-lg text-display-lg-mobile md:text-display-lg mb-unit-md leading-tight">¡Construyamos algo formidable juntos!</h2>
       <p class="font-body-lg text-body-lg mb-unit-xl text-white/70">¿Necesita agendar servicios, planeación u hojear presupuestos? Contáctenos directamente, garantizamos atención ágil.</p>
       <div class="space-y-unit-lg mb-unit-xl">
@@ -703,22 +703,35 @@
     <h5 class="font-label-bold text-label-bold text-white uppercase mb-unit-lg">Contacto</h5>
     <p class="font-body-md text-body-md text-white/60">Robert: +506 8664-9651</p>
     <p class="font-body-md text-body-md text-white/60">José: +506 8910-3408</p>
-    <p class="font-body-md text-body-md text-white/60 mt-unit-sm">robertmatarrita18@gmail.com</p>
+    <p class="font-body-md text-body-md text-white/60 mt-unit-sm break-all">robertmatarrita18@gmail.com</p>
   </div>
   <div class="col-span-1 md:col-span-4 border-t border-white/10 mt-unit-xl pt-unit-lg text-center">
     <p class="font-body-md text-body-md text-white/40">© 2026 Remodelaciones Matarrita. Todos los derechos reservados.</p>
   </div>
 </footer>
 
+<!-- ========== SERVICE MODAL ========== -->
+<div class="fixed inset-0 z-[65] bg-black/70 hidden items-center justify-center p-unit-md" id="serviceModal">
+  <div class="bg-surface max-w-2xl w-full max-h-[85vh] overflow-y-auto p-unit-xl md:p-unit-xxl relative">
+    <button class="absolute top-2 right-2 p-3 text-on-surface-variant hover:text-primary transition-colors" id="serviceModalClose" aria-label="Cerrar">
+      <span class="material-symbols-outlined text-3xl">close</span>
+    </button>
+    <div id="serviceModalContent"></div>
+    <a href="#contacto" class="inline-block bg-secondary text-white px-unit-xl py-unit-md font-label-bold text-label-bold hover:opacity-90 transition-opacity mt-unit-lg" id="serviceModalCta">
+      CONTACTAR POR ESTE SERVICIO
+    </a>
+  </div>
+</div>
+
 <!-- ========== LIGHTBOX ========== -->
 <div class="fixed inset-0 z-[60] bg-black/90 hidden items-center justify-center" id="lightbox">
-  <button class="absolute top-4 right-4 text-white text-4xl hover:opacity-70 transition-opacity z-10" id="lightboxClose" aria-label="Cerrar">
+  <button class="absolute top-2 right-2 p-3 text-white text-4xl hover:opacity-70 transition-opacity z-10" id="lightboxClose" aria-label="Cerrar">
     <span class="material-symbols-outlined">close</span>
   </button>
-  <button class="absolute left-4 top-1/2 -translate-y-1/2 text-white text-4xl hover:opacity-70 transition-opacity z-10 hidden" id="lightboxPrev" aria-label="Anterior">
+  <button class="absolute left-1 p-3 top-1/2 -translate-y-1/2 text-white text-4xl hover:opacity-70 transition-opacity z-10 hidden" id="lightboxPrev" aria-label="Anterior">
     <span class="material-symbols-outlined">chevron_left</span>
   </button>
-  <button class="absolute right-4 top-1/2 -translate-y-1/2 text-white text-4xl hover:opacity-70 transition-opacity z-10 hidden" id="lightboxNext" aria-label="Siguiente">
+  <button class="absolute right-1 p-3 top-1/2 -translate-y-1/2 text-white text-4xl hover:opacity-70 transition-opacity z-10 hidden" id="lightboxNext" aria-label="Siguiente">
     <span class="material-symbols-outlined">chevron_right</span>
   </button>
   <div class="max-w-5xl max-h-[85vh] mx-auto p-unit-md text-center">
@@ -782,12 +795,17 @@
     menuPanel.classList.remove('translate-x-full');
     menuOverlay.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
+    menuBtn.setAttribute('aria-expanded', 'true');
   }
   function closeMenu() {
     menuPanel.classList.add('translate-x-full');
     menuOverlay.classList.add('hidden');
     document.body.style.overflow = '';
+    menuBtn.setAttribute('aria-expanded', 'false');
   }
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && !menuOverlay.classList.contains('hidden')) closeMenu();
+  });
   menuBtn.addEventListener('click', openMenu);
   menuClose.addEventListener('click', closeMenu);
   menuOverlay.addEventListener('click', closeMenu);
@@ -836,7 +854,9 @@
       slidesPerView = getSlidesPerView();
       const maxIndex = getMaxIndex();
       currentIndex = Math.max(0, Math.min(index, maxIndex));
-      track.style.transform = 'translateX(-' + (currentIndex * (100 / slidesPerView)) + '%)';
+      const containerWidth = track.parentElement.offsetWidth;
+      const offset = currentIndex * (containerWidth / slidesPerView);
+      track.style.transform = 'translateX(-' + offset + 'px)';
       updateDots();
     }
 
@@ -853,7 +873,7 @@
       const maxIndex = getMaxIndex();
       for (let i = 0; i <= maxIndex; i++) {
         const dot = document.createElement('button');
-        dot.className = 'w-3 h-3 rounded-full transition-colors ' + (i === 0 ? 'bg-primary' : 'bg-outline-variant');
+        dot.className = 'w-4 h-4 rounded-full transition-colors ' + (i === 0 ? 'bg-primary' : 'bg-outline-variant');
         dot.setAttribute('aria-label', 'Ir a testimonio ' + (i + 1));
         dot.addEventListener('click', function() { goTo(i); resetAutoPlay(); });
         dotsContainer.appendChild(dot);
@@ -879,6 +899,22 @@
     function resetAutoPlay() {
       startAutoPlay();
     }
+
+    // Swipe support
+    let touchStartX = 0;
+    let touchEndX = 0;
+    track.addEventListener('touchstart', function(e) {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+    track.addEventListener('touchend', function(e) {
+      touchEndX = e.changedTouches[0].screenX;
+      const diff = touchStartX - touchEndX;
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) goTo(currentIndex + 1);
+        else goTo(currentIndex - 1);
+        resetAutoPlay();
+      }
+    }, { passive: true });
 
     document.getElementById('testimonialPrev').addEventListener('click', function() {
       goTo(currentIndex - 1);
@@ -1020,6 +1056,108 @@
       if (e.key === 'Escape') close();
       if (e.key === 'ArrowLeft') prev();
       if (e.key === 'ArrowRight') next();
+    });
+  })();
+
+  // ===== Service Modal =====
+  (function() {
+    const modal = document.getElementById('serviceModal');
+    const content = document.getElementById('serviceModalContent');
+    const closeBtn = document.getElementById('serviceModalClose');
+    const cta = document.getElementById('serviceModalCta');
+
+    const services = [
+      {
+        icon: 'apartment',
+        title: 'Construcción General',
+        details: [
+          'Desarrollo civil completo desde obra gris hasta acabados finos. Superamos estándares de calidad asegurando el bienestar estructural de cada proyecto en el Pacífico.',
+          'Contamos con equipo técnico especializado en construcción de plazas comerciales, residenciales de lujo y naves industriales. Manejamos desde cimentación y estructura metálica hasta acabados de interiores y paisajismo exterior.',
+          'Cada obra se ejecuta bajo estrictos controles de calidad, con cronogramas detallados y supervisión permanente, garantizando la entrega en tiempo y forma.'
+        ]
+      },
+      {
+        icon: 'bolt',
+        title: 'Electricidad',
+        details: [
+          'Soluciones eléctricas certificadas. Brindamos automatización de cuartos, acometidas industriales, cableado estructurado e instalación de paneles residenciales inteligentes.',
+          'Nuestro equipo de electricistas certificados diseña e instala sistemas eléctricos completos para todo tipo de proyectos: residenciales, comerciales e industriales. Trabajamos con materiales de primera calidad y siguiendo todas las normas vigentes.',
+          'Ofrecemos servicios de diagnóstico, mantenimiento preventivo y correctivo, así como modernización de instalaciones existentes para mejorar eficiencia energética y seguridad.'
+        ]
+      },
+      {
+        icon: 'architecture',
+        title: 'Remodelaciones Integrales',
+        details: [
+          'Transformación milimétrica de espacios comerciales y residencias. Amplia experiencia en divisiones en Drywall, fachadas exteriores, restauración y pintura especializada.',
+          'Rediseñamos y renovamos espacios para maximizar su funcionalidad y estética. Desde una habitación hasta un edificio completo, ejecutamos remodelaciones con mínima interrupción para su operación.',
+          'Nos especializamos en trabajos de Drywall de alta precisión, instalación de cielorrasos, pisos y recubrimientos, restauración de fachadas y pintura decorativa con acabados profesionales.'
+        ]
+      },
+      {
+        icon: 'build',
+        title: 'Mantenimiento',
+        details: [
+          'Tranquilidad operativa garantizada. Brindamos soporte regular de fontanería, bombas, sistemas de alcantarillado, limpieza de fachadas y reparaciones misceláneas.',
+          'Nuestros planes de mantenimiento preventivo están diseñados para extender la vida útil de sus instalaciones y evitar costosas reparaciones de emergencia. Cubrimos propiedades comerciales y residenciales.',
+          'Respondemos con rapidez ante cualquier eventualidad. Nuestro equipo está capacitado para diagnosticar y resolver problemas de fontanería, sistemas hidráulicos, electricidad básica y estructuras.'
+        ]
+      },
+      {
+        icon: 'yard',
+        title: 'Jardinería Institucional',
+        details: [
+          'Instalación y soporte de los equipos de riego de más alta calidad del mercado. Sistemas de irrigación automáticos y paisajismo planificado para residenciales y hotelería.',
+          'Diseñamos e instalamos sistemas de riego inteligentes que optimizan el consumo de agua y mantienen sus áreas verdes impecables. Trabajamos con las mejores marcas del mercado.',
+          'Ofrecemos planes de mantenimiento para jardines institucionales, condominios y hoteles, incluyendo poda, fertilización, control de plagas y renovación de especies.'
+        ]
+      },
+      {
+        icon: 'handyman',
+        title: 'Instalación',
+        details: [
+          'Despliegue ágil y montaje estructural especializado. Coordinamos y aseguramos todos los componentes críticos necesarios en su nueva línea o desarrollo comercial.',
+          'Brindamos servicios de instalación para mobiliario comercial, equipos industriales, sistemas de climatización y estructuras modulares. Nuestro equipo llega con las herramientas y el know-how necesario.',
+          'Coordinamos la logística completa: recepción de materiales, montaje en sitio, pruebas de funcionamiento y entrega operativa. Todo con los más altos estándares de seguridad.'
+        ]
+      }
+    ];
+
+    function openService(index) {
+      const s = services[index];
+      if (!s) return;
+      let html = '<span class="material-symbols-outlined text-secondary text-5xl mb-unit-md">' + s.icon + '</span>';
+      html += '<h3 class="font-headline-xl text-headline-xl text-primary mb-unit-lg">' + s.title + '</h3>';
+      s.details.forEach(function(p) {
+        html += '<p class="font-body-md text-body-md text-on-surface-variant mb-unit-md leading-relaxed">' + p + '</p>';
+      });
+      content.innerHTML = html;
+      cta.href = '#contacto';
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeService() {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = '';
+    }
+
+    document.querySelectorAll('.service-trigger').forEach(function(el) {
+      el.addEventListener('click', function(e) {
+        e.preventDefault();
+        openService(parseInt(el.dataset.service));
+      });
+    });
+
+    closeBtn.addEventListener('click', closeService);
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) closeService();
+    });
+    document.addEventListener('keydown', function(e) {
+      if (modal.classList.contains('hidden')) return;
+      if (e.key === 'Escape') closeService();
     });
   })();
 </script>
