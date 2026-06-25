@@ -749,11 +749,31 @@
   </svg>
 </a>
 
+<!-- ========== BACK TO TOP ========== -->
+<button class="fixed bottom-24 right-6 z-50 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center shadow-lg hover:bg-secondary hover:shadow-xl transition-all duration-300 opacity-0 translate-y-4 pointer-events-none"
+        id="backToTop" aria-label="Volver arriba">
+  <span class="material-symbols-outlined">arrow_upward</span>
+</button>
+
 <script>
   // ===== Navbar Shadow on Scroll =====
   const navbar = document.getElementById('navbar');
+  const backBtn = document.getElementById('backToTop');
   window.addEventListener('scroll', () => {
-    navbar.classList.toggle('shadow-lg', window.scrollY > 40);
+    const y = window.scrollY;
+    navbar.classList.toggle('shadow-lg', y > 40);
+    if (backBtn) {
+      const show = y > 500;
+      backBtn.classList.toggle('opacity-0', !show);
+      backBtn.classList.toggle('translate-y-4', !show);
+      backBtn.classList.toggle('pointer-events-none', !show);
+      backBtn.classList.toggle('opacity-100', show);
+      backBtn.classList.toggle('translate-y-0', show);
+      backBtn.classList.toggle('pointer-events-auto', show);
+    }
+  });
+  backBtn?.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
   // ===== Hero Parallax =====
