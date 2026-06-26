@@ -727,14 +727,18 @@
   </div>
 </footer>
 
-<!-- ========== SERVICE MODAL ========== -->
-<div class="fixed inset-0 z-[65] bg-black/70 hidden items-center justify-center p-unit-md" id="serviceModal">
-  <div class="bg-surface max-w-2xl w-full max-h-[85vh] overflow-y-auto p-unit-xl md:p-unit-xxl relative">
-    <button class="absolute top-2 right-2 p-3 text-on-surface-variant hover:text-primary transition-colors" id="serviceModalClose" aria-label="Cerrar">
+<!-- ========== SERVICE SIDE PANEL ========== -->
+<div class="fixed inset-0 z-[65] bg-black/50 hidden" id="serviceOverlay"></div>
+<div class="fixed top-0 right-0 h-full w-full max-w-lg bg-surface z-[66] transform translate-x-full transition-transform duration-300 shadow-2xl overflow-y-auto" id="servicePanel">
+  <div class="flex justify-between items-center p-unit-lg md:p-unit-xl border-b border-outline-variant sticky top-0 bg-surface z-10">
+    <h3 class="font-headline-lg text-headline-lg text-primary" id="servicePanelTitle"></h3>
+    <button class="p-2 text-on-surface-variant hover:text-primary transition-colors" id="servicePanelClose" aria-label="Cerrar">
       <span class="material-symbols-outlined text-3xl">close</span>
     </button>
-    <div id="serviceModalContent"></div>
-    <a href="#contacto" class="inline-block bg-secondary text-white px-unit-xl py-unit-md font-label-bold text-label-bold hover:opacity-90 transition-opacity mt-unit-lg" id="serviceModalCta">
+  </div>
+  <div class="p-unit-lg md:p-unit-xl" id="servicePanelContent"></div>
+  <div class="p-unit-lg md:p-unit-xl border-t border-outline-variant sticky bottom-0 bg-surface">
+    <a href="#contacto" class="block w-full bg-secondary text-white text-center px-unit-xl py-unit-md font-label-bold text-label-bold hover:opacity-90 transition-opacity" id="servicePanelCta">
       CONTACTAR POR ESTE SERVICIO
     </a>
   </div>
@@ -1096,12 +1100,14 @@
     });
   })();
 
-  // ===== Service Modal =====
+  // ===== Service Side Panel =====
   (function() {
-    const modal = document.getElementById('serviceModal');
-    const content = document.getElementById('serviceModalContent');
-    const closeBtn = document.getElementById('serviceModalClose');
-    const cta = document.getElementById('serviceModalCta');
+    const panel = document.getElementById('servicePanel');
+    const overlay = document.getElementById('serviceOverlay');
+    const titleEl = document.getElementById('servicePanelTitle');
+    const contentEl = document.getElementById('servicePanelContent');
+    const closeBtn = document.getElementById('servicePanelClose');
+    const cta = document.getElementById('servicePanelCta');
 
     const services = [
       {
@@ -1163,21 +1169,21 @@
     function openService(index) {
       const s = services[index];
       if (!s) return;
-      let html = '<span class="material-symbols-outlined text-secondary text-5xl mb-unit-md">' + s.icon + '</span>';
-      html += '<h3 class="font-headline-xl text-headline-xl text-primary mb-unit-lg">' + s.title + '</h3>';
+      titleEl.textContent = s.title;
+      let html = '<span class="material-symbols-outlined text-secondary text-5xl mb-unit-md block">' + s.icon + '</span>';
       s.details.forEach(function(p) {
         html += '<p class="font-body-md text-body-md text-on-surface-variant mb-unit-md leading-relaxed">' + p + '</p>';
       });
-      content.innerHTML = html;
+      contentEl.innerHTML = html;
       cta.href = '#contacto';
-      modal.classList.remove('hidden');
-      modal.classList.add('flex');
+      overlay.classList.remove('hidden');
+      panel.classList.remove('translate-x-full');
       document.body.style.overflow = 'hidden';
     }
 
     function closeService() {
-      modal.classList.add('hidden');
-      modal.classList.remove('flex');
+      panel.classList.add('translate-x-full');
+      overlay.classList.add('hidden');
       document.body.style.overflow = '';
     }
 
@@ -1189,11 +1195,9 @@
     });
 
     closeBtn.addEventListener('click', closeService);
-    modal.addEventListener('click', function(e) {
-      if (e.target === modal) closeService();
-    });
+    overlay.addEventListener('click', closeService);
     document.addEventListener('keydown', function(e) {
-      if (modal.classList.contains('hidden')) return;
+      if (panel.classList.contains('translate-x-full')) return;
       if (e.key === 'Escape') closeService();
     });
   })();
