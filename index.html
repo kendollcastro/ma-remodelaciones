@@ -1,158 +1,161 @@
 <!DOCTYPE html>
-<html class="light" lang="es">
+<html lang="es">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>MA Soluciones Integrales | Excelencia Arquitectónica en el Pacífico</title>
+<title>MA Soluciones Integrales | Construcción, Electricidad & Mantenimiento en Puntarenas</title>
 <meta name="description" content="MA Soluciones Integrales — Líderes en construcción, electricidad, remodelaciones y mantenimiento en la provincia de Puntarenas, Costa Rica." />
+<meta name="author" content="MA Soluciones Integrales" />
+<meta name="theme-color" content="#0736c2" />
+<meta name="format-detection" content="telephone=yes" />
+<link rel="canonical" href="https://masolucionesintegrales.com/" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://cdn.tailwindcss.com" />
+<link rel="dns-prefetch" href="https://formspree.io" />
+<link rel="dns-prefetch" href="https://maps.googleapis.com" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="MA Soluciones Integrales | Excelencia Arquitectónica" />
+<meta property="og:title" content="MA Soluciones Integrales | Construcción, Electricidad & Mantenimiento en Puntarenas" />
 <meta property="og:description" content="MA Soluciones Integrales — Su visión construida con excelencia en la provincia de Puntarenas." />
-<meta property="og:image" content="https://masolucionesintegrales.com/src/assets/obra_1.jpg" />
+<meta property="og:image" content="https://masolucionesintegrales.com/src/assets/hero-industrial.jpg" />
+<meta property="og:url" content="https://masolucionesintegrales.com/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="MA Soluciones Integrales | Construcción" />
+<meta property="twitter:title" content="MA Soluciones Integrales | Construcción, Electricidad & Mantenimiento" />
 <meta property="twitter:description" content="MA Soluciones Integrales — Líderes en construcción y remodelaciones en Puntarenas, Costa Rica." />
-<meta property="twitter:image" content="https://masolucionesintegrales.com/src/assets/obra_1.jpg" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta property="twitter:image" content="https://masolucionesintegrales.com/src/assets/hero-industrial.jpg" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Serif:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <script>
   tailwind.config = {
-    darkMode: "class",
     theme: {
       extend: {
         colors: {
-          primary: "#061D38",
-          secondary: "#F16022",
-          surface: "#FFFFFF",
-          "on-surface": "#040707",
-          "on-surface-variant": "#44474d",
-          "on-primary-container": "#CDD6E3",
-          "tertiary-container": "#061D38",
-          "on-tertiary-container": "#CDD6E3",
-          "on-primary-fixed-variant": "#364763",
-          "secondary-container": "#F16022",
-          "secondary-fixed-dim": "#FDE0D3",
-          "secondary-fixed": "#FFF0E8",
-          outline: "#75777e",
-          "outline-variant": "#c5c6ce",
-          "surface-container-low": "#f2f4f6",
-          "surface-container": "#eceef0",
-          "surface-container-highest": "#e0e3e5",
-        },
-        borderRadius: {
-          DEFAULT: "0.125rem",
-          lg: "0.25rem",
-          xl: "0.5rem",
-          full: "0.75rem",
-        },
-        spacing: {
-          "unit-xs": "4px",
-          "unit-sm": "8px",
-          "unit-md": "16px",
-          "unit-lg": "32px",
-          "unit-xl": "64px",
-          "unit-xxl": "80px",
-          "gutter": "32px",
-          "margin-mobile": "20px",
-          "margin-desktop": "64px",
-          "container-max": "1280px",
+          brandBlue: "#0736c2",
+          brandOrange: "#ff741e",
+          brandLight: "#fbf8ff",
+          brandDark: "#111827",
         },
         fontFamily: {
-          sans: ["Hanken Grotesk"],
+          heading: ["Noto Serif", "serif"],
+          body: ["Inter", "sans-serif"],
         },
-        fontSize: {
-          "headline-lg": ["28px", { lineHeight: "1.3", fontWeight: "700" }],
-          "body-md": ["16px", { lineHeight: "1.6", fontWeight: "400" }],
-          "body-lg": ["18px", { lineHeight: "1.6", fontWeight: "400" }],
-          "headline-xl": ["36px", { lineHeight: "1.2", fontWeight: "700" }],
-          "display-lg-mobile": ["32px", { lineHeight: "1.2", fontWeight: "800" }],
-          "label-bold": ["13px", { lineHeight: "1.2", letterSpacing: "0.05em", fontWeight: "700" }],
-          "display-lg": ["52px", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "800" }],
+        borderRadius: {
+          DEFAULT: "0.75rem",
+          lg: "1rem",
+          xl: "1.25rem",
+          "2xl": "1.5rem",
+          full: "9999px",
         },
       },
     },
   }
 </script>
 <style>
-  body {
-    font-family: 'Hanken Grotesk', sans-serif;
-    background-color: #f7f9fb;
-    color: #040707;
-    scroll-behavior: smooth;
-  }
+  * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  ::selection { background: #0736c2; color: white; }
+  ::-webkit-scrollbar { width: 7px; }
+  ::-webkit-scrollbar-track { background: #f1f1f1; }
+  ::-webkit-scrollbar-thumb { background: #c5c5c5; border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: #0736c2; }
+
+  html { scroll-padding-top: 96px; }
+  body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+  h1, h2, h3, h4, h5, h6 { font-family: 'Noto Serif', serif; }
+
+  /* Hero gradient */
   .hero-gradient {
-    background: linear-gradient(rgba(10,29,55,0.5), rgba(10,29,55,0.8));
-  }
-  .testimonial-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    background: linear-gradient(135deg, rgba(17,24,39,0.88) 0%, rgba(7,54,194,0.55) 100%);
   }
 
-  /* ===== Animations ===== */
+  /* Navbar premium */
+  #navbar {
+    transition: background 0.4s cubic-bezier(0.25,0.46,0.45,0.94),
+                box-shadow 0.4s cubic-bezier(0.25,0.46,0.45,0.94);
+  }
+  #navbar.scrolled {
+    background: rgba(255,255,255,0.90);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: 0 4px 30px rgba(0,0,0,0.06);
+  }
+  #navbar.scrolled a:not(.nav-cta) { color: #111827; }
+  #navbar.scrolled .nav-logo { filter: none; }
+  #navbar.scrolled #menuBtn { color: #111827; }
+
+  /* ===== Premium Animations ===== */
   [data-animate] {
     opacity: 0;
-    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+    transition: opacity 0.8s cubic-bezier(0.22,1,0.36,1),
+                transform 0.8s cubic-bezier(0.22,1,0.36,1);
   }
-  [data-animate].animated {
-    opacity: 1;
-    transform: translate(0, 0) scale(1);
-  }
-
-  .anim-fade-up { transform: translateY(30px); }
+  [data-animate].animated { opacity: 1; transform: translate(0,0) scale(1); }
+  .anim-fade-up { transform: translateY(35px); }
   .anim-fade-in { transform: none; }
-  .anim-scale-in { transform: scale(0.93); }
-  .anim-slide-left { transform: translateX(-30px); }
-  .anim-slide-right { transform: translateX(30px); }
+  .anim-scale-in { transform: scale(0.92); }
+  .anim-slide-left { transform: translateX(-35px); }
+  .anim-slide-right { transform: translateX(35px); }
 
-  /* Stagger children (grid items) */
   .anim-stagger > * {
     opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    transform: translateY(25px);
+    transition: opacity 0.6s cubic-bezier(0.22,1,0.36,1),
+                transform 0.6s cubic-bezier(0.22,1,0.36,1);
   }
-  .anim-stagger.animated > * {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  .anim-stagger.animated > * { opacity: 1; transform: translateY(0); }
   .anim-stagger.animated > *:nth-child(1) { transition-delay: 0s; }
-  .anim-stagger.animated > *:nth-child(2) { transition-delay: 0.1s; }
-  .anim-stagger.animated > *:nth-child(3) { transition-delay: 0.2s; }
-  .anim-stagger.animated > *:nth-child(4) { transition-delay: 0.3s; }
-  .anim-stagger.animated > *:nth-child(5) { transition-delay: 0.4s; }
-  .anim-stagger.animated > *:nth-child(6) { transition-delay: 0.5s; }
+  .anim-stagger.animated > *:nth-child(2) { transition-delay: 0.08s; }
+  .anim-stagger.animated > *:nth-child(3) { transition-delay: 0.16s; }
+  .anim-stagger.animated > *:nth-child(4) { transition-delay: 0.24s; }
+  .anim-stagger.animated > *:nth-child(5) { transition-delay: 0.32s; }
+  .anim-stagger.animated > *:nth-child(6) { transition-delay: 0.40s; }
+  .anim-stagger.animated > *:nth-child(7) { transition-delay: 0.48s; }
+  .anim-stagger.animated > *:nth-child(8) { transition-delay: 0.56s; }
 
-  /* Accordion smooth animation */
+  /* Accordion */
   .accordion-content {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease;
+    transition: max-height 0.5s cubic-bezier(0.22,1,0.36,1);
   }
-  .accordion-content.open {
-    max-height: 300px;
+  .accordion-content.open { max-height: 300px; }
+  .accordion-btn .accordion-icon { transition: transform 0.5s cubic-bezier(0.22,1,0.36,1); }
+  .accordion-btn.open .accordion-icon { transform: rotate(180deg); }
+
+  /* Service card premium */
+  .service-card {
+    transition: all 0.5s cubic-bezier(0.22,1,0.36,1);
+    border-radius: 16px;
   }
-  .accordion-btn .accordion-icon {
-    transition: transform 0.4s ease;
+  .service-card:hover {
+    background: #ff741e !important;
+    color: white !important;
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px -8px rgba(255,116,30,0.25);
   }
-  .accordion-btn.open .accordion-icon {
-    transform: rotate(180deg);
-  }
+  .service-card:hover h3,
+  .service-card:hover p,
+  .service-card:hover .service-link { color: white !important; }
+  .service-card:hover .service-icon { color: white !important; }
+  .service-card .service-icon { transition: transform 0.5s cubic-bezier(0.22,1,0.36,1); }
+  .service-card:hover .service-icon { transform: scale(1.1); }
+  .service-card:hover .service-link .material-symbols-outlined { transform: translateX(6px); }
+  .service-card .service-link .material-symbols-outlined { transition: transform 0.3s ease; }
+
+  /* Pricing featured */
+  .pricing-featured { transform: scale(1.05); position: relative; z-index: 2; }
+  @media (max-width: 768px) { .pricing-featured { transform: none; } }
+
+  /* Stats badge */
+  .stats-badge { position: absolute; bottom: -40px; left: 50%; transform: translateX(-50%); z-index: 10; }
 
   @media (prefers-reduced-motion: reduce) {
     [data-animate], [data-animate] > *, #whatsappBtn {
-      opacity: 1 !important;
-      transform: none !important;
-      transition: none !important;
-      animation: none !important;
+      opacity: 1 !important; transform: none !important; transition: none !important; animation: none !important;
     }
   }
-  @media (max-width: 768px) {
-    .hero-h { height: 600px; }
-  }
-  /* WhatsApp entrance animation */
+
   @keyframes whatsappIn {
     from { opacity: 0; transform: translateY(20px) scale(0.9); }
     to   { opacity: 1; transform: translateY(0) scale(1); }
@@ -161,13 +164,86 @@
     animation: whatsappIn 0.6s ease-out forwards;
     animation-delay: 1.5s;
   }
+
+  .blog-img { height: 200px; object-fit: cover; }
+
+  /* Button press effect */
+  .btn-press:active { transform: scale(0.96); }
+
+  /* Card image radius */
+  .card-img-top { border-radius: 16px 16px 0 0; }
+
+  /* ===== Texture Patterns ===== */
+  .texture-blueprint {
+    background-image:
+      linear-gradient(rgba(7,54,194,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(7,54,194,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  /* Hard hat silhouette pattern */
+  .texture-hardhat {
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 50 C20 30 30 18 40 18 C50 18 60 30 60 50' stroke='%23ff741e' stroke-width='1.5' fill='none' opacity='0.08'/%3E%3Crect x='12' y='50' width='56' height='4' rx='2' stroke='%23ff741e' stroke-width='1.5' fill='none' opacity='0.08'/%3E%3C/svg%3E");
+    background-size: 80px 80px;
+  }
+
+  /* Blueprint corner marks pattern */
+  .texture-corners {
+    background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 15 L15 40 M15 15 L40 15' stroke='%230736c2' stroke-width='1' fill='none' opacity='0.1'/%3E%3Cpath d='M105 105 L105 80 M105 105 L80 105' stroke='%230736c2' stroke-width='1' fill='none' opacity='0.1'/%3E%3Ccircle cx='60' cy='60' r='2' fill='%23ff741e' opacity='0.06'/%3E%3C/svg%3E");
+    background-size: 120px 120px;
+  }
+
+  /* Gear / cog pattern */
+  .texture-gear {
+    background-image: url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='35' cy='35' r='12' stroke='%230736c2' stroke-width='1' fill='none' opacity='0.07'/%3E%3Ccircle cx='35' cy='35' r='16' stroke='%230736c2' stroke-width='0.5' fill='none' opacity='0.06' stroke-dasharray='4 3'/%3E%3Ccircle cx='35' cy='35' r='5' fill='%230736c2' opacity='0.07'/%3E%3C/svg%3E");
+    background-size: 70px 70px;
+  }
+
+  /* Wrench / cross pattern */
+  .texture-cross {
+    background-image: url("data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 50 50' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='18' y1='25' x2='32' y2='25' stroke='%23ff741e' stroke-width='1' opacity='0.07'/%3E%3Cline x1='25' y1='18' x2='25' y2='32' stroke='%23ff741e' stroke-width='1' opacity='0.07'/%3E%3Ccircle cx='25' cy='25' r='6' stroke='%23ff741e' stroke-width='0.8' fill='none' opacity='0.07'/%3E%3C/svg%3E");
+    background-size: 50px 50px;
+  }
+
+  /* Diagonal construction stripes */
+  .texture-stripes-orange {
+    background: repeating-linear-gradient(45deg, transparent, transparent 6px, rgba(255,116,30,0.06) 6px, rgba(255,116,30,0.06) 12px);
+  }
+
+  /* Scale pattern (ruler marks) */
+  .texture-ruler {
+    background-image: repeating-linear-gradient(90deg, transparent, transparent 19px, rgba(7,54,194,0.04) 19px, rgba(7,54,194,0.04) 20px);
+    background-size: 20px 100%;
+  }
+
+  /* Project filter buttons */
+  .filter-btn {
+    transition: all 0.3s cubic-bezier(0.22,1,0.36,1);
+    cursor: pointer;
+  }
+  .filter-btn.active {
+    background: #ff741e !important;
+    color: white !important;
+    border-color: #ff741e !important;
+  }
+
+  /* Project card filter animation */
+  .project-item {
+    transition: all 0.5s cubic-bezier(0.22,1,0.36,1);
+  }
+  .project-item.hidden-filter {
+    display: none;
+  }
 </style>
-<link rel="preload" as="image" href="https://lh3.googleusercontent.com/aida-public/AB6AXuBAsPad8ubf1zCjnM7H4IlLua35P-zp443B0KzJ6vIs6eBkoEt9J7UMNk4msMGFviqLc5Sb55awfbZAHW2z2ks2uasFjV3T9yBRHMAAsgQ_czaKpzKQnikYn68R1ClvFAsSDce5hG_rkP9AWqS1QUXt9skSfVadetlSWi3QSmev3ECKDS9oYhf5jk5cUXpilzM6xktN2ryfcAvBoHS1opP92qsVxD8l58zHj0YLaLDiIy6zzFCEXCioYtmnNmO4UCLgDV5917QNGLx3">
+<link rel="preload" as="image" href="/src/assets/hero-industrial.jpg">
+<meta property="og:image" content="https://masolucionesintegrales.com/src/assets/hero-industrial.jpg" />
+<meta property="twitter:image" content="https://masolucionesintegrales.com/src/assets/hero-industrial.jpg" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "MA Soluciones Integrales",
+  "alternateName": "M.A. Soluciones Integrales",
   "image": "https://masolucionesintegrales.com/src/assets/main-ma-logo.png",
   "telephone": "+506 8452-2328",
   "email": "robertmatarrita18@gmail.com",
@@ -180,295 +256,446 @@
   "areaServed": "Provincia de Puntarenas, Costa Rica",
   "description": "MA Soluciones Integrales — Construcción, electricidad, remodelaciones y mantenimiento en la provincia de Puntarenas, Costa Rica.",
   "url": "https://masolucionesintegrales.com",
-  "sameAs": [
-"https://wa.me/50684522328"
-  ],
+  "sameAs": ["https://wa.me/50684522328"],
   "priceRange": "$$",
-  "openingHours": "Mo-Fr 07:00-17:00"
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "07:00",
+      "closes": "17:00"
+    }
+  ],
+  "founder": [
+    {"@type": "Person", "name": "Robert Matarrita", "telephone": "+506 8664-9651"},
+    {"@type": "Person", "name": "José Matarrita", "telephone": "+506 8910-3408"}
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Servicios de Construcción",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Construcción General"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Electricidad"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Remodelación"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Mantenimiento"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jardinería"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Fontanería"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Estructuras Metálicas"}}
+    ]
+  }
 }
 </script>
 </head>
 <body>
 
 <!-- ========== NAVBAR ========== -->
-<nav class="fixed top-0 left-0 w-full z-50 bg-white border-b border-outline-variant" id="navbar">
-  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex justify-between items-center py-unit-sm">
-    <div class="flex items-center gap-unit-sm">
-      <img alt="MA Soluciones Integrales Logo" class="h-9 md:h-10 w-auto object-contain" src="/src/assets/main-ma-logo.png"/>
+<nav class="fixed top-0 left-0 w-full z-50" id="navbar">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 flex justify-between items-center py-3">
+    <div class="flex items-center gap-3">
+      <a href="#inicio" aria-label="Ir al inicio">
+        <img alt="MA Soluciones Integrales Logo" class="h-10 md:h-12 w-auto object-contain nav-logo brightness-0 invert" src="/src/assets/main-ma-logo.png"/>
+      </a>
     </div>
-
-    <!-- Desktop Nav -->
-    <div class="hidden md:flex gap-unit-xl items-center">
-      <a class="text-on-surface hover:text-secondary transition-colors duration-300 font-body-md text-body-md" href="#inicio">Inicio</a>
-      <a class="text-on-surface hover:text-secondary transition-colors duration-300 font-body-md text-body-md" href="#servicios">Servicios</a>
-      <a class="text-on-surface hover:text-secondary transition-colors duration-300 font-body-md text-body-md" href="#proyectos">Proyectos</a>
-      <a class="text-on-surface hover:text-secondary transition-colors duration-300 font-body-md text-body-md" href="#contacto">Contacto</a>
-      <a class="bg-secondary text-white px-unit-lg py-unit-sm font-label-bold text-label-bold hover:opacity-90 transition-opacity" href="#contacto">Cotizar Proyecto</a>
+    <div class="hidden md:flex gap-8 items-center">
+      <a class="text-white/90 hover:text-[#ff741e] transition-colors text-sm font-semibold uppercase tracking-wider" href="#inicio">Inicio</a>
+      <a class="text-white/90 hover:text-[#ff741e] transition-colors text-sm font-semibold uppercase tracking-wider" href="#servicios">Servicios</a>
+      <a class="text-white/90 hover:text-[#ff741e] transition-colors text-sm font-semibold uppercase tracking-wider" href="#nosotros">Nosotros</a>
+      <a class="text-white/90 hover:text-[#ff741e] transition-colors text-sm font-semibold uppercase tracking-wider" href="#proyectos">Proyectos</a>
+      <a class="text-white/90 hover:text-[#ff741e] transition-colors text-sm font-semibold uppercase tracking-wider" href="#faq">FAQ</a>
+      <a class="text-white/90 hover:text-[#ff741e] transition-colors text-sm font-semibold uppercase tracking-wider" href="#contacto">Contacto</a>
+      <a class="bg-[#ff741e] text-white px-6 py-2.5 text-sm font-bold uppercase tracking-wider hover:bg-white hover:text-[#111827] transition-all nav-cta btn-press rounded-xl" href="#contacto">Cotizar</a>
     </div>
-
-    <!-- Mobile Hamburger -->
-    <button class="md:hidden flex items-center p-unit-sm" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">
-      <span class="material-symbols-outlined text-3xl text-primary" id="menuIcon">menu</span>
+    <button class="md:hidden flex items-center p-2 text-white" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">
+      <span class="material-symbols-outlined text-3xl" id="menuIcon">menu</span>
     </button>
   </div>
 </nav>
 
 <!-- Mobile Menu Overlay -->
-<div class="fixed inset-0 bg-black/50 z-40 hidden" id="menuOverlay"></div>
-<div class="fixed top-0 right-0 h-full w-72 bg-surface z-50 transform translate-x-full transition-transform duration-300 shadow-xl" id="menuPanel">
-  <div class="flex justify-end p-unit-md">
-    <button class="p-unit-sm" id="menuClose" aria-label="Cerrar menú">
-      <span class="material-symbols-outlined text-3xl text-primary">close</span>
+<div class="fixed inset-0 bg-black/60 z-40 hidden" id="menuOverlay"></div>
+<div class="fixed top-0 right-0 h-full w-72 bg-white z-50 transform translate-x-full transition-transform duration-300 shadow-xl" id="menuPanel">
+  <div class="flex justify-end p-4">
+    <button class="p-2" id="menuClose" aria-label="Cerrar menú">
+      <span class="material-symbols-outlined text-3xl text-[#111827]">close</span>
     </button>
   </div>
-  <div class="flex flex-col gap-unit-md px-unit-lg">
-    <a class="text-headline-lg font-headline-lg text-primary py-unit-sm border-b border-outline-variant" href="#inicio">Inicio</a>
-    <a class="text-headline-lg font-headline-lg text-primary py-unit-sm border-b border-outline-variant" href="#servicios">Servicios</a>
-    <a class="text-headline-lg font-headline-lg text-primary py-unit-sm border-b border-outline-variant" href="#proyectos">Proyectos</a>
-    <a class="text-headline-lg font-headline-lg text-primary py-unit-sm border-b border-outline-variant" href="#contacto">Contacto</a>
-    <a class="bg-secondary text-white text-center py-unit-md font-label-bold text-label-bold mt-unit-md" href="#contacto">Cotizar Proyecto</a>
+  <div class="flex flex-col gap-4 px-6">
+    <a class="text-lg font-heading font-bold text-[#111827] py-2 border-b border-gray-200" href="#inicio">Inicio</a>
+    <a class="text-lg font-heading font-bold text-[#111827] py-2 border-b border-gray-200" href="#servicios">Servicios</a>
+    <a class="text-lg font-heading font-bold text-[#111827] py-2 border-b border-gray-200" href="#nosotros">Nosotros</a>
+    <a class="text-lg font-heading font-bold text-[#111827] py-2 border-b border-gray-200" href="#proyectos">Proyectos</a>
+    <a class="text-lg font-heading font-bold text-[#111827] py-2 border-b border-gray-200" href="#faq">FAQ</a>
+    <a class="text-lg font-heading font-bold text-[#111827] py-2 border-b border-gray-200" href="#contacto">Contacto</a>
+    <a class="bg-[#ff741e] text-white text-center py-3 font-bold uppercase tracking-wider mt-4" href="#contacto">Cotizar</a>
   </div>
 </div>
 
 <!-- ========== HERO ========== -->
-<section id="inicio" class="relative hero-h md:h-[700px] lg:h-[800px] flex items-center justify-start overflow-hidden pt-16">
+<section id="inicio" class="relative h-[85vh] min-h-[600px] flex items-center justify-start overflow-hidden">
   <div class="absolute inset-0 z-0">
-    <img alt="Vista aérea de un desarrollo arquitectónico moderno frente al mar" class="w-full h-full object-cover" fetchpriority="high" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAsPad8ubf1zCjnM7H4IlLua35P-zp443B0KzJ6vIs6eBkoEt9J7UMNk4msMGFviqLc5Sb55awfbZAHW2z2ks2uasFjV3T9yBRHMAAsgQ_czaKpzKQnikYn68R1ClvFAsSDce5hG_rkP9AWqS1QUXt9skSfVadetlSWi3QSmev3ECKDS9oYhf5jk5cUXpilzM6xktN2ryfcAvBoHS1opP92qsVxD8l58zHj0YLaLDiIy6zzFCEXCioYtmnNmO4UCLgDV5917QNGLx3"/>
+    <img alt="MA Soluciones Integrales — Construcción industrial en Puntarenas" class="w-full h-full object-cover" fetchpriority="high" src="/src/assets/hero-industrial.jpg"/>
     <div class="absolute inset-0 hero-gradient"></div>
   </div>
-  <div class="relative z-10 px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto">
-    <h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-white mb-unit-md leading-tight" data-animate="fade-up">
-      Construyendo excelencia.<br/><span class="text-secondary">Un proyecto a la vez.</span>
+  <div class="relative z-10 px-5 md:px-8 w-full max-w-7xl mx-auto mt-16">
+    <span class="inline-block text-[#ff741e] font-bold text-sm uppercase tracking-[0.2em] mb-4" data-animate="fade-up">Solidez & Confianza desde 2009</span>
+    <h1 class="font-heading text-4xl md:text-6xl lg:text-7xl text-white mb-6 leading-tight font-bold" data-animate="fade-up">
+      Construyendo el<br/>
+      <span class="text-[#ff741e]">futuro industrial</span><br/>
+      del Pacífico.
     </h1>
-    <p class="font-body-lg text-body-lg text-white/80 mb-unit-xl max-w-xl" data-animate="fade-up" style="transition-delay: 0.15s;">
-      Una solución integrada en construcción para el Pacífico. Somos la referencia corporativa de los principales clientes de desarrollo inmobiliario y paisajismo de toda la región.
+    <p class="text-white/70 text-lg md:text-xl max-w-2xl mb-8 leading-relaxed" data-animate="fade-up" style="transition-delay: 0.15s;">
+      Soluciones integrales en construcción, electricidad, remodelaciones y mantenimiento. Más de 15 años de experiencia transformando proyectos en realidades en toda la provincia de Puntarenas.
     </p>
-    <div class="flex flex-col sm:flex-row gap-unit-md" data-animate="fade-up" style="transition-delay: 0.3s;">
-      <a href="#contacto" class="inline-block bg-secondary text-white px-unit-xl py-unit-md font-label-bold text-label-bold hover:opacity-90 transition-opacity text-center">CONTÁCTENOS</a>
-      <a href="#proyectos" class="inline-block border border-white/40 text-white px-unit-xl py-unit-md font-label-bold text-label-bold hover:bg-white/10 transition-all text-center">VER PORTAFOLIO</a>
+    <div class="flex flex-col sm:flex-row gap-4" data-animate="fade-up" style="transition-delay: 0.3s;">
+      <a href="#contacto" class="inline-block bg-[#ff741e] text-white px-8 py-3.5 font-bold uppercase tracking-wider text-sm hover:bg-white hover:text-[#111827] transition-all text-center btn-press rounded-xl">Solicitar Cotización</a>
+      <a href="#proyectos" class="inline-block border-2 border-white/30 text-white px-8 py-3.5 font-bold uppercase tracking-wider text-sm hover:bg-white/10 transition-all text-center btn-press rounded-xl">Ver Proyectos</a>
     </div>
   </div>
 </section>
 
 <!-- ========== STATS ========== -->
-<section class="py-unit-xl bg-surface border-b border-outline-variant" id="statsSection">
-  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-2 md:grid-cols-4 gap-gutter text-center" data-animate="stagger">
-    <div class="flex flex-col">
-      <span class="text-display-lg font-display-lg text-primary" data-count="300" data-prefix="+">0</span>
-      <span class="text-label-bold font-label-bold text-outline uppercase tracking-widest">Proyectos</span>
-    </div>
-    <div class="flex flex-col">
-      <span class="text-display-lg font-display-lg text-secondary" data-count="15" data-prefix="+">0</span>
-      <span class="text-label-bold font-label-bold text-outline uppercase tracking-widest">Años</span>
-    </div>
-    <div class="flex flex-col">
-      <span class="text-display-lg font-display-lg text-primary" data-count="98" data-prefix="">0</span>
-      <span class="text-label-bold font-label-bold text-outline uppercase tracking-widest">% Satisfacción</span>
-    </div>
-    <div class="flex flex-col">
-      <span class="text-display-lg font-display-lg text-secondary" data-count="50" data-prefix="+">0</span>
-      <span class="text-label-bold font-label-bold text-outline uppercase tracking-widest">Aliados</span>
-    </div>
-  </div>
-</section>
-
-<!-- ========== TRUST SIGNALS ========== -->
-<section class="py-unit-lg bg-primary">
-  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-    <div class="flex flex-wrap justify-center gap-x-unit-xl gap-y-unit-md text-center" data-animate="fade-up">
-      <div class="flex items-center gap-unit-sm text-white/90">
-        <span class="material-symbols-outlined text-secondary">verified</span>
-        <span class="font-body-md text-body-md">Cédula Jurídica y seguros al día</span>
+<section class="relative pb-16 pt-12 bg-[#fbf8ff]">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center" data-animate="stagger">
+      <div class="relative">
+        <div class="w-16 h-16 bg-[#0736c2]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+          <span class="material-symbols-outlined text-[#0736c2] text-3xl" style="font-variation-settings:'FILL'1">apartment</span>
+        </div>
+        <span class="block text-4xl md:text-5xl font-heading font-bold text-[#0736c2]" data-count="300" data-prefix="+">0</span>
+        <span class="text-sm font-semibold text-gray-500 uppercase tracking-widest mt-1 block">Proyectos</span>
       </div>
-      <div class="flex items-center gap-unit-sm text-white/90">
-        <span class="material-symbols-outlined text-secondary">groups</span>
-        <span class="font-body-md text-body-md">Equipo certificado y en constante capacitación</span>
+      <div class="relative">
+        <div class="w-16 h-16 bg-[#ff741e]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+          <span class="material-symbols-outlined text-[#ff741e] text-3xl" style="font-variation-settings:'FILL'1">calendar_today</span>
+        </div>
+        <span class="block text-4xl md:text-5xl font-heading font-bold text-[#0736c2]" data-count="15" data-prefix="+">0</span>
+        <span class="text-sm font-semibold text-gray-500 uppercase tracking-widest mt-1 block">Años de Experiencia</span>
       </div>
-      <div class="flex items-center gap-unit-sm text-white/90">
-        <span class="material-symbols-outlined text-secondary">star</span>
-        <span class="font-body-md text-body-md">Valoración 5 estrellas en Google</span>
+      <div class="relative">
+        <div class="w-16 h-16 bg-[#0736c2]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+          <span class="material-symbols-outlined text-[#0736c2] text-3xl" style="font-variation-settings:'FILL'1">star</span>
+        </div>
+        <span class="block text-4xl md:text-5xl font-heading font-bold text-[#0736c2]" data-count="98" data-prefix="">0</span>
+        <span class="text-sm font-semibold text-gray-500 uppercase tracking-widest mt-1 block">% Satisfacción</span>
       </div>
-      <div class="flex items-center gap-unit-sm text-white/90">
-        <span class="material-symbols-outlined text-secondary">handshake</span>
-        <span class="font-body-md text-body-md">Garantía extendida en toda obra</span>
+      <div class="relative">
+        <div class="w-16 h-16 bg-[#ff741e]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+          <span class="material-symbols-outlined text-[#ff741e] text-3xl" style="font-variation-settings:'FILL'1">groups</span>
+        </div>
+        <span class="block text-4xl md:text-5xl font-heading font-bold text-[#0736c2]" data-count="50" data-prefix="+">0</span>
+        <span class="text-sm font-semibold text-gray-500 uppercase tracking-widest mt-1 block">Aliados Estratégicos</span>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- ========== HISTORY BANNER ========== -->
-<section class="py-unit-xxl bg-surface">
-  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-    <div class="bg-surface-container-low border border-outline-variant/50 p-unit-lg md:p-unit-xl text-center relative" data-animate="fade-up">
-      <span class="text-label-bold text-label-bold text-secondary uppercase tracking-widest block mb-unit-md">Historia &amp; Misión</span>
-      <p class="font-body-lg text-body-lg text-on-surface-variant max-w-4xl mx-auto leading-relaxed">
-        Fundada por <strong class="text-primary">Robert Matarrita</strong> a partir de los servicios de electricidad que ya brindaba. Fueron <strong class="text-primary">los propios clientes quienes</strong>, enamorados de la calidad del trabajo, la atención y el cumplimiento de garantías, impulsaron el crecimiento hasta convertirnos en la <strong class="text-primary">solución integral que somos hoy.</strong>
-      </p>
-      <span class="material-symbols-outlined text-secondary text-4xl mt-unit-md inline-block">arrow_right_alt</span>
     </div>
   </div>
 </section>
 
 <!-- ========== SERVICES ========== -->
-<section id="servicios" class="py-unit-xxl bg-surface-container">
-  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-    <div class="mb-unit-xl" data-animate="fade-up">
-      <h2 class="font-headline-xl text-headline-xl text-primary">Nuestra experiencia en servicios integrados</h2>
-      <p class="font-body-md text-body-md text-on-surface-variant mt-unit-sm">Soluciones integrales de construcción con precisión milimétrica.</p>
+<section id="servicios" class="py-20 md:py-24 bg-white scroll-mt-24">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="text-center mb-14" data-animate="fade-up">
+      <span class="inline-block text-[#ff741e] font-bold text-sm uppercase tracking-[0.2em] mb-3">Nuestra Experiencia</span>
+      <h2 class="font-heading text-3xl md:text-5xl font-bold text-[#111827]">Servicios Integrales</h2>
+      <p class="text-gray-500 text-lg mt-3 max-w-2xl mx-auto">Soluciones completas para proyectos residenciales, comerciales e industriales en el Pacífico costarricense.</p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-gutter auto-rows-[1fr]" data-animate="stagger">
-      <div class="bg-surface p-unit-lg border border-outline-variant flex flex-col hover:border-secondary transition-all group md:col-span-2 md:row-span-2">
-        <span class="material-symbols-outlined text-secondary text-4xl mb-unit-md">apartment</span>
-        <h3 class="font-headline-lg text-headline-lg text-primary mb-unit-sm">Construcción General</h3>
-        <p class="font-body-md text-body-md text-on-surface-variant mb-unit-lg grow">Desarrollo civil completo desde obra gris hasta acabados finos. Superamos estándares de calidad asegurando el bienestar estructural de cada proyecto en el Pacífico.</p>
-        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors cursor-pointer service-trigger" data-service="0">
-          Saber más <span class="material-symbols-outlined">chevron_right</span>
-        </span>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" data-animate="stagger">
+      <div class="service-card bg-[#fbf8ff] p-8 border border-gray-100 cursor-pointer group shadow-sm hover:shadow-xl" data-service="0">
+        <span class="service-icon material-symbols-outlined text-[#ff741e] text-5xl mb-5 block" style="font-variation-settings:'FILL'1">apartment</span>
+        <h3 class="font-heading text-xl font-bold text-[#111827] mb-3">Construcción General</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">Desarrollo civil completo desde obra gris hasta acabados finos. Superamos estándares de calidad asegurando el bienestar estructural de cada proyecto.</p>
+        <a class="service-link text-[#0736c2] font-bold text-sm uppercase tracking-wider flex items-center gap-1 cursor-pointer service-trigger" data-service="0">
+          Saber más <span class="material-symbols-outlined text-lg">chevron_right</span>
+        </a>
       </div>
-      <div class="bg-surface p-unit-lg border border-outline-variant flex flex-col hover:border-secondary transition-all group">
-        <span class="material-symbols-outlined text-secondary text-4xl mb-unit-md">bolt</span>
-        <h3 class="font-headline-lg text-headline-lg text-primary mb-unit-sm">Electricidad</h3>
-        <p class="font-body-md text-body-md text-on-surface-variant mb-unit-lg grow">Soluciones eléctricas certificadas. Brindamos automatización de cuartos, acometidas industriales, cableado estructurado e instalación de paneles residenciales inteligentes.</p>
-        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors cursor-pointer service-trigger" data-service="1">
-          Saber más <span class="material-symbols-outlined">chevron_right</span>
-        </span>
+      <div class="service-card bg-[#fbf8ff] p-8 border border-gray-100 cursor-pointer group shadow-sm hover:shadow-xl" data-service="1">
+        <span class="service-icon material-symbols-outlined text-[#ff741e] text-5xl mb-5 block" style="font-variation-settings:'FILL'1">bolt</span>
+        <h3 class="font-heading text-xl font-bold text-[#111827] mb-3">Electricidad</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">Soluciones eléctricas certificadas. Automatización de cuartos, acometidas industriales, cableado estructurado y paneles inteligentes.</p>
+        <a class="service-link text-[#0736c2] font-bold text-sm uppercase tracking-wider flex items-center gap-1 cursor-pointer service-trigger" data-service="1">
+          Saber más <span class="material-symbols-outlined text-lg">chevron_right</span>
+        </a>
       </div>
-      <div class="bg-surface p-unit-lg border border-outline-variant flex flex-col hover:border-secondary transition-all group">
-        <span class="material-symbols-outlined text-secondary text-4xl mb-unit-md">architecture</span>
-        <h3 class="font-headline-lg text-headline-lg text-primary mb-unit-sm">Remodelaciones Integrales</h3>
-        <p class="font-body-md text-body-md text-on-surface-variant mb-unit-lg grow">Transformación milimétrica de espacios comerciales y residencias.</p>
-        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors cursor-pointer service-trigger" data-service="2">
-          Saber más <span class="material-symbols-outlined">chevron_right</span>
-        </span>
+      <div class="service-card bg-[#fbf8ff] p-8 border border-gray-100 cursor-pointer group shadow-sm hover:shadow-xl" data-service="2">
+        <span class="service-icon material-symbols-outlined text-[#ff741e] text-5xl mb-5 block" style="font-variation-settings:'FILL'1">architecture</span>
+        <h3 class="font-heading text-xl font-bold text-[#111827] mb-3">Remodelaciones</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">Transformación milimétrica de espacios comerciales y residenciales. Drywall, fachadas, restauración y pintura especializada.</p>
+        <a class="service-link text-[#0736c2] font-bold text-sm uppercase tracking-wider flex items-center gap-1 cursor-pointer service-trigger" data-service="2">
+          Saber más <span class="material-symbols-outlined text-lg">chevron_right</span>
+        </a>
       </div>
-      <div class="bg-surface p-unit-lg border border-outline-variant flex flex-col hover:border-secondary transition-all group md:col-span-2">
-        <span class="material-symbols-outlined text-secondary text-4xl mb-unit-md">build</span>
-        <h3 class="font-headline-lg text-headline-lg text-primary mb-unit-sm">Mantenimiento</h3>
-        <p class="font-body-md text-body-md text-on-surface-variant mb-unit-lg grow">Tranquilidad operativa garantizada. Brindamos soporte regular de fontanería, bombas, sistemas de alcantarillado, limpieza de fachadas y reparaciones misceláneas.</p>
-        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors cursor-pointer service-trigger" data-service="3">
-          Saber más <span class="material-symbols-outlined">chevron_right</span>
-        </span>
+      <div class="service-card bg-[#fbf8ff] p-8 border border-gray-100 cursor-pointer group shadow-sm hover:shadow-xl" data-service="3">
+        <span class="service-icon material-symbols-outlined text-[#ff741e] text-5xl mb-5 block" style="font-variation-settings:'FILL'1">build</span>
+        <h3 class="font-heading text-xl font-bold text-[#111827] mb-3">Mantenimiento</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">Tranquilidad operativa garantizada. Soporte regular de fontanería, bombas, sistemas de alcantarillado y reparaciones misceláneas.</p>
+        <a class="service-link text-[#0736c2] font-bold text-sm uppercase tracking-wider flex items-center gap-1 cursor-pointer service-trigger" data-service="3">
+          Saber más <span class="material-symbols-outlined text-lg">chevron_right</span>
+        </a>
       </div>
-      <div class="bg-surface p-unit-lg border border-outline-variant flex flex-col hover:border-secondary transition-all group">
-        <span class="material-symbols-outlined text-secondary text-4xl mb-unit-md">yard</span>
-        <h3 class="font-headline-lg text-headline-lg text-primary mb-unit-sm">Jardinería Institucional</h3>
-        <p class="font-body-md text-body-md text-on-surface-variant mb-unit-lg grow">Instalación y soporte de equipos de riego de alta calidad.</p>
-        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors cursor-pointer service-trigger" data-service="4">
-          Saber más <span class="material-symbols-outlined">chevron_right</span>
-        </span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6" data-animate="stagger">
+      <div class="service-card bg-[#fbf8ff] p-8 border border-gray-100 cursor-pointer group shadow-sm hover:shadow-xl" data-service="4">
+        <span class="service-icon material-symbols-outlined text-[#ff741e] text-5xl mb-5 block" style="font-variation-settings:'FILL'1">yard</span>
+        <h3 class="font-heading text-xl font-bold text-[#111827] mb-3">Jardinería Institucional</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">Instalación y soporte de equipos de riego de alta calidad. Sistemas de irrigación automáticos y paisajismo planificado.</p>
+        <a class="service-link text-[#0736c2] font-bold text-sm uppercase tracking-wider flex items-center gap-1 cursor-pointer service-trigger" data-service="4">
+          Saber más <span class="material-symbols-outlined text-lg">chevron_right</span>
+        </a>
       </div>
-      <div class="bg-surface p-unit-lg border border-outline-variant flex flex-col hover:border-secondary transition-all group">
-        <span class="material-symbols-outlined text-secondary text-4xl mb-unit-md">handyman</span>
-        <h3 class="font-headline-lg text-headline-lg text-primary mb-unit-sm">Instalación</h3>
-        <p class="font-body-md text-body-md text-on-surface-variant mb-unit-lg grow">Despliegue ágil y montaje estructural especializado.</p>
-        <span class="flex items-center gap-unit-xs font-label-bold text-label-bold text-primary group-hover:text-secondary transition-colors cursor-pointer service-trigger" data-service="5">
-          Saber más <span class="material-symbols-outlined">chevron_right</span>
-        </span>
+      <div class="service-card bg-[#fbf8ff] p-8 border border-gray-100 cursor-pointer group shadow-sm hover:shadow-xl" data-service="5">
+        <span class="service-icon material-symbols-outlined text-[#ff741e] text-5xl mb-5 block" style="font-variation-settings:'FILL'1">handyman</span>
+        <h3 class="font-heading text-xl font-bold text-[#111827] mb-3">Instalación</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">Despliegue ágil y montaje estructural especializado. Coordinación y aseguramiento de componentes críticos para su proyecto.</p>
+        <a class="service-link text-[#0736c2] font-bold text-sm uppercase tracking-wider flex items-center gap-1 cursor-pointer service-trigger" data-service="5">
+          Saber más <span class="material-symbols-outlined text-lg">chevron_right</span>
+        </a>
+      </div>
+      <div class="service-card bg-[#fbf8ff] p-8 border border-gray-100 cursor-pointer group shadow-sm hover:shadow-xl" data-service="6">
+        <span class="service-icon material-symbols-outlined text-[#ff741e] text-5xl mb-5 block" style="font-variation-settings:'FILL'1">water_drop</span>
+        <h3 class="font-heading text-xl font-bold text-[#111827] mb-3">Fontanería</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">Sistemas hidráulicos completos. Instalación y reparación de tubería pluvial, sanitaria y redes de agua potable para toda obra.</p>
+        <a class="service-link text-[#0736c2] font-bold text-sm uppercase tracking-wider flex items-center gap-1 cursor-pointer service-trigger" data-service="6">
+          Saber más <span class="material-symbols-outlined text-lg">chevron_right</span>
+        </a>
+      </div>
+      <div class="service-card bg-[#fbf8ff] p-8 border border-gray-100 cursor-pointer group shadow-sm hover:shadow-xl" data-service="7">
+        <span class="service-icon material-symbols-outlined text-[#ff741e] text-5xl mb-5 block" style="font-variation-settings:'FILL'1">roofing</span>
+        <h3 class="font-heading text-xl font-bold text-[#111827] mb-3">Estructuras Metálicas</h3>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">Diseño y fabricación de estructuras metálicas para naves industriales, techos, entrepisos y cubiertas de gran envergadura.</p>
+        <a class="service-link text-[#0736c2] font-bold text-sm uppercase tracking-wider flex items-center gap-1 cursor-pointer service-trigger" data-service="7">
+          Saber más <span class="material-symbols-outlined text-lg">chevron_right</span>
+        </a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ========== SUCCESS STORY ========== -->
-<section class="py-unit-xxl bg-surface border-t border-outline-variant">
-  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-    <div class="mb-unit-xl text-center" data-animate="fade-up">
-      <span class="inline-block text-secondary font-label-bold text-label-bold tracking-widest mb-unit-sm">CASO DE ÉXITO</span>
-      <h2 class="font-headline-xl text-headline-xl text-primary">Edificio Comercial Tres Puntas</h2>
-      <p class="font-body-md text-body-md text-on-surface-variant mt-unit-sm max-w-3xl mx-auto">De la obra gris a la entrega final en tiempo récord.</p>
+<!-- ========== PROCESS / HOW WE WORK ========== -->
+<section class="py-20 md:py-24 bg-[#111827] text-white relative overflow-hidden texture-hardhat">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 relative z-10">
+    <div class="text-center mb-14" data-animate="fade-up">
+      <span class="inline-block text-[#ff741e] font-bold text-sm uppercase tracking-[0.2em] mb-3">Nuestra Metodología</span>
+      <h2 class="font-heading text-3xl md:text-5xl font-bold">¿Cómo Trabajamos?</h2>
+      <p class="text-white/60 text-lg mt-3 max-w-2xl mx-auto">Un proceso probado que garantiza resultados predecibles y de alta calidad en cada proyecto.</p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center" data-animate="fade-up">
-      <div class="overflow-hidden rounded-lg">
-        <img alt="Edificio Comercial Tres Puntas" class="w-full h-[400px] object-cover" src="/src/assets/obra_3.jpg"/>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12" data-animate="stagger">
+      <div class="text-center relative group">
+        <div class="w-16 h-16 bg-[#0736c2] rounded-full flex items-center justify-center mx-auto mb-5 group-hover:bg-[#ff741e] transition-all duration-500">
+          <span class="text-white font-heading font-bold text-2xl">01</span>
+        </div>
+        <h3 class="font-heading text-xl font-bold mb-3">Consultoría & Diagnóstico</h3>
+        <p class="text-white/60 text-sm leading-relaxed">Evaluamos su proyecto, identificamos necesidades y elaboramos un plan de acción detallado con presupuesto transparente.</p>
       </div>
-      <div class="space-y-unit-md">
-        <div class="flex gap-unit-md">
-          <span class="material-symbols-outlined text-secondary text-2xl shrink-0">assignment</span>
-          <div>
-            <h4 class="font-headline-lg text-headline-lg text-primary mb-unit-xs">El Desafío</h4>
-            <p class="font-body-md text-body-md text-on-surface-variant">Construir un edificio comercial de 3 niveles en pleno centro de Puntarenas con cronograma ajustado y sin interrumpir las operaciones vecinas.</p>
+      <div class="text-center relative group">
+        <div class="w-16 h-16 bg-[#0736c2] rounded-full flex items-center justify-center mx-auto mb-5 group-hover:bg-[#ff741e] transition-all duration-500">
+          <span class="text-white font-heading font-bold text-2xl">02</span>
+        </div>
+        <h3 class="font-heading text-xl font-bold mb-3">Planificación & Diseño</h3>
+        <p class="text-white/60 text-sm leading-relaxed">Creamos cronogramas precisos, coordinamos recursos y diseñamos cada fase para una ejecución sin contratiempos.</p>
+      </div>
+      <div class="text-center relative group">
+        <div class="w-16 h-16 bg-[#0736c2] rounded-full flex items-center justify-center mx-auto mb-5 group-hover:bg-[#ff741e] transition-all duration-500">
+          <span class="text-white font-heading font-bold text-2xl">03</span>
+        </div>
+        <h3 class="font-heading text-xl font-bold mb-3">Ejecución & Entrega</h3>
+        <p class="text-white/60 text-sm leading-relaxed">Construimos con los más altos estándares, supervisando cada detalle hasta la entrega final. Garantía extendida en toda obra.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT / HISTORY ========== -->
+<section id="nosotros" class="py-20 md:py-24 bg-white scroll-mt-24">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center" data-animate="fade-up">
+      <div>
+        <span class="inline-block text-[#ff741e] font-bold text-sm uppercase tracking-[0.2em] mb-3">Nuestra Historia</span>
+        <h2 class="font-heading text-3xl md:text-5xl font-bold text-[#111827] mb-6">Compromiso con la Excelencia desde 2009</h2>
+        <p class="text-gray-600 leading-relaxed mb-4">
+          Fundada por <strong class="text-[#0736c2]">Robert Matarrita</strong> a partir de los servicios de electricidad que ya brindaba. Fueron <strong class="text-[#0736c2]">los propios clientes quienes</strong>, enamorados de la calidad del trabajo, la atención y el cumplimiento de garantías, impulsaron el crecimiento hasta convertirnos en la <strong class="text-[#0736c2]">solución integral que somos hoy.</strong>
+        </p>
+        <p class="text-gray-600 leading-relaxed mb-6">
+          Hoy, con un equipo de profesionales certificados y más de 300 proyectos ejecutados, somos la referencia en construcción, electricidad y mantenimiento en toda la provincia de Puntarenas.
+        </p>
+        <div class="grid grid-cols-2 gap-4 mb-6">
+          <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">verified</span>
+            <span class="text-sm font-semibold text-[#111827]">Cédula Jurídica al día</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">verified</span>
+            <span class="text-sm font-semibold text-[#111827]">Seguros vigentes</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">verified</span>
+            <span class="text-sm font-semibold text-[#111827]">Equipo certificado</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">verified</span>
+            <span class="text-sm font-semibold text-[#111827]">5 estrellas Google</span>
           </div>
         </div>
-        <div class="flex gap-unit-md">
-          <span class="material-symbols-outlined text-secondary text-2xl shrink-0">construction</span>
-          <div>
-            <h4 class="font-headline-lg text-headline-lg text-primary mb-unit-xs">El Proceso</h4>
-            <p class="font-body-md text-body-md text-on-surface-variant">Coordinación just-in-time de materiales, cuadrillas rotativas en doble turno y supervisión de calidad en cada etapa estructural.</p>
-          </div>
+        <a href="#contacto" class="inline-block bg-[#0736c2] text-white px-8 py-3 font-bold uppercase tracking-wider text-sm hover:bg-[#ff741e] transition-all btn-press rounded-xl">Conozca Más</a>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="bg-[#fbf8ff] p-6 border border-gray-100 text-center rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+          <img alt="Robert Matarrita" class="w-24 h-24 object-cover rounded-full mx-auto mb-3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTOhLmMM8TEX_yWzDJ708dxlzvq0q0M6cxoikSlFr9X2SYpRzTaWWD947nzagjauA_t8iOmZ0YplsXdd5kugY6DLlFsRj--tC-voZOOMHtcFUZzjwpF5kipFPBwLvXrhGg80F1VG0h0cBQoF9qLmWcrxHBhtlq5AIxzNjgDEFjLjDcVO4Vl_gGb8qXd4uuFjVHqhRhXPGtpvZslEKnbU9mwbI97Eq1ffniXkrCFtVtPmQZiGDqWfA0Mmb75OMWhBm5rnX6ycI_bD4X" loading="lazy" decoding="async" width="96" height="96"/>
+          <h3 class="font-heading font-bold text-[#111827]">Robert Matarrita</h3>
+          <p class="text-[#ff741e] text-sm font-semibold">Fundador & CEO</p>
         </div>
-        <div class="flex gap-unit-md">
-          <span class="material-symbols-outlined text-secondary text-2xl shrink-0">emoji_events</span>
-          <div>
-            <h4 class="font-headline-lg text-headline-lg text-primary mb-unit-xs">El Resultado</h4>
-            <p class="font-body-md text-body-md text-on-surface-variant">Entrega en tiempo récord con 0 defectos en inspección final. Cliente satisfecho, edificio operando al 100% desde el día 1.</p>
-          </div>
+        <div class="bg-[#fbf8ff] p-6 border border-gray-100 text-center rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+          <img alt="José Matarrita" class="w-24 h-24 object-cover rounded-full mx-auto mb-3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9rvGEsSIss7C--LQ8_1qnxunqFRM5CHfu-RBLPlSa2aGUGIsOCd81Gf81zFG_L1M9NELLp_VSB3PUHrrJgVPrk_2Id0FPnHINSGauTvj_QBusAtDvtbvq3Wsd0jbGlRRQB3kEolQkwF5YO6TBh_fRuT_RLQ562AffWBc8eZDeq1NOalKHDMuWKN3YQ-gnQ0F2MBFQKUvOjdLyYDchpU1cDA4yCf4GW0r93jhTyVES1MWHC0V7TGoc4U0JkaXkeohRQLlV8uPivdzo" loading="lazy" decoding="async" width="96" height="96"/>
+          <h3 class="font-heading font-bold text-[#111827]">José Matarrita</h3>
+          <p class="text-[#ff741e] text-sm font-semibold">Director de Operaciones</p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PRICING ========== -->
+<section class="py-20 md:py-24 bg-[#fbf8ff]">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="text-center mb-14" data-animate="fade-up">
+      <span class="inline-block text-[#ff741e] font-bold text-sm uppercase tracking-[0.2em] mb-3">Planes</span>
+      <h2 class="font-heading text-3xl md:text-5xl font-bold text-[#111827]">Paquetes de Servicio</h2>
+      <p class="text-gray-500 text-lg mt-3 max-w-2xl mx-auto">Soluciones adaptadas a la magnitud de su proyecto. Todos incluyen garantía y supervisión profesional.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto" data-animate="stagger">
+      <div class="bg-white p-8 border border-gray-200 text-center hover:shadow-xl transition-shadow rounded-2xl">
+        <span class="material-symbols-outlined text-[#0736c2] text-4xl mb-4">home_repair_service</span>
+        <h3 class="font-heading text-xl font-bold text-[#111827] mb-2">Básico</h3>
+        <p class="text-gray-500 text-sm mb-4">Para mantenimientos y reparaciones menores</p>
+        <p class="text-[#0736c2] font-heading font-bold text-4xl mb-6">Consultar</p>
+        <ul class="text-left space-y-3 mb-8">
+          <li class="flex items-center gap-3 text-sm text-gray-600">
+            <span class="material-symbols-outlined text-[#ff741e] text-lg" style="font-variation-settings:'FILL'1">check</span> Diagnóstico gratuito
+          </li>
+          <li class="flex items-center gap-3 text-sm text-gray-600">
+            <span class="material-symbols-outlined text-[#ff741e] text-lg" style="font-variation-settings:'FILL'1">check</span> Reparaciones eléctricas básicas
+          </li>
+          <li class="flex items-center gap-3 text-sm text-gray-600">
+            <span class="material-symbols-outlined text-[#ff741e] text-lg" style="font-variation-settings:'FILL'1">check</span> Mantenimiento preventivo
+          </li>
+          <li class="flex items-center gap-3 text-sm text-gray-600">
+            <span class="material-symbols-outlined text-[#ff741e] text-lg" style="font-variation-settings:'FILL'1">check</span> Garantía de 3 meses
+          </li>
+        </ul>
+        <a href="#contacto" class="block border-2 border-[#0736c2] text-[#0736c2] py-3 font-bold uppercase tracking-wider text-sm hover:bg-[#0736c2] hover:text-white transition-all btn-press rounded-xl">Solicitar</a>
+      </div>
+      <div class="bg-white p-8 border-2 border-[#ff741e] text-center hover:shadow-xl transition-shadow pricing-featured rounded-2xl">
+        <span class="inline-block bg-[#ff741e] text-white text-xs font-bold uppercase tracking-widest px-4 py-1 mb-4">Más Popular</span>
+        <span class="material-symbols-outlined text-[#0736c2] text-4xl mb-4">business_center</span>
+        <h3 class="font-heading text-xl font-bold text-[#111827] mb-2">Profesional</h3>
+        <p class="text-gray-500 text-sm mb-4">Para proyectos comerciales y residenciales</p>
+        <p class="text-[#0736c2] font-heading font-bold text-4xl mb-6">Consultar</p>
+        <ul class="text-left space-y-3 mb-8">
+          <li class="flex items-center gap-3 text-sm text-gray-600">
+            <span class="material-symbols-outlined text-[#ff741e] text-lg" style="font-variation-settings:'FILL'1">check</span> Consultoría técnica completa
+          </li>
+          <li class="flex items-center gap-3 text-sm text-gray-600">
+            <span class="material-symbols-outlined text-[#ff741e] text-lg" style="font-variation-settings:'FILL'1">check</span> Construcción / Remodelación
+          </li>
+          <li class="flex items-center gap-3 text-sm text-gray-600">
+            <span class="material-symbols-outlined text-[#ff741e] text-lg" style="font-variation-settings:'FILL'1">check</span> Electricidad certificada
+          </li>
+          <li class="flex items-center gap-3 text-sm text-gray-600">
+            <span class="material-symbols-outlined text-[#ff741e] text-lg" style="font-variation-settings:'FILL'1">check</span> Garantía de 12 meses
+          </li>
+        </ul>
+        <a href="#contacto" class="block bg-[#ff741e] text-white py-3 font-bold uppercase tracking-wider text-sm hover:bg-[#e66000] transition-all btn-press rounded-xl">Solicitar</a>
+      </div>
+      <div class="bg-white p-8 border border-gray-200 text-center hover:shadow-xl transition-shadow rounded-2xl">
+        <span class="material-symbols-outlined text-[#0736c2] text-4xl mb-4">domain</span>
+        <h3 class="font-heading text-xl font-bold text-[#111827] mb-2">Premium</h3>
+        <p class="text-gray-500 text-sm mb-4">Para desarrollos industriales y gran escala</p>
+        <p class="text-[#0736c2] font-heading font-bold text-4xl mb-6">Consultar</p>
+        <ul class="text-left space-y-3 mb-8">
+          <li class="flex items-center gap-3 text-sm text-gray-600">
+            <span class="material-symbols-outlined text-[#ff741e] text-lg" style="font-variation-settings:'FILL'1">check</span> Proyecto llave en mano
+          </li>
+          <li class="flex items-center gap-3 text-sm text-gray-600">
+            <span class="material-symbols-outlined text-[#ff741e] text-lg" style="font-variation-settings:'FILL'1">check</span> Ingeniería & Diseño estructural
+          </li>
+          <li class="flex items-center gap-3 text-sm text-gray-600">
+            <span class="material-symbols-outlined text-[#ff741e] text-lg" style="font-variation-settings:'FILL'1">check</span> Gestión de permisos
+          </li>
+          <li class="flex items-center gap-3 text-sm text-gray-600">
+            <span class="material-symbols-outlined text-[#ff741e] text-lg" style="font-variation-settings:'FILL'1">check</span> Garantía extendida 24 meses
+          </li>
+        </ul>
+        <a href="#contacto" class="block border-2 border-[#0736c2] text-[#0736c2] py-3 font-bold uppercase tracking-wider text-sm hover:bg-[#0736c2] hover:text-white transition-all btn-press rounded-xl">Solicitar</a>
     </div>
   </div>
 </section>
 
 <!-- ========== PROJECTS ========== -->
-<section id="proyectos" class="py-unit-xxl bg-primary text-on-primary">
-  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-    <div class="flex flex-col md:flex-row justify-between items-end mb-unit-xl gap-unit-md" data-animate="fade-up">
+<section id="proyectos" class="py-20 md:py-24 bg-[#111827] scroll-mt-24 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 relative z-10">
+    <div class="flex flex-col md:flex-row justify-between items-end mb-8 gap-4" data-animate="fade-up">
       <div>
-        <h2 class="font-headline-xl text-headline-xl text-white">Casos de Éxito en el Sector Comercial</h2>
-        <p class="font-body-md text-body-md text-on-primary-container mt-unit-sm">Una selección de nuestras obras más emblemáticas en la costa.</p>
+        <span class="inline-block text-[#ff741e] font-bold text-sm uppercase tracking-[0.2em] mb-3">Portafolio</span>
+        <h2 class="font-heading text-3xl md:text-5xl font-bold text-white">Proyectos Realizados</h2>
+        <p class="text-white/60 text-lg mt-3">Una selección de nuestras obras más emblemáticas en la costa del Pacífico.</p>
       </div>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-unit-lg" data-animate="stagger">
-      <div class="group cursor-pointer overflow-hidden relative aspect-square" data-project="0" data-scope="Construcción completa de edificio comercial de 3 niveles" data-location="Puntarenas" data-outcome="Entregado en tiempo récord, 0 defectos en inspección final">
-        <img alt="Desarrollos Inmobiliarios" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/obra_3.jpg"/>
-        <div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/40 transition-all"></div>
-        <div class="absolute bottom-0 left-0 p-unit-lg w-full bg-gradient-to-t from-primary/90 to-transparent">
-          <h4 class="font-headline-lg text-headline-lg text-white">Desarrollos Inmobiliarios</h4>
-          <p class="font-body-md text-body-md text-white/80">Edificio comercial de 3 niveles · Puntarenas</p>
+    <div class="flex flex-wrap gap-3 mb-10" data-animate="fade-up">
+      <button class="filter-btn active bg-white/10 text-white border border-white/20 px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-xl" data-filter="all">Todos</button>
+      <button class="filter-btn bg-white/10 text-white/70 border border-white/10 px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-xl" data-filter="construccion">Construcción</button>
+      <button class="filter-btn bg-white/10 text-white/70 border border-white/10 px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-xl" data-filter="remodelacion">Remodelación</button>
+      <button class="filter-btn bg-white/10 text-white/70 border border-white/10 px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-xl" data-filter="mantenimiento">Mantenimiento</button>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative" id="projectGrid" data-animate="stagger">
+      <div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-xl project-item"
+     data-project="0" data-category="construccion" data-scope="Construcción completa de edificio comercial de 3 niveles" data-location="Puntarenas" data-outcome="Entregado en tiempo récord, 0 defectos en inspección final">
+        <img alt="Desarrollos Inmobiliarios" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/obra_3.jpg" loading="lazy" decoding="async" width="600" height="400"/>
+        <div class="absolute inset-0 bg-[#111827]/30 group-hover:bg-[#111827]/50 transition-all"></div>
+        <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-[#111827]/90 to-transparent">
+          <h4 class="font-heading text-lg text-white font-bold">Desarrollos Inmobiliarios</h4>
+          <p class="text-white/70 text-sm">Edificio comercial de 3 niveles · Puntarenas</p>
         </div>
       </div>
-      <div class="group cursor-pointer overflow-hidden relative aspect-square" data-project="1" data-scope="Red de tubería pluvial y sanitaria para centro comercial" data-location="Puntarenas" data-cliente="Inmobiliaria Local" data-outcome="Sistema certificado, cero filtraciones en 2 años">
-        <img alt="Proyectos de Infraestructura" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/obra_7.jpg"/>
-        <div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/40 transition-all"></div>
-        <div class="absolute bottom-0 left-0 p-unit-lg w-full bg-gradient-to-t from-primary/90 to-transparent">
-          <h4 class="font-headline-lg text-headline-lg text-white">Proyectos de Infraestructura</h4>
-          <p class="font-body-md text-body-md text-white/80">Obras pluviales y sanitarias · Puntarenas</p>
+      <div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-xl project-item" data-project="1" data-category="construccion" data-scope="Red de tubería pluvial y sanitaria para centro comercial" data-location="Puntarenas" data-outcome="Sistema certificado, cero filtraciones en 2 años">
+        <img alt="Proyectos de Infraestructura" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/obra_7.jpg" loading="lazy" decoding="async" width="600" height="400"/>
+        <div class="absolute inset-0 bg-[#111827]/30 group-hover:bg-[#111827]/50 transition-all"></div>
+        <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-[#111827]/90 to-transparent">
+          <h4 class="font-heading text-lg text-white font-bold">Proyectos de Infraestructura</h4>
+          <p class="text-white/70 text-sm">Obras pluviales y sanitarias · Puntarenas</p>
         </div>
       </div>
-      <div class="group cursor-pointer overflow-hidden relative aspect-square" data-project="2" data-scope="Remodelación estructural completa de restaurante" data-location="Puntarenas" data-outcome="Apertura en fecha compromiso, +30% capacidad">
-        <img alt="Proyectos Comerciales" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/obra_13.jpg"/>
-        <div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/40 transition-all"></div>
-        <div class="absolute bottom-0 left-0 p-unit-lg w-full bg-gradient-to-t from-primary/90 to-transparent">
-          <h4 class="font-headline-lg text-headline-lg text-white">Proyectos Comerciales</h4>
-          <p class="font-body-md text-body-md text-white/80">Restaurante · Puntarenas</p>
+      <div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-xl project-item" data-project="2" data-category="remodelacion" data-scope="Remodelación estructural completa de restaurante" data-location="Puntarenas" data-outcome="Apertura en fecha compromiso, +30% capacidad">
+        <img alt="Proyectos Comerciales" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/obra_13.jpg" loading="lazy" decoding="async" width="600" height="400"/>
+        <div class="absolute inset-0 bg-[#111827]/30 group-hover:bg-[#111827]/50 transition-all"></div>
+        <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-[#111827]/90 to-transparent">
+          <h4 class="font-heading text-lg text-white font-bold">Proyectos Comerciales</h4>
+          <p class="text-white/70 text-sm">Restaurante · Puntarenas</p>
         </div>
       </div>
-      <div class="group cursor-pointer overflow-hidden relative aspect-square hidden" data-more-project data-project="3" data-scope="Remodelación integral de vivienda unifamiliar" data-location="Puntarenas" data-cliente="Familia local" data-outcome="Acabados premium, 6 semanas de ejecución">
-        <img alt="Remodelaciones Residenciales" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/obra_10.jpg"/>
-        <div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/40 transition-all"></div>
-        <div class="absolute bottom-0 left-0 p-unit-lg w-full bg-gradient-to-t from-primary/90 to-transparent">
-          <h4 class="font-headline-lg text-headline-lg text-white">Remodelaciones Residenciales</h4>
-          <p class="font-body-md text-body-md text-white/80">Residencia particular · Puntarenas</p>
+      <div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-xl project-item hidden" data-more-project data-project="3" data-category="remodelacion" data-scope="Remodelación integral de vivienda unifamiliar" data-location="Puntarenas" data-outcome="Acabados premium, 6 semanas de ejecución">
+        <img alt="Remodelaciones Residenciales" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/obra_10.jpg" loading="lazy" decoding="async" width="600" height="400"/>
+        <div class="absolute inset-0 bg-[#111827]/30 group-hover:bg-[#111827]/50 transition-all"></div>
+        <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-[#111827]/90 to-transparent">
+          <h4 class="font-heading text-lg text-white font-bold">Remodelaciones Residenciales</h4>
+          <p class="text-white/70 text-sm">Residencia particular · Puntarenas</p>
         </div>
       </div>
-      <div class="group cursor-pointer overflow-hidden relative aspect-square hidden" data-more-project data-project="4" data-scope="Proyecto llave en mano: diseño + construcción de local comercial" data-location="Puntarenas" data-outcome="Entregado 2 semanas antes del deadline">
-        <img alt="Diseño y Construcción" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/obra_5.jpg"/>
-        <div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/40 transition-all"></div>
-        <div class="absolute bottom-0 left-0 p-unit-lg w-full bg-gradient-to-t from-primary/90 to-transparent">
-          <h4 class="font-headline-lg text-headline-lg text-white">Diseño y Construcción</h4>
-          <p class="font-body-md text-body-md text-white/80">Local comercial llave en mano · Puntarenas</p>
+      <div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-xl project-item hidden" data-more-project data-project="4" data-category="construccion" data-scope="Proyecto llave en mano: diseño + construcción de local comercial" data-location="Puntarenas" data-outcome="Entregado 2 semanas antes del deadline">
+        <img alt="Diseño y Construcción" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/obra_5.jpg" loading="lazy" decoding="async" width="600" height="400"/>
+        <div class="absolute inset-0 bg-[#111827]/30 group-hover:bg-[#111827]/50 transition-all"></div>
+        <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-[#111827]/90 to-transparent">
+          <h4 class="font-heading text-lg text-white font-bold">Diseño y Construcción</h4>
+          <p class="text-white/70 text-sm">Local comercial llave en mano · Puntarenas</p>
         </div>
       </div>
-      <div class="group cursor-pointer overflow-hidden relative aspect-square hidden" data-more-project data-project="5" data-scope="Plan de mantenimiento preventivo y correctivo para edificio corporativo" data-location="Puntarenas" data-cliente="Grupo empresarial" data-outcome="100% disponibilidad operativa en 12 meses">
-        <img alt="Mantenimiento General" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/obra_15.jpg"/>
-        <div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/40 transition-all"></div>
-        <div class="absolute bottom-0 left-0 p-unit-lg w-full bg-gradient-to-t from-primary/90 to-transparent">
-          <h4 class="font-headline-lg text-headline-lg text-white">Mantenimiento General</h4>
-          <p class="font-body-md text-body-md text-white/80">Propiedad corporativa · Puntarenas</p>
+      <div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-xl project-item hidden" data-more-project data-project="5" data-category="mantenimiento" data-scope="Plan de mantenimiento preventivo y correctivo para edificio corporativo" data-location="Puntarenas" data-outcome="100% disponibilidad operativa en 12 meses">
+        <img alt="Mantenimiento General" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/obra_15.jpg" loading="lazy" decoding="async" width="600" height="400"/>
+        <div class="absolute inset-0 bg-[#111827]/30 group-hover:bg-[#111827]/50 transition-all"></div>
+        <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-[#111827]/90 to-transparent">
+          <h4 class="font-heading text-lg text-white font-bold">Mantenimiento General</h4>
+          <p class="text-white/70 text-sm">Propiedad corporativa · Puntarenas</p>
         </div>
       </div>
     </div>
-    <div class="text-center mt-unit-xl">
-      <button class="bg-secondary text-white px-unit-xl py-unit-md font-label-bold text-label-bold hover:opacity-90 transition-opacity inline-flex items-center gap-unit-sm" id="loadMoreProjects">
+    <div class="text-center mt-10">
+      <button class="bg-[#ff741e] text-white px-8 py-3 font-bold uppercase tracking-wider text-sm hover:bg-white hover:text-[#111827] transition-all inline-flex items-center gap-2 btn-press rounded-xl" id="loadMoreProjects">
         Cargar más proyectos
         <span class="material-symbols-outlined">expand_more</span>
       </button>
@@ -476,301 +703,325 @@
   </div>
 </section>
 
-<!-- ========== LEADERSHIP ========== -->
-<section class="py-unit-xxl bg-surface">
-  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-    <div class="text-center mb-unit-xl" data-animate="fade-up">
-      <h2 class="font-headline-xl text-headline-xl text-primary mb-unit-sm">Conoce a nuestros líderes</h2>
-      <div class="w-16 h-1 bg-secondary mx-auto"></div>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-unit-xl max-w-4xl mx-auto" data-animate="stagger">
-      <div class="flex flex-col sm:flex-row gap-unit-lg items-start bg-surface-container-low p-unit-lg border border-outline-variant/30 transition-all hover:shadow-lg">
-        <img alt="Robert Matarrita" class="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-full mx-auto sm:mx-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTOhLmMM8TEX_yWzDJ708dxlzvq0q0M6cxoikSlFr9X2SYpRzTaWWD947nzagjauA_t8iOmZ0YplsXdd5kugY6DLlFsRj--tC-voZOOMHtcFUZzjwpF5kipFPBwLvXrhGg80F1VG0h0cBQoF9qLmWcrxHBhtlq5AIxzNjgDEFjLjDcVO4Vl_gGb8qXd4uuFjVHqhRhXPGtpvZslEKnbU9mwbI97Eq1ffniXkrCFtVtPmQZiGDqWfA0Mmb75OMWhBm5rnX6ycI_bD4X"/>
-        <div class="text-center sm:text-left">
-          <h3 class="font-headline-lg text-headline-lg text-primary">Robert Matarrita</h3>
-          <p class="font-label-bold text-label-bold text-secondary mb-unit-sm">Fundador &amp; CEO</p>
-          <p class="font-body-md text-body-md text-on-surface-variant">Liderando con visión estratégica y compromiso inquebrantable con la calidad constructiva.</p>
-        </div>
-      </div>
-      <div class="flex flex-col sm:flex-row gap-unit-lg items-start bg-surface-container-low p-unit-lg border border-outline-variant/30 transition-all hover:shadow-lg">
-        <img alt="José Matarrita" class="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-full mx-auto sm:mx-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9rvGEsSIss7C--LQ8_1qnxunqFRM5CHfu-RBLPlSa2aGUGIsOCd81Gf81zFG_L1M9NELLp_VSB3PUHrrJgVPrk_2Id0FPnHINSGauTvj_QBusAtDvtbvq3Wsd0jbGlRRQB3kEolQkwF5YO6TBh_fRuT_RLQ562AffWBc8eZDeq1NOalKHDMuWKN3YQ-gnQ0F2MBFQKUvOjdLyYDchpU1cDA4yCf4GW0r93jhTyVES1MWHC0V7TGoc4U0JkaXkeohRQLlV8uPivdzo"/>
-        <div class="text-center sm:text-left">
-          <h3 class="font-headline-lg text-headline-lg text-primary">José Matarrita</h3>
-          <p class="font-label-bold text-label-bold text-secondary mb-unit-sm">Director de Operaciones</p>
-          <p class="font-body-md text-body-md text-on-surface-variant">Experto en ejecución técnica y optimización de recursos en proyectos de gran escala.</p>
-        </div>
-      </div>
-    </div>
-    <p class="text-center mt-unit-xl font-body-md text-body-md text-outline">
-      Fundado por <span class="font-bold text-primary">Robert Matarrita</span>, con el compromiso de transformar el paisaje costero.
-    </p>
-  </div>
-</section>
-
-<!-- ========== WHY TRUST US ========== -->
-<section class="py-unit-xxl bg-surface-container">
-  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-unit-xl items-start">
-    <div data-animate="slide-left">
-      <h2 class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-unit-lg">¿Por qué confían en nosotros?</h2>
-      <p class="font-body-lg text-body-lg text-on-surface-variant mb-unit-xl">
-        Nuestra visión es ser la única solución integrada que nuestros clientes necesitan buscar, ofreciendo un compromiso inquebrantable desde que trazamos un presupuesto hasta que pintamos el último nivel.
-      </p>
-      <div class="space-y-unit-md mb-unit-xl">
-        <div class="flex items-center gap-unit-md">
-          <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
-          <span class="font-label-bold text-label-bold">Calidad Diferenciada</span>
-        </div>
-        <div class="flex items-center gap-unit-md">
-          <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
-          <span class="font-label-bold text-label-bold">Costo Justo y Transparente</span>
-        </div>
-        <div class="flex items-center gap-unit-md">
-          <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
-          <span class="font-label-bold text-label-bold">Responsabilidad en Tiempos de Entrega</span>
-        </div>
-        <div class="flex items-center gap-unit-md">
-          <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
-          <span class="font-label-bold text-label-bold">Servicio Empático Orientado al Cliente</span>
-        </div>
-      </div>
-      <a href="#contacto" class="inline-block bg-primary text-white px-unit-xl py-unit-md font-label-bold text-label-bold hover:bg-secondary transition-all">AGENDAR ASESORÍA</a>
-    </div>
-    <div class="space-y-unit-md" data-animate="slide-right">
-      <div class="border border-outline-variant bg-surface">
-        <button class="w-full flex justify-between items-center p-unit-lg bg-primary text-white font-headline-lg text-headline-lg accordion-btn" data-target="acc-1">
-          Calidad Diferenciada
-          <span class="material-symbols-outlined accordion-icon">expand_more</span>
-        </button>
-        <div class="accordion-content" id="acc-1">
-          <div class="p-unit-lg font-body-md text-body-md text-on-surface-variant bg-surface-container-low">
-            Aplicamos un estándar superior en cada acabado. Entregamos trabajos que son estéticamente admirables y funcionalmente perfectos.
-          </div>
-        </div>
-      </div>
-      <div class="border border-outline-variant bg-surface">
-        <button class="w-full flex justify-between items-center p-unit-lg bg-surface hover:bg-surface-container transition-colors font-headline-lg text-headline-lg text-primary accordion-btn" data-target="acc-2">
-          Costo Justo
-          <span class="material-symbols-outlined accordion-icon">expand_more</span>
-        </button>
-        <div class="accordion-content" id="acc-2">
-          <div class="p-unit-lg font-body-md text-body-md text-on-surface-variant bg-surface-container-low">
-            Transparencia total en cada presupuesto. Le detallamos cada partida sin cargos ocultos para que tome decisiones informadas.
-          </div>
-        </div>
-      </div>
-      <div class="border border-outline-variant bg-surface">
-        <button class="w-full flex justify-between items-center p-unit-lg bg-surface hover:bg-surface-container transition-colors font-headline-lg text-headline-lg text-primary accordion-btn" data-target="acc-3">
-          Responsabilidad Máxima
-          <span class="material-symbols-outlined accordion-icon">expand_more</span>
-        </button>
-        <div class="accordion-content" id="acc-3">
-          <div class="p-unit-lg font-body-md text-body-md text-on-surface-variant bg-surface-container-low">
-            Cronogramas realistas y cumplimiento puntual. Coordinamos cada fase para que su proyecto termine en la fecha acordada.
-          </div>
-        </div>
-      </div>
-      <div class="border border-outline-variant bg-surface">
-        <button class="w-full flex justify-between items-center p-unit-lg bg-surface hover:bg-surface-container transition-colors font-headline-lg text-headline-lg text-primary accordion-btn" data-target="acc-4">
-          Servicio Personalizado
-          <span class="material-symbols-outlined accordion-icon">expand_more</span>
-        </button>
-        <div class="accordion-content" id="acc-4">
-          <div class="p-unit-lg font-body-md text-body-md text-on-surface-variant bg-surface-container-low">
-            Escuchamos y asesoramos en cada etapa. Nuestro equipo se toma el tiempo necesario para entender sus necesidades y superar expectativas.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ========== TESTIMONIALS ========== -->
-<section class="py-unit-xxl bg-surface">
-  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-    <h2 class="font-headline-xl text-headline-xl text-primary text-center mb-unit-xl" data-animate="fade-up">Lo que dicen nuestros clientes</h2>
+<section class="py-20 md:py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="text-center mb-14" data-animate="fade-up">
+      <span class="inline-block text-[#ff741e] font-bold text-sm uppercase tracking-[0.2em] mb-3">Testimonios</span>
+      <h2 class="font-heading text-3xl md:text-5xl font-bold text-[#111827]">Lo que dicen nuestros clientes</h2>
+    </div>
     <div class="testimonial-slider relative" data-animate="fade-up">
       <div class="overflow-hidden">
         <div class="flex items-stretch transition-transform duration-500 ease-in-out" id="testimonialTrack">
-          <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-unit-sm flex">
-            <div class="bg-surface-container-low p-unit-lg border border-outline-variant/30 h-full flex flex-col w-full">
-              <div>
-                <div class="flex gap-unit-xs mb-unit-md">
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                </div>
-                <p class="font-body-md text-body-md text-on-surface-variant mb-unit-md">Excelente trabajo. Transformaron completamente nuestro espacio de trabajo con profesionalismo y entrega puntual. Recomendados 100%.</p>
+          <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-2 flex">
+            <div class="bg-[#fbf8ff] p-6 border border-gray-100 h-full flex flex-col w-full rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex gap-1 mb-4">
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
               </div>
-              <div class="border-t border-outline-variant/50 pt-unit-md mt-auto">
-                <p class="font-headline-lg text-headline-lg text-primary text-base">Mario Rodríguez</p>
-                <p class="font-body-md text-body-md text-on-surface-variant text-sm">Gerente, Tech Solutions CR</p>
+              <p class="text-gray-600 text-sm leading-relaxed mb-4">Excelente trabajo. Transformaron completamente nuestro espacio de trabajo con profesionalismo y entrega puntual. Recomendados 100%.</p>
+              <div class="border-t border-gray-200 pt-4 mt-auto">
+                <p class="font-heading font-bold text-[#111827]">Mario Rodríguez</p>
+                <p class="text-gray-500 text-sm">Gerente, Tech Solutions CR</p>
               </div>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-unit-sm flex">
-            <div class="bg-surface-container-low p-unit-lg border border-outline-variant/30 h-full flex flex-col w-full">
-              <div>
-                <div class="flex gap-unit-xs mb-unit-md">
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                </div>
-                <p class="font-body-md text-body-md text-on-surface-variant mb-unit-md">Desde el primer día nos atendieron con mucha paciencia para explicar cada etapa. El resultado superó nuestras expectativas.</p>
+          <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-2 flex">
+            <div class="bg-[#fbf8ff] p-6 border border-gray-100 h-full flex flex-col w-full rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex gap-1 mb-4">
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
               </div>
-              <div class="border-t border-outline-variant/50 pt-unit-md mt-auto">
-                <p class="font-headline-lg text-headline-lg text-primary text-base">Laura Conejo</p>
-                <p class="font-body-md text-body-md text-on-surface-variant text-sm">Cliente Residencial</p>
+              <p class="text-gray-600 text-sm leading-relaxed mb-4">Desde el primer día nos atendieron con mucha paciencia para explicar cada etapa. El resultado superó nuestras expectativas.</p>
+              <div class="border-t border-gray-200 pt-4 mt-auto">
+                <p class="font-heading font-bold text-[#111827]">Laura Conejo</p>
+                <p class="text-gray-500 text-sm">Cliente Residencial</p>
               </div>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-unit-sm flex">
-            <div class="bg-surface-container-low p-unit-lg border border-outline-variant/30 h-full flex flex-col w-full">
-              <div>
-                <div class="flex gap-unit-xs mb-unit-md">
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                </div>
-                <p class="font-body-md text-body-md text-on-surface-variant mb-unit-md">Profesionales de primera. Cumplieron con el tiempo acordado y el presupuesto. Nuestro local quedó impecable.</p>
+          <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-2 flex">
+            <div class="bg-[#fbf8ff] p-6 border border-gray-100 h-full flex flex-col w-full rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex gap-1 mb-4">
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
               </div>
-              <div class="border-t border-outline-variant/50 pt-unit-md mt-auto">
-                <p class="font-headline-lg text-headline-lg text-primary text-base">Ana Gutiérrez</p>
-                <p class="font-body-md text-body-md text-on-surface-variant text-sm">Propietaria, Boutique Floral</p>
+              <p class="text-gray-600 text-sm leading-relaxed mb-4">Profesionales de primera. Cumplieron con el tiempo acordado y el presupuesto. Nuestro local quedó impecable.</p>
+              <div class="border-t border-gray-200 pt-4 mt-auto">
+                <p class="font-heading font-bold text-[#111827]">Ana Gutiérrez</p>
+                <p class="text-gray-500 text-sm">Propietaria, Boutique Floral</p>
               </div>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-unit-sm flex">
-            <div class="bg-surface-container-low p-unit-lg border border-outline-variant/30 h-full flex flex-col w-full">
-              <div>
-                <div class="flex gap-unit-xs mb-unit-md">
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                </div>
-                <p class="font-body-md text-body-md text-on-surface-variant mb-unit-md">Servicio rápido y eficiente. Nos apoyan con el mantenimiento preventivo siempre con profesionalismo.</p>
+          <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-2 flex">
+            <div class="bg-[#fbf8ff] p-6 border border-gray-100 h-full flex flex-col w-full rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex gap-1 mb-4">
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
               </div>
-              <div class="border-t border-outline-variant/50 pt-unit-md mt-auto">
-                <p class="font-headline-lg text-headline-lg text-primary text-base">Javier Rojas</p>
-                <p class="font-body-md text-body-md text-on-surface-variant text-sm">Director, Consultores JR</p>
+              <p class="text-gray-600 text-sm leading-relaxed mb-4">Servicio rápido y eficiente. Nos apoyan con el mantenimiento preventivo siempre con profesionalismo.</p>
+              <div class="border-t border-gray-200 pt-4 mt-auto">
+                <p class="font-heading font-bold text-[#111827]">Javier Rojas</p>
+                <p class="text-gray-500 text-sm">Director, Consultores JR</p>
               </div>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-unit-sm flex">
-            <div class="bg-surface-container-low p-unit-lg border border-outline-variant/30 h-full flex flex-col w-full">
-              <div>
-                <div class="flex gap-unit-xs mb-unit-md">
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                </div>
-                <p class="font-body-md text-body-md text-on-surface-variant mb-unit-md">Muy buena atención y calidad en los acabados. Repetiría sin duda alguna con ellos para cualquier proyecto.</p>
+          <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-2 flex">
+            <div class="bg-[#fbf8ff] p-6 border border-gray-100 h-full flex flex-col w-full rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex gap-1 mb-4">
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
               </div>
-              <div class="border-t border-outline-variant/50 pt-unit-md mt-auto">
-                <p class="font-headline-lg text-headline-lg text-primary text-base">Carlos Montoya</p>
-                <p class="font-body-md text-body-md text-on-surface-variant text-sm">Arquitecto, Montoya Diseño</p>
+              <p class="text-gray-600 text-sm leading-relaxed mb-4">Muy buena atención y calidad en los acabados. Repetiría sin duda alguna con ellos para cualquier proyecto.</p>
+              <div class="border-t border-gray-200 pt-4 mt-auto">
+                <p class="font-heading font-bold text-[#111827]">Carlos Montoya</p>
+                <p class="text-gray-500 text-sm">Arquitecto, Montoya Diseño</p>
               </div>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-unit-sm flex">
-            <div class="bg-surface-container-low p-unit-lg border border-outline-variant/30 h-full flex flex-col w-full">
-              <div>
-                <div class="flex gap-unit-xs mb-unit-md">
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                  <span class="material-symbols-outlined text-secondary" style="font-variation-settings:'FILL'1">star</span>
-                </div>
-                <p class="font-body-md text-body-md text-on-surface-variant mb-unit-md">Cumplieron con todas nuestras expectativas. Gran equipo de trabajo y excelente comunicación durante todo el proceso.</p>
+          <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-2 flex">
+            <div class="bg-[#fbf8ff] p-6 border border-gray-100 h-full flex flex-col w-full rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex gap-1 mb-4">
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
+                <span class="material-symbols-outlined text-[#ff741e]" style="font-variation-settings:'FILL'1">star</span>
               </div>
-              <div class="border-t border-outline-variant/50 pt-unit-md mt-auto">
-                <p class="font-headline-lg text-headline-lg text-primary text-base">Sofía Pérez</p>
-                <p class="font-body-md text-body-md text-on-surface-variant text-sm">Directora, Escuela San José</p>
+              <p class="text-gray-600 text-sm leading-relaxed mb-4">Cumplieron con todas nuestras expectativas. Gran equipo de trabajo y excelente comunicación durante todo el proceso.</p>
+              <div class="border-t border-gray-200 pt-4 mt-auto">
+                <p class="font-heading font-bold text-[#111827]">Sofía Pérez</p>
+                <p class="text-gray-500 text-sm">Directora, Escuela San José</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <button class="absolute left-0 md:-translate-x-3 top-1/2 -translate-y-1/2 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center hover:bg-secondary transition-colors z-10 shadow-lg" id="testimonialPrev" aria-label="Anterior">
+      <button class="absolute left-0 md:-translate-x-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-[#0736c2] text-white rounded-full flex items-center justify-center hover:bg-[#ff741e] transition-colors z-10 shadow-lg" id="testimonialPrev" aria-label="Anterior">
         <span class="material-symbols-outlined">chevron_left</span>
       </button>
-      <button class="absolute right-0 md:translate-x-3 top-1/2 -translate-y-1/2 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center hover:bg-secondary transition-colors z-10 shadow-lg" id="testimonialNext" aria-label="Siguiente">
+      <button class="absolute right-0 md:translate-x-4 top-1/2 -translate-y-1/2 w-12 h-12 bg-[#0736c2] text-white rounded-full flex items-center justify-center hover:bg-[#ff741e] transition-colors z-10 shadow-lg" id="testimonialNext" aria-label="Siguiente">
         <span class="material-symbols-outlined">chevron_right</span>
       </button>
-      <div class="flex justify-center gap-unit-sm mt-unit-lg" id="testimonialDots"></div>
+      <div class="flex justify-center gap-2 mt-6" id="testimonialDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FAQ ========== -->
+<section class="py-20 md:py-24 bg-white">
+  <div class="max-w-4xl mx-auto px-5 md:px-8">
+    <div class="text-center mb-14" data-animate="fade-up">
+      <span class="inline-block text-[#ff741e] font-bold text-sm uppercase tracking-[0.2em] mb-3">FAQ</span>
+      <h2 class="font-heading text-3xl md:text-5xl font-bold text-[#111827]">Preguntas Frecuentes</h2>
+      <p class="text-gray-500 text-lg mt-3 max-w-2xl mx-auto">Resolvemos sus dudas sobre nuestros servicios y procesos de construcción.</p>
+    </div>
+    <div class="space-y-4" data-animate="stagger">
+      <div class="border border-gray-200 bg-[#fbf8ff] rounded-2xl overflow-hidden">
+        <button class="w-full flex justify-between items-center p-6 bg-white hover:bg-[#fbf8ff] transition-colors font-heading text-lg font-bold text-[#111827] accordion-btn" data-target="faq-1">
+          ¿Cómo solicitó una cotización?
+          <span class="material-symbols-outlined accordion-icon text-[#ff741e]">expand_more</span>
+        </button>
+        <div class="accordion-content" id="faq-1">
+          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+            Puede contactarnos directamente por WhatsApp al <strong>+506 8452-2328</strong>, llamarnos, o llenar el formulario en nuestra sección de contacto. Le responderemos en menos de 48 horas con una cotización detallada sin compromiso.
+          </div>
+        </div>
+      </div>
+      <div class="border border-gray-200 bg-[#fbf8ff] rounded-2xl overflow-hidden">
+        <button class="w-full flex justify-between items-center p-6 bg-white hover:bg-[#fbf8ff] transition-colors font-heading text-lg font-bold text-[#111827] accordion-btn" data-target="faq-2">
+          ¿Qué incluye una cotización?
+          <span class="material-symbols-outlined accordion-icon text-[#ff741e]">expand_more</span>
+        </button>
+        <div class="accordion-content" id="faq-2">
+          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+            Nuestras cotizaciones incluyen: desglose de materiales, mano de obra, tiempos estimados, condiciones de pago y garantías. Todo transparente, sin cargos ocultos.
+          </div>
+        </div>
+      </div>
+      <div class="border border-gray-200 bg-[#fbf8ff] rounded-2xl overflow-hidden">
+        <button class="w-full flex justify-between items-center p-6 bg-white hover:bg-[#fbf8ff] transition-colors font-heading text-lg font-bold text-[#111827] accordion-btn" data-target="faq-3">
+          ¿Cuánto tiempo toma un proyecto promedio?
+          <span class="material-symbols-outlined accordion-icon text-[#ff741e]">expand_more</span>
+        </button>
+        <div class="accordion-content" id="faq-3">
+          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+            Depende de la magnitud. Una reparación menor puede tomar 1-2 días; una remodelación completa 2-6 semanas; una construcción nueva varía según los metros cuadrados. Siempre definimos un cronograma claro antes de empezar.
+          </div>
+        </div>
+      </div>
+      <div class="border border-gray-200 bg-[#fbf8ff] rounded-2xl overflow-hidden">
+        <button class="w-full flex justify-between items-center p-6 bg-white hover:bg-[#fbf8ff] transition-colors font-heading text-lg font-bold text-[#111827] accordion-btn" data-target="faq-4">
+          ¿Ofrecen garantía en sus trabajos?
+          <span class="material-symbols-outlined accordion-icon text-[#ff741e]">expand_more</span>
+        </button>
+        <div class="accordion-content" id="faq-4">
+          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+            Sí. Todos nuestros trabajos incluyen garantía. El período varía según el tipo de servicio: desde 3 meses para reparaciones hasta 24 meses para obras mayores. Respalda cada trabajo nuestra trayectoria de más de 15 años.
+          </div>
+        </div>
+      </div>
+      <div class="border border-gray-200 bg-[#fbf8ff] rounded-2xl overflow-hidden">
+        <button class="w-full flex justify-between items-center p-6 bg-white hover:bg-[#fbf8ff] transition-colors font-heading text-lg font-bold text-[#111827] accordion-btn" data-target="faq-5">
+          ¿Atienden en toda la provincia de Puntarenas?
+          <span class="material-symbols-outlined accordion-icon text-[#ff741e]">expand_more</span>
+        </button>
+        <div class="accordion-content" id="faq-5">
+          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+            Sí, cubrimos toda la provincia de Puntarenas, incluyendo el centro, playas, zonas rurales y el Pacífico central. Contamos con movilidad propia para llegar a cualquier ubicación.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== BLOG ========== -->
+<section class="py-20 md:py-24 bg-[#fbf8ff]">
+  <div class="max-w-7xl mx-auto px-5 md:px-8">
+    <div class="text-center mb-14" data-animate="fade-up">
+      <span class="inline-block text-[#ff741e] font-bold text-sm uppercase tracking-[0.2em] mb-3">Blog</span>
+      <h2 class="font-heading text-3xl md:text-5xl font-bold text-[#111827]">Consejos & Novedades</h2>
+      <p class="text-gray-500 text-lg mt-3 max-w-2xl mx-auto">Información útil para su próximo proyecto de construcción o remodelación.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8" data-animate="stagger">
+      <div class="bg-white border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow rounded-2xl">
+        <img alt="Consejos de construcción" class="w-full blog-img object-cover" src="/src/assets/obra_1.jpg" loading="lazy" decoding="async" width="400" height="250"/>
+        <div class="p-6">
+          <span class="text-[#ff741e] text-xs font-bold uppercase tracking-wider">Julio 2026</span>
+          <h3 class="font-heading text-lg font-bold text-[#111827] mt-2 mb-2">5 Claves para una Construcción Exitosa en el Pacífico</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">Conozca los factores críticos que determinan el éxito de un proyecto de construcción en la zona costera de Puntarenas.</p>
+        </div>
+      </div>
+      <div class="bg-white border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow rounded-2xl">
+        <img alt="Mantenimiento eléctrico" class="w-full blog-img object-cover" src="/src/assets/obra_6.jpg" loading="lazy" decoding="async" width="400" height="250"/>
+        <div class="p-6">
+          <span class="text-[#ff741e] text-xs font-bold uppercase tracking-wider">Junio 2026</span>
+          <h3 class="font-heading text-lg font-bold text-[#111827] mt-2 mb-2">Mantenimiento Eléctrico Preventivo: ¿Por Qué es Importante?</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">Evite costosas reparaciones y garantice la seguridad de su propiedad con un plan de mantenimiento eléctrico adecuado.</p>
+        </div>
+      </div>
+      <div class="bg-white border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow rounded-2xl">
+        <img alt="Remodelación de espacios" class="w-full blog-img object-cover" src="/src/assets/obra_13.jpg" loading="lazy" decoding="async" width="400" height="250"/>
+        <div class="p-6">
+          <span class="text-[#ff741e] text-xs font-bold uppercase tracking-wider">Mayo 2026</span>
+          <h3 class="font-heading text-lg font-bold text-[#111827] mt-2 mb-2">Transforme su Negocio con una Remodelación Estratégica</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">Descubra cómo una remodelación bien planificada puede aumentar el valor y la funcionalidad de su espacio comercial.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- ========== CONTACT ========== -->
-<section id="contacto" class="py-unit-xxl bg-tertiary-container">
-<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-unit-xl">
-      <div class="text-white" data-animate="slide-left">
-      <h2 class="font-display-lg text-display-lg-mobile md:text-display-lg mb-unit-md leading-tight">¡Construyamos algo formidable juntos!</h2>
-      <p class="font-body-lg text-body-lg mb-unit-xl text-white/70">¿Necesita agendar servicios, planeación u hojear presupuestos? Contáctenos directamente, garantizamos atención ágil.</p>
-      <div class="space-y-unit-lg mb-unit-xl">
-        <div>
-          <p class="font-label-bold text-label-bold text-secondary mb-unit-xs">Robert Leonel Matarrita Arias</p>
-          <div class="flex items-center gap-unit-md">
-            <span class="material-symbols-outlined text-secondary">call</span>
-            <span class="font-body-md text-body-md">+506 8664-9651</span>
+<section id="contacto" class="py-20 md:py-24 bg-[#0736c2] relative overflow-hidden texture-gear">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 relative z-10">
+    <div class="text-center mb-14" data-animate="fade-up">
+      <span class="inline-block text-[#ff741e] font-bold text-sm uppercase tracking-[0.2em] mb-3">Contacto</span>
+      <h2 class="font-heading text-3xl md:text-5xl font-bold text-white">Solicite su Cotización</h2>
+      <p class="text-white/60 text-lg mt-3">Respuesta personalizada en menos de 48 horas.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-8 max-w-5xl mx-auto" data-animate="fade-up">
+      <div class="md:col-span-3 bg-white rounded-2xl p-8 shadow-xl">
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-5">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-bold text-[#111827] mb-1.5">Nombre completo *</label>
+              <input class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#ff741e] focus:ring-2 focus:ring-[#ff741e]/10 transition-all bg-[#fbf8ff]" type="text" name="nombre" placeholder="Su nombre" required/>
+            </div>
+            <div>
+              <label class="block text-sm font-bold text-[#111827] mb-1.5">Correo electrónico *</label>
+              <input class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#ff741e] focus:ring-2 focus:ring-[#ff741e]/10 transition-all bg-[#fbf8ff]" type="email" name="email" placeholder="ejemplo@correo.com" required/>
+            </div>
           </div>
-          <div class="flex items-center gap-unit-md">
-            <span class="material-symbols-outlined text-secondary">mail</span>
-            <span class="font-body-md text-body-md">robertmatarrita18@gmail.com</span>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-bold text-[#111827] mb-1.5">Teléfono</label>
+              <input class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#ff741e] focus:ring-2 focus:ring-[#ff741e]/10 transition-all bg-[#fbf8ff]" type="tel" name="telefono" placeholder="+506 8888-8888"/>
+            </div>
+            <div>
+              <label class="block text-sm font-bold text-[#111827] mb-1.5">Servicio de interés</label>
+              <select class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#ff741e] focus:ring-2 focus:ring-[#ff741e]/10 transition-all bg-[#fbf8ff] text-gray-600" name="servicio">
+                <option value="">Seleccione un servicio</option>
+                <option value="construccion">Construcción General</option>
+                <option value="electricidad">Electricidad</option>
+                <option value="remodelacion">Remodelación</option>
+                <option value="mantenimiento">Mantenimiento</option>
+                <option value="jardineria">Jardinería</option>
+                <option value="fontaneria">Fontanería</option>
+                <option value="estructuras">Estructuras Metálicas</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-bold text-[#111827] mb-1.5">Describa su proyecto *</label>
+            <textarea class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#ff741e] focus:ring-2 focus:ring-[#ff741e]/10 transition-all bg-[#fbf8ff] h-28" name="mensaje" placeholder="Tipo de proyecto, metros aproximados, ubicación, plazo deseado..." required></textarea>
+          </div>
+          <button class="w-full bg-[#ff741e] text-white py-3.5 font-bold uppercase tracking-wider text-sm hover:bg-[#e66000] transition-all btn-press rounded-xl" type="submit">
+            ENVIAR SOLICITUD
+          </button>
+        </form>
+      </div>
+      <div class="md:col-span-2 flex flex-col justify-center text-white space-y-6">
+        <div>
+          <h3 class="font-heading text-xl font-bold mb-4">Datos de Contacto</h3>
+          <div class="space-y-4">
+            <div>
+              <p class="text-[#ff741e] font-bold text-sm uppercase tracking-wider mb-1">Robert Matarrita</p>
+              <div class="flex items-center gap-3 text-white/80">
+                <span class="material-symbols-outlined text-[#ff741e] text-lg">call</span>
+                <span>+506 8664-9651</span>
+              </div>
+              <div class="flex items-center gap-3 text-white/80">
+                <span class="material-symbols-outlined text-[#ff741e] text-lg">mail</span>
+                <span>robertmatarrita18@gmail.com</span>
+              </div>
+            </div>
+            <div>
+              <p class="text-[#ff741e] font-bold text-sm uppercase tracking-wider mb-1">José Matarrita</p>
+              <div class="flex items-center gap-3 text-white/80">
+                <span class="material-symbols-outlined text-[#ff741e] text-lg">call</span>
+                <span>+506 8910-3408</span>
+              </div>
+              <div class="flex items-center gap-3 text-white/80">
+                <span class="material-symbols-outlined text-[#ff741e] text-lg">mail</span>
+                <span>josematarritaarias@gmail.com</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div>
-          <p class="font-label-bold text-label-bold text-secondary mb-unit-xs">José Matarrita Arias</p>
-          <div class="flex items-center gap-unit-md">
-            <span class="material-symbols-outlined text-secondary">call</span>
-            <span class="font-body-md text-body-md">+506 8910-3408</span>
-          </div>
-          <div class="flex items-center gap-unit-md">
-            <span class="material-symbols-outlined text-secondary">mail</span>
-            <span class="font-body-md text-body-md">josematarritaarias@gmail.com</span>
-          </div>
+        <div class="pt-4 border-t border-white/10">
+          <a href="https://wa.me/50684522328?text=Hola%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-[#25D366] text-white px-6 py-3 font-bold text-sm hover:opacity-90 transition-all btn-press rounded-xl">
+            <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Escríbanos por WhatsApp
+          </a>
         </div>
       </div>
-    </div>
-    <div class="bg-surface p-unit-xl border border-outline-variant" data-animate="slide-right">
-      <form class="space-y-unit-md" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <div>
-          <label class="block font-label-bold text-label-bold text-primary mb-unit-xs">Nombre del Encargado</label>
-          <input class="w-full border border-outline-variant p-unit-md focus:outline-none focus:border-secondary" placeholder="Su nombre" type="text" name="nombre" required/>
-        </div>
-        <div>
-          <label class="block font-label-bold text-label-bold text-primary mb-unit-xs">Correo Electrónico</label>
-          <input class="w-full border border-outline-variant p-unit-md focus:outline-none focus:border-secondary" placeholder="ejemplo@empresa.com" type="email" name="email" required/>
-        </div>
-        <div>
-          <label class="block font-label-bold text-label-bold text-primary mb-unit-xs">Sobre su Proyecto</label>
-          <textarea class="w-full border border-outline-variant p-unit-md h-28 focus:outline-none focus:border-secondary" placeholder="Cuéntenos qué tienen planeado" name="mensaje" required></textarea>
-        </div>
-        <button class="w-full bg-secondary text-white py-unit-md font-label-bold text-label-bold hover:opacity-90 transition-all" type="submit">
-          ENVIAR SOLICITUD
-        </button>
-      </form>
     </div>
   </div>
 </section>
 
 <!-- ========== MAP ========== -->
-<section class="w-full bg-surface">
-  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-unit-xl">
-    <div class="text-center mb-unit-lg" data-animate="fade-up">
-      <h2 class="font-headline-xl text-headline-xl text-primary">Nuestra Ubicación</h2>
-      <p class="font-body-md text-body-md text-on-surface-variant mt-unit-sm">Nos encontramos en la provincia de Puntarenas, Costa Rica</p>
+<section class="w-full bg-white">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 py-16">
+    <div class="text-center mb-8" data-animate="fade-up">
+      <h2 class="font-heading text-3xl font-bold text-[#111827]">Nuestra Ubicación</h2>
+      <p class="text-gray-500 mt-2">Provincia de Puntarenas, Costa Rica</p>
     </div>
     <div class="w-full aspect-video rounded-lg overflow-hidden shadow-lg" data-animate="fade-up">
       <iframe src="https://www.google.com/maps?q=Provincia+de+Puntarenas,+Costa+Rica&output=embed"
@@ -781,53 +1032,64 @@
   </div>
 </section>
 
-<!-- ========== FOOTER ========== -->
-<footer class="w-full py-unit-xxl px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter bg-primary text-white">
-  <div class="col-span-1 md:col-span-1">
-    <img alt="MA Soluciones Integrales Logo" class="h-10 md:h-12 w-auto object-contain brightness-0 invert" src="/src/assets/main-ma-logo.png"/>
-    <p class="mt-unit-md font-body-md text-body-md text-white/60">Sólida excelencia en el Pacífico central.</p>
-  </div>
-  <div>
-    <h5 class="font-label-bold text-label-bold text-white uppercase mb-unit-lg">Navegación</h5>
-    <ul class="space-y-unit-sm">
-      <li><a class="text-white/60 hover:text-secondary transition-colors font-body-md text-body-md" href="#inicio">Inicio</a></li>
-      <li><a class="text-white/60 hover:text-secondary transition-colors font-body-md text-body-md" href="#servicios">Servicios</a></li>
-      <li><a class="text-white/60 hover:text-secondary transition-colors font-body-md text-body-md" href="#proyectos">Proyectos</a></li>
-      <li><a class="text-white/60 hover:text-secondary transition-colors font-body-md text-body-md" href="#contacto">Contacto</a></li>
-    </ul>
-  </div>
-  <div>
-    <h5 class="font-label-bold text-label-bold text-white uppercase mb-unit-lg">Servicios</h5>
-    <ul class="space-y-unit-sm">
-      <li><a class="text-white/60 hover:text-secondary transition-colors font-body-md text-body-md" href="#servicios">Construcción</a></li>
-      <li><a class="text-white/60 hover:text-secondary transition-colors font-body-md text-body-md" href="#servicios">Electricidad</a></li>
-      <li><a class="text-white/60 hover:text-secondary transition-colors font-body-md text-body-md" href="#servicios">Remodelaciones</a></li>
-      <li><a class="text-white/60 hover:text-secondary transition-colors font-body-md text-body-md" href="#servicios">Mantenimiento</a></li>
-    </ul>
-  </div>
-  <div>
-    <h5 class="font-label-bold text-label-bold text-white uppercase mb-unit-lg">Contacto</h5>
-    <p class="font-body-md text-body-md text-white/60">Robert: +506 8664-9651</p>
-    <p class="font-body-md text-body-md text-white/60">José: +506 8910-3408</p>
-    <p class="font-body-md text-body-md text-white/60 mt-unit-sm break-all">robertmatarrita18@gmail.com</p>
-  </div>
-  <div class="col-span-1 md:col-span-4 border-t border-white/10 mt-unit-xl pt-unit-lg text-center">
-    <p class="font-body-md text-body-md text-white/40">© 2026 MA Soluciones Integrales. Todos los derechos reservados.</p>
+<!-- ========== CONTACT / FOOTER ========== -->
+<footer class="bg-[#111827] text-white">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 py-16">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+      <div class="md:col-span-1">
+        <img alt="MA Soluciones Integrales Logo" class="h-10 md:h-12 w-auto object-contain brightness-0 invert mb-4" src="/src/assets/main-ma-logo.png"/>
+        <p class="text-white/60 text-sm leading-relaxed">Sólida excelencia en el Pacífico central. Su socio de confianza en construcción, electricidad y mantenimiento.</p>
+      </div>
+      <div>
+        <h5 class="font-heading font-bold text-white uppercase tracking-wider mb-5">Navegación</h5>
+        <ul class="space-y-3">
+          <li><a class="text-white/60 hover:text-[#ff741e] transition-colors text-sm" href="#inicio">Inicio</a></li>
+          <li><a class="text-white/60 hover:text-[#ff741e] transition-colors text-sm" href="#servicios">Servicios</a></li>
+          <li><a class="text-white/60 hover:text-[#ff741e] transition-colors text-sm" href="#nosotros">Nosotros</a></li>
+          <li><a class="text-white/60 hover:text-[#ff741e] transition-colors text-sm" href="#proyectos">Proyectos</a></li>
+          <li><a class="text-white/60 hover:text-[#ff741e] transition-colors text-sm" href="#faq">FAQ</a></li>
+          <li><a class="text-white/60 hover:text-[#ff741e] transition-colors text-sm" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="font-heading font-bold text-white uppercase tracking-wider mb-5">Servicios</h5>
+        <ul class="space-y-3">
+          <li><a class="text-white/60 hover:text-[#ff741e] transition-colors text-sm" href="#servicios">Construcción</a></li>
+          <li><a class="text-white/60 hover:text-[#ff741e] transition-colors text-sm" href="#servicios">Electricidad</a></li>
+          <li><a class="text-white/60 hover:text-[#ff741e] transition-colors text-sm" href="#servicios">Remodelaciones</a></li>
+          <li><a class="text-white/60 hover:text-[#ff741e] transition-colors text-sm" href="#servicios">Mantenimiento</a></li>
+          <li><a class="text-white/60 hover:text-[#ff741e] transition-colors text-sm" href="#servicios">Fontanería</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="font-heading font-bold text-white uppercase tracking-wider mb-5">Contacto</h5>
+        <p class="text-white/60 text-sm mb-2"><span class="text-[#ff741e] font-bold">Robert:</span> +506 8664-9651</p>
+        <p class="text-white/60 text-sm mb-2"><span class="text-[#ff741e] font-bold">José:</span> +506 8910-3408</p>
+        <p class="text-white/60 text-sm mb-4">robertmatarrita18@gmail.com</p>
+        <a href="https://wa.me/50684522328?text=Hola%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 text-sm font-bold hover:opacity-90 transition-opacity rounded-xl btn-press">
+          <svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Escríbanos
+        </a>
+      </div>
+    </div>
+    <div class="border-t border-white/10 mt-12 pt-8 text-center">
+      <p class="text-white/40 text-sm">© 2026 MA Soluciones Integrales. Todos los derechos reservados.</p>
+    </div>
   </div>
 </footer>
 
 <!-- ========== SERVICE SIDE PANEL ========== -->
 <div class="fixed inset-0 z-[65] bg-black/50 hidden" id="serviceOverlay"></div>
-<div class="fixed top-0 right-0 h-full w-full max-w-lg bg-surface z-[66] transform translate-x-full transition-transform duration-300 shadow-2xl overflow-y-auto" id="servicePanel">
-  <div class="flex justify-between items-center p-unit-lg md:p-unit-xl border-b border-outline-variant sticky top-0 bg-surface z-10">
-    <h3 class="font-headline-lg text-headline-lg text-primary" id="servicePanelTitle"></h3>
-    <button class="p-2 text-on-surface-variant hover:text-primary transition-colors" id="servicePanelClose" aria-label="Cerrar">
+<div class="fixed top-0 right-0 h-full w-full max-w-lg bg-white z-[66] transform translate-x-full transition-transform duration-300 shadow-2xl overflow-y-auto" id="servicePanel">
+  <div class="flex justify-between items-center p-6 md:p-8 border-b border-gray-200 sticky top-0 bg-white z-10">
+    <h3 class="font-heading text-xl font-bold text-[#111827]" id="servicePanelTitle"></h3>
+    <button class="p-2 text-gray-500 hover:text-[#111827] transition-colors" id="servicePanelClose" aria-label="Cerrar">
       <span class="material-symbols-outlined text-3xl">close</span>
     </button>
   </div>
-  <div class="p-unit-lg md:p-unit-xl" id="servicePanelContent"></div>
-  <div class="p-unit-lg md:p-unit-xl border-t border-outline-variant sticky bottom-0 bg-surface">
-    <a href="#contacto" class="block w-full bg-secondary text-white text-center px-unit-xl py-unit-md font-label-bold text-label-bold hover:opacity-90 transition-opacity" id="servicePanelCta">
+  <div class="p-6 md:p-8" id="servicePanelContent"></div>
+  <div class="p-6 md:p-8 border-t border-gray-200 sticky bottom-0 bg-white">
+    <a href="#contacto" class="block w-full bg-[#ff741e] text-white text-center px-8 py-3 font-bold uppercase tracking-wider text-sm hover:bg-[#e66000] transition-all" id="servicePanelCta">
       CONTACTAR POR ESTE SERVICIO
     </a>
   </div>
@@ -844,10 +1106,10 @@
   <button class="absolute right-1 p-3 top-1/2 -translate-y-1/2 text-white text-4xl hover:opacity-70 transition-opacity z-10 hidden" id="lightboxNext" aria-label="Siguiente">
     <span class="material-symbols-outlined">chevron_right</span>
   </button>
-  <div class="max-w-5xl max-h-[85vh] mx-auto p-unit-md text-center">
+  <div class="max-w-5xl max-h-[85vh] mx-auto p-4 text-center">
     <img class="max-w-full max-h-[65vh] mx-auto object-contain rounded-lg" id="lightboxImg" alt=""/>
-    <p class="text-white text-lg mt-unit-md font-headline-lg" id="lightboxTitle"></p>
-    <p class="text-white/70 text-sm mt-unit-sm" id="lightboxMeta"></p>
+    <p class="text-white text-lg mt-4 font-heading font-bold" id="lightboxTitle"></p>
+    <p class="text-white/70 text-sm mt-2" id="lightboxMeta"></p>
   </div>
 </div>
 
@@ -861,18 +1123,34 @@
 </a>
 
 <!-- ========== BACK TO TOP ========== -->
-<button class="fixed bottom-24 right-6 z-50 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center shadow-lg hover:bg-secondary hover:shadow-xl transition-all duration-300 opacity-0 translate-y-4 pointer-events-none"
+<button class="fixed bottom-24 right-6 z-50 w-12 h-12 bg-[#0736c2] text-white rounded-full flex items-center justify-center shadow-lg hover:bg-[#ff741e] hover:shadow-xl transition-all duration-300 opacity-0 translate-y-4 pointer-events-none"
         id="backToTop" aria-label="Volver arriba">
   <span class="material-symbols-outlined">arrow_upward</span>
 </button>
 
 <script>
-  // ===== Navbar Shadow on Scroll =====
+  // ===== Smooth Anchor Scroll =====
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        const offset = 96;
+        const top = target.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top, behavior: 'smooth' });
+      }
+    });
+  });
+
+  // ===== Navbar Transition on Scroll =====
   const navbar = document.getElementById('navbar');
   const backBtn = document.getElementById('backToTop');
+  const navLogo = document.querySelector('.nav-logo');
   window.addEventListener('scroll', () => {
     const y = window.scrollY;
-    navbar.classList.toggle('shadow-lg', y > 40);
+    navbar.classList.toggle('scrolled', y > 80);
+    if (y > 80 && navLogo) navLogo.style.filter = 'none';
+    else if (navLogo) navLogo.style.filter = 'brightness(0) invert(1)';
     if (backBtn) {
       const show = y > 500;
       backBtn.classList.toggle('opacity-0', !show);
@@ -899,7 +1177,7 @@
     }, { passive: true });
   }
 
-  // ===== Scroll Animations (Intersection Observer) =====
+  // ===== Scroll Animations =====
   const animObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -914,6 +1192,14 @@
     el.classList.add('anim-' + anim);
     animObserver.observe(el);
   });
+
+  // Auto-trigger hero animations on load
+  setTimeout(() => {
+    document.querySelectorAll('#inicio [data-animate]').forEach(el => {
+      el.classList.add('animated');
+      animObserver.unobserve(el);
+    });
+  }, 200);
 
   // ===== Mobile Menu =====
   const menuBtn = document.getElementById('menuBtn');
@@ -941,24 +1227,6 @@
   menuClose.addEventListener('click', closeMenu);
   menuOverlay.addEventListener('click', closeMenu);
   document.querySelectorAll('#menuPanel a').forEach(a => a.addEventListener('click', closeMenu));
-
-  // Accordions with smooth animation
-  document.querySelectorAll('.accordion-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const target = document.getElementById(btn.dataset.target);
-      const isOpen = target.classList.contains('open');
-      document.querySelectorAll('.accordion-content').forEach(el => {
-        el.classList.remove('open');
-        el.style.maxHeight = '0';
-      });
-      document.querySelectorAll('.accordion-btn').forEach(b => b.classList.remove('open'));
-      if (!isOpen) {
-        target.classList.add('open');
-        target.style.maxHeight = target.scrollHeight + 'px';
-        btn.classList.add('open');
-      }
-    });
-  });
 
   // ===== Testimonials Slider =====
   (function() {
@@ -994,8 +1262,8 @@
     function updateDots() {
       const maxIndex = getMaxIndex();
       document.querySelectorAll('#testimonialDots button').forEach((dot, i) => {
-        dot.classList.toggle('bg-primary', i === currentIndex);
-        dot.classList.toggle('bg-outline-variant', i !== currentIndex);
+        dot.classList.toggle('bg-[#0736c2]', i === currentIndex);
+        dot.classList.toggle('bg-gray-200', i !== currentIndex);
       });
     }
 
@@ -1004,7 +1272,7 @@
       const maxIndex = getMaxIndex();
       for (let i = 0; i <= maxIndex; i++) {
         const dot = document.createElement('button');
-        dot.className = 'w-4 h-4 rounded-full transition-colors ' + (i === 0 ? 'bg-primary' : 'bg-outline-variant');
+        dot.className = 'w-4 h-4 rounded-full transition-colors ' + (i === 0 ? 'bg-[#0736c2]' : 'bg-gray-200');
         dot.setAttribute('aria-label', 'Ir a testimonio ' + (i + 1));
         dot.addEventListener('click', function() { goTo(i); resetAutoPlay(); });
         dotsContainer.appendChild(dot);
@@ -1015,25 +1283,15 @@
       stopAutoPlay();
       autoPlayTimer = setInterval(function() {
         const maxIndex = getMaxIndex();
-        if (currentIndex >= maxIndex) {
-          goTo(0);
-        } else {
-          goTo(currentIndex + 1);
-        }
+        if (currentIndex >= maxIndex) goTo(0);
+        else goTo(currentIndex + 1);
       }, 5000);
     }
 
-    function stopAutoPlay() {
-      clearInterval(autoPlayTimer);
-    }
+    function stopAutoPlay() { clearInterval(autoPlayTimer); }
+    function resetAutoPlay() { startAutoPlay(); }
 
-    function resetAutoPlay() {
-      startAutoPlay();
-    }
-
-    // Swipe support
-    let touchStartX = 0;
-    let touchEndX = 0;
+    let touchStartX = 0, touchEndX = 0;
     track.addEventListener('touchstart', function(e) {
       touchStartX = e.changedTouches[0].screenX;
     }, { passive: true });
@@ -1051,7 +1309,6 @@
       goTo(currentIndex - 1);
       resetAutoPlay();
     });
-
     document.getElementById('testimonialNext').addEventListener('click', function() {
       goTo(currentIndex + 1);
       resetAutoPlay();
@@ -1066,9 +1323,7 @@
           slidesPerView = newSPV;
           createDots();
           goTo(0);
-        } else {
-          goTo(currentIndex);
-        }
+        } else goTo(currentIndex);
       }, 150);
     });
 
@@ -1079,40 +1334,51 @@
 
   // ===== Load More Projects =====
   document.getElementById('loadMoreProjects')?.addEventListener('click', function() {
-    document.querySelectorAll('[data-more-project]').forEach(el => {
-      el.classList.remove('hidden');
-    });
+    document.querySelectorAll('[data-more-project]').forEach(el => el.classList.remove('hidden'));
     this.style.display = 'none';
+    applyFilter(document.querySelector('.filter-btn.active')?.dataset.filter || 'all');
   });
 
-  // ===== Animated Counters (Stats) =====
+  // ===== Project Filter =====
+  function applyFilter(filter) {
+    document.querySelectorAll('#projectGrid > .project-item').forEach(el => {
+      if (filter === 'all' || el.dataset.category === filter) {
+        el.classList.remove('hidden-filter');
+      } else {
+        el.classList.add('hidden-filter');
+      }
+    });
+  }
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      applyFilter(this.dataset.filter);
+    });
+  });
+
+  // ===== Animated Counters =====
   (function() {
-    const counters = document.querySelectorAll('#statsSection [data-count]');
+    const counters = document.querySelectorAll('[data-count]');
     if (!counters.length) return;
-
     let counted = false;
-
     function animateCounter(el) {
       const target = parseInt(el.dataset.count);
       const prefix = el.dataset.prefix || '';
       const duration = 2000;
       const start = performance.now();
-
       function update(now) {
         const elapsed = now - start;
         const progress = Math.min(elapsed / duration, 1);
         const eased = 1 - Math.pow(1 - progress, 3);
         const current = Math.round(eased * target);
         el.textContent = prefix + current;
-        if (progress < 1) {
-          requestAnimationFrame(update);
-        } else {
-          el.textContent = prefix + target;
-        }
+        if (progress < 1) requestAnimationFrame(update);
+        else el.textContent = prefix + target;
       }
       requestAnimationFrame(update);
     }
-
     const counterObserver = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting && !counted) {
@@ -1122,8 +1388,8 @@
         }
       });
     }, { threshold: 0.3 });
-
-    counterObserver.observe(document.getElementById('statsSection'));
+    const statsSection = document.querySelector('[data-count]')?.closest('section');
+    if (statsSection) counterObserver.observe(statsSection);
   })();
 
   // ===== Lightbox =====
@@ -1131,15 +1397,14 @@
     const overlay = document.getElementById('lightbox');
     const img = document.getElementById('lightboxImg');
     const title = document.getElementById('lightboxTitle');
+    const meta = document.getElementById('lightboxMeta');
     const closeBtn = document.getElementById('lightboxClose');
     const prevBtn = document.getElementById('lightboxPrev');
     const nextBtn = document.getElementById('lightboxNext');
     let currentIndex = -1;
     let projects = [];
 
-    function getProjects() {
-      projects = Array.from(document.querySelectorAll('#proyectos .group'));
-    }
+    function getProjects() { projects = Array.from(document.querySelectorAll('#proyectos .project-item:not(.hidden-filter)')); }
 
     function open(index) {
       getProjects();
@@ -1155,10 +1420,10 @@
       img.src = src;
       img.alt = name;
       title.textContent = name;
-      let meta = location ? `<span class="text-secondary">\u{1F4CD}</span> ${location}` : '';
-      if (scope) meta += ` · ${scope}`;
-      if (outcome) meta += ` · ${outcome}`;
-      document.getElementById('lightboxMeta').innerHTML = meta;
+      let m = location ? `\u{1F4CD} ${location}` : '';
+      if (scope) m += ` \u00B7 ${scope}`;
+      if (outcome) m += ` \u00B7 ${outcome}`;
+      meta.textContent = m;
       overlay.classList.remove('hidden');
       overlay.classList.add('flex');
       document.body.style.overflow = 'hidden';
@@ -1176,7 +1441,7 @@
     function prev() { if (currentIndex > 0) open(currentIndex - 1); }
     function next() { if (currentIndex < projects.length - 1) open(currentIndex + 1); }
 
-    document.querySelectorAll('#proyectos .group').forEach((card, i) => {
+    document.querySelectorAll('#proyectos .project-item:not(.hidden-filter)').forEach((card, i) => {
       card.addEventListener('click', function(e) {
         if (e.target.closest('button')) return;
         open(i);
@@ -1184,9 +1449,7 @@
     });
 
     closeBtn.addEventListener('click', close);
-    overlay.addEventListener('click', function(e) {
-      if (e.target === overlay) close();
-    });
+    overlay.addEventListener('click', function(e) { if (e.target === overlay) close(); });
     prevBtn.addEventListener('click', prev);
     nextBtn.addEventListener('click', next);
     document.addEventListener('keydown', function(e) {
@@ -1231,7 +1494,7 @@
         details: [
           'Transformación milimétrica de espacios comerciales y residencias. Amplia experiencia en divisiones en Drywall, fachadas exteriores, restauración y pintura especializada.',
           'Rediseñamos y renovamos espacios para maximizar su funcionalidad y estética. Desde una habitación hasta un edificio completo, ejecutamos remodelaciones con mínima interrupción para su operación.',
-          'Nos especializamos en trabajos de Drywall de alta precisión, instalación de cielorrasos, pisos y recubrimientos, restauración de fachadas y pintura decorativa con acabados profesionales.'
+          'Nos especializamos en trabajos de Drywall de alta precisión, instalación de cielorrosos, pisos y recubrimientos, restauración de fachadas y pintura decorativa con acabados profesionales.'
         ]
       },
       {
@@ -1260,6 +1523,24 @@
           'Brindamos servicios de instalación para mobiliario comercial, equipos industriales, sistemas de climatización y estructuras modulares. Nuestro equipo llega con las herramientas y el know-how necesario.',
           'Coordinamos la logística completa: recepción de materiales, montaje en sitio, pruebas de funcionamiento y entrega operativa. Todo con los más altos estándares de seguridad.'
         ]
+      },
+      {
+        icon: 'water_drop',
+        title: 'Fontanería',
+        details: [
+          'Sistemas hidráulicos completos para proyectos residenciales, comerciales e industriales. Instalación y reparación de tubería pluvial, sanitaria y redes de agua potable.',
+          'Diseñamos e instalamos sistemas de fontanería eficientes que garantizan presión y caudal óptimos. Trabajamos con materiales certificados y personal calificado.',
+          'Ofrecemos diagnóstico, mantenimiento y reparación de fugas, bombas hidroneumáticas, calentadores de agua y sistemas de drenaje con garantía de calidad.'
+        ]
+      },
+      {
+        icon: 'roofing',
+        title: 'Estructuras Metálicas',
+        details: [
+          'Diseño, fabricación y montaje de estructuras metálicas para naves industriales, galeras, techos, entrepisos y cubiertas de gran envergadura.',
+          'Utilizamos acero estructural certificado y procesos de soldadura que cumplen con las normas internacionales. Cada estructura se diseña para soportar las condiciones climáticas del Pacífico.',
+          'Brindamos desde pequeñas estructuras para cubiertas residenciales hasta grandes naves industriales, incluyendo escaleras, barandas, pasarelas y mezzanines.'
+        ]
       }
     ];
 
@@ -1267,9 +1548,9 @@
       const s = services[index];
       if (!s) return;
       titleEl.textContent = s.title;
-      let html = '<span class="material-symbols-outlined text-secondary text-5xl mb-unit-md block">' + s.icon + '</span>';
+      let html = '<span class="material-symbols-outlined text-[#ff741e] text-5xl mb-4 block">' + s.icon + '</span>';
       s.details.forEach(function(p) {
-        html += '<p class="font-body-md text-body-md text-on-surface-variant mb-unit-md leading-relaxed">' + p + '</p>';
+        html += '<p class="text-gray-600 leading-relaxed mb-4">' + p + '</p>';
       });
       contentEl.innerHTML = html;
       cta.href = '#contacto';
