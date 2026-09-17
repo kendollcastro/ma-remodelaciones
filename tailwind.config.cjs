@@ -1,23 +1,17 @@
 module.exports = {
-  content: ['./index.html'],
+  content: ['./index.html', './en.html'],
   theme: {
     extend: {
       colors: {
-        brandBlue: '#0736c2',
-        brandOrange: '#ff741e',
-        brandLight: '#fbf8ff',
-        brandDark: '#111827',
+        brandNavy: '#0a1d37',
+        brandNavyLight: '#152e52',
+        brandOrange: '#f25c05',
+        brandOrangeHover: '#d94f00',
+        brandMutedBg: '#fffaf5',
+        brandCardBg: '#f8fafc',
       },
       fontFamily: {
-        heading: ['Noto Serif', 'serif'],
-        body: ['Inter', 'sans-serif'],
-      },
-      borderRadius: {
-        DEFAULT: '0.75rem',
-        lg: '1rem',
-        xl: '1.25rem',
-        '2xl': '1.5rem',
-        full: '9999px',
+        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
       },
     },
   },
