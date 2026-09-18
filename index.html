@@ -86,6 +86,23 @@
         transition: none !important;
       }
     }
+    /* Hero slider */
+    .hero-slide { opacity: 0; visibility: hidden; transition: opacity 1.2s ease-in-out, visibility 1.2s; z-index: 1; }
+    .hero-slide.is-active { opacity: 1; visibility: visible; z-index: 10; }
+    .hero-slide-img { transform: scale(1.12); transition: transform 7s ease-out; will-change: transform; }
+    .hero-slide.is-active .hero-slide-img { transform: scale(1); }
+    .js .hero-item { opacity: 0; transform: translateY(26px); transition: opacity 0.75s cubic-bezier(0.22,1,0.36,1), transform 0.75s cubic-bezier(0.22,1,0.36,1); }
+    .js .hero-slide.is-active .hero-item { opacity: 1; transform: none; }
+    .js .hero-slide.is-active .hero-item:nth-child(1) { transition-delay: 0.15s; }
+    .js .hero-slide.is-active .hero-item:nth-child(2) { transition-delay: 0.3s; }
+    .js .hero-slide.is-active .hero-item:nth-child(3) { transition-delay: 0.45s; }
+    .js .hero-slide.is-active .hero-item:nth-child(4) { transition-delay: 0.6s; }
+    .hero-progress { transform: scaleX(0); transform-origin: left; }
+    @media (prefers-reduced-motion: reduce) {
+      .hero-slide, .hero-slide-img, .js .hero-item { transition: none !important; }
+      .hero-slide-img { transform: none !important; }
+      .js .hero-item { opacity: 1 !important; transform: none !important; }
+    }
   </style>
 <link rel="stylesheet" href="/src/style.css">
 <link rel="preload" as="image" href="/src/assets/hero-industrial.webp">
@@ -272,41 +289,137 @@
 <!-- BEGIN: HeroSection -->
 <section class="relative pt-8 pb-16 md:pt-12 md:pb-24 overflow-hidden bg-slate-50" data-purpose="hero-section" id="inicio">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="relative w-full rounded-3xl overflow-hidden bg-brandNavy shadow-2xl min-h-[560px] md:min-h-[640px] flex items-end">
-<img alt="MA Soluciones Integrales — Construcción industrial en Puntarenas" class="absolute inset-0 w-full h-full object-cover object-center opacity-45 mix-blend-luminosity" fetchpriority="high" src="/src/assets/hero-industrial.webp" width="1600" height="900"/>
-<div class="absolute inset-0 bg-gradient-to-t from-brandNavy via-brandNavy/70 to-transparent"></div>
-<div class="absolute top-4 inset-x-0 flex justify-center select-none pointer-events-none opacity-20">
-<span class="text-huge-watermark font-black text-white tracking-widest uppercase">CONSTRUCCIÓN</span>
-</div>
-<div class="relative z-10 p-6 sm:p-10 md:p-14 max-w-3xl" data-reveal>
-<div class="inline-flex items-center gap-2 bg-brandOrange/20 border border-brandOrange/40 backdrop-blur-md px-3.5 py-1 rounded-full text-brandOrange text-xs font-bold uppercase tracking-wider mb-4">
+<div class="relative w-full rounded-3xl overflow-hidden bg-brandNavy shadow-2xl min-h-[560px] md:min-h-[640px]">
+<div class="absolute inset-0" id="heroSlider" role="region" aria-roledescription="carousel" aria-label="Proyectos destacados">
+<div class="hero-slide is-active absolute inset-0" role="group" aria-roledescription="slide" aria-label="1 de 4">
+<img alt="MA Soluciones Integrales — Construcción industrial en Puntarenas" class="hero-slide-img absolute inset-0 w-full h-full object-cover object-center opacity-60 mix-blend-luminosity" fetchpriority="high" src="/src/assets/hero-industrial.webp" width="1600" height="900"/>
+<div class="absolute inset-0 bg-gradient-to-t from-brandNavy via-brandNavy/45 to-brandNavy/5"></div>
+<div class="absolute inset-0 flex items-end p-6 sm:p-10 md:p-14 pb-24 md:pb-28">
+<div class="max-w-3xl">
+<div class="hero-item inline-flex items-center gap-2 bg-brandOrange/20 border border-brandOrange/40 backdrop-blur-md px-3.5 py-1 rounded-full text-brandOrange text-xs font-bold uppercase tracking-wider mb-4">
 <i class="fa-solid fa-medal"></i> Solidez &amp; Confianza desde 2009
-            </div>
-<h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white leading-tight tracking-tight">
-              Construyendo el futuro industrial del Pacífico.
-            </h1>
-<p class="mt-4 text-base sm:text-lg text-slate-300 font-normal leading-relaxed max-w-2xl">
-              Soluciones integrales en construcción, electricidad, remodelaciones y mantenimiento. Más de 15 años de experiencia transformando proyectos en realidades en toda la provincia del Pacífico.
-            </p>
-<div class="mt-8 flex flex-wrap items-center gap-4">
+</div>
+<h1 class="hero-item text-3xl sm:text-4xl md:text-6xl font-extrabold text-white leading-tight tracking-tight">
+Construyendo el futuro industrial del Pacífico.
+</h1>
+<p class="hero-item mt-4 text-base sm:text-lg text-slate-300 font-normal leading-relaxed max-w-2xl">
+Soluciones integrales en construcción, electricidad, remodelaciones y mantenimiento. Más de 15 años de experiencia transformando proyectos en realidades en toda la provincia del Pacífico.
+</p>
+<div class="hero-item mt-8 flex flex-wrap items-center gap-4">
 <a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full text-sm sm:text-base font-bold bg-brandOrange text-white hover:bg-brandOrangeHover shadow-lg hover:shadow-orange-500/30 transition-all duration-200" href="#cotizacion">
-                Solicitar Cotización Gratuita
-                <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+Solicitar Cotización Gratuita <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
 </a>
 <a class="inline-flex items-center justify-center px-6 py-3.5 rounded-full text-sm sm:text-base font-semibold bg-white text-brandNavy hover:bg-slate-100 shadow-md transition-all duration-200" href="https://wa.me/50684522328?text=Hola%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n" target="_blank" rel="noopener noreferrer">
-<i class="fa-brands fa-whatsapp text-brandOrange mr-2"></i>
-                WhatsApp Directo
-              </a>
+<i class="fa-brands fa-whatsapp text-brandOrange mr-2"></i> WhatsApp Directo
+</a>
 </div>
+</div>
+</div>
+</div>
+<div class="hero-slide absolute inset-0" role="group" aria-roledescription="slide" aria-label="2 de 4">
+<img alt="Construcción civil en ejecución — Edificio comercial" class="hero-slide-img absolute inset-0 w-full h-full object-cover object-center opacity-60 mix-blend-luminosity" src="/src/assets/obra_3.webp" loading="lazy" decoding="async" width="1600" height="900"/>
+<div class="absolute inset-0 bg-gradient-to-t from-brandNavy via-brandNavy/45 to-brandNavy/5"></div>
+<div class="absolute inset-0 flex items-end p-6 sm:p-10 md:p-14 pb-24 md:pb-28">
+<div class="max-w-3xl">
+<div class="hero-item inline-flex items-center gap-2 bg-brandOrange/20 border border-brandOrange/40 backdrop-blur-md px-3.5 py-1 rounded-full text-brandOrange text-xs font-bold uppercase tracking-wider mb-4">
+<i class="fa-solid fa-building"></i> Construcción General Llave en Mano
+</div>
+<h2 class="hero-item text-3xl sm:text-4xl md:text-6xl font-extrabold text-white leading-tight tracking-tight">
+Del plano a la obra terminada, en tiempo y forma.
+</h2>
+<p class="hero-item mt-4 text-base sm:text-lg text-slate-300 font-normal leading-relaxed max-w-2xl">
+Desarrollo civil completo: desde obra gris hasta acabados finos. Plazas comerciales, residenciales de lujo y naves industriales, siempre con calidad certificada.
+</p>
+<div class="hero-item mt-8 flex flex-wrap items-center gap-4">
+<a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full text-sm sm:text-base font-bold bg-brandOrange text-white hover:bg-brandOrangeHover shadow-lg hover:shadow-orange-500/30 transition-all duration-200" href="#soluciones">
+Explorar Servicios <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+</a>
+<a class="inline-flex items-center justify-center px-6 py-3.5 rounded-full text-sm sm:text-base font-semibold bg-white text-brandNavy hover:bg-slate-100 shadow-md transition-all duration-200" href="#galeria">
+Ver Proyectos
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="hero-slide absolute inset-0" role="group" aria-roledescription="slide" aria-label="3 de 4">
+<img alt="Remodelación de interiores con acabados premium" class="hero-slide-img absolute inset-0 w-full h-full object-cover object-center opacity-60 mix-blend-luminosity" src="/src/assets/obra_5.webp" loading="lazy" decoding="async" width="1600" height="900"/>
+<div class="absolute inset-0 bg-gradient-to-t from-brandNavy via-brandNavy/45 to-brandNavy/5"></div>
+<div class="absolute inset-0 flex items-end p-6 sm:p-10 md:p-14 pb-24 md:pb-28">
+<div class="max-w-3xl">
+<div class="hero-item inline-flex items-center gap-2 bg-brandOrange/20 border border-brandOrange/40 backdrop-blur-md px-3.5 py-1 rounded-full text-brandOrange text-xs font-bold uppercase tracking-wider mb-4">
+<i class="fa-solid fa-paint-roller"></i> Remodelación &amp; Diseño de Espacios
+</div>
+<h2 class="hero-item text-3xl sm:text-4xl md:text-6xl font-extrabold text-white leading-tight tracking-tight">
+Transformamos su espacio y elevamos su valor.
+</h2>
+<p class="hero-item mt-4 text-base sm:text-lg text-slate-300 font-normal leading-relaxed max-w-2xl">
+Remodelaciones comerciales y residenciales con acabados premium, drywall y pintura especializada, con la mínima interrupción para su operación.
+</p>
+<div class="hero-item mt-8 flex flex-wrap items-center gap-4">
+<a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full text-sm sm:text-base font-bold bg-brandOrange text-white hover:bg-brandOrangeHover shadow-lg hover:shadow-orange-500/30 transition-all duration-200" href="#cotizacion">
+Solicitar Cotización <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+</a>
+<a class="inline-flex items-center justify-center px-6 py-3.5 rounded-full text-sm sm:text-base font-semibold bg-white text-brandNavy hover:bg-slate-100 shadow-md transition-all duration-200" href="https://wa.me/50684522328?text=Hola%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n" target="_blank" rel="noopener noreferrer">
+<i class="fa-brands fa-whatsapp text-brandOrange mr-2"></i> WhatsApp Directo
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="hero-slide absolute inset-0" role="group" aria-roledescription="slide" aria-label="4 de 4">
+<img alt="Instalación eléctrica — Tableros y cuarto de automatización" class="hero-slide-img absolute inset-0 w-full h-full object-cover object-center opacity-60 mix-blend-luminosity" src="/src/assets/obra_6.webp" loading="lazy" decoding="async" width="1600" height="900"/>
+<div class="absolute inset-0 bg-gradient-to-t from-brandNavy via-brandNavy/45 to-brandNavy/5"></div>
+<div class="absolute inset-0 flex items-end p-6 sm:p-10 md:p-14 pb-24 md:pb-28">
+<div class="max-w-3xl">
+<div class="hero-item inline-flex items-center gap-2 bg-brandOrange/20 border border-brandOrange/40 backdrop-blur-md px-3.5 py-1 rounded-full text-brandOrange text-xs font-bold uppercase tracking-wider mb-4">
+<i class="fa-solid fa-bolt"></i> Electricidad Certificada
+</div>
+<h2 class="hero-item text-3xl sm:text-4xl md:text-6xl font-extrabold text-white leading-tight tracking-tight">
+Instalaciones eléctricas seguras e inteligentes.
+</h2>
+<p class="hero-item mt-4 text-base sm:text-lg text-slate-300 font-normal leading-relaxed max-w-2xl">
+Acometidas industriales, cuartos de automatización, cableado estructurado y paneles inteligentes, a cargo de electricistas certificados.
+</p>
+<div class="hero-item mt-8 flex flex-wrap items-center gap-4">
+<a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full text-sm sm:text-base font-bold bg-brandOrange text-white hover:bg-brandOrangeHover shadow-lg hover:shadow-orange-500/30 transition-all duration-200" href="#soluciones">
+Ver Servicios <i class="fa-solid fa-arrow-right ml-2 text-xs"></i>
+</a>
+<a class="inline-flex items-center justify-center px-6 py-3.5 rounded-full text-sm sm:text-base font-semibold bg-white text-brandNavy hover:bg-slate-100 shadow-md transition-all duration-200" href="#cotizacion">
+Cotizar Ahora
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="absolute top-4 inset-x-0 z-20 flex justify-center select-none pointer-events-none opacity-20">
+<span class="text-huge-watermark font-black text-white tracking-widest uppercase">CONSTRUCCIÓN</span>
 </div>
 <div class="hidden lg:flex absolute top-10 right-10 z-20 items-center gap-3 bg-white/10 backdrop-blur-md border border-white/20 px-4 py-2.5 rounded-2xl text-white">
 <div class="w-10 h-10 rounded-xl bg-brandOrange flex items-center justify-center text-white font-bold text-lg">
-              15+
-            </div>
+15+
+</div>
 <div class="text-xs">
 <p class="font-bold leading-none text-white">Años de Trayectoria</p>
 <p class="text-slate-300 text-[11px] mt-0.5">En Proyectos de Alto Nivel</p>
 </div>
+</div>
+<div class="absolute bottom-5 inset-x-0 z-30 flex items-center justify-center gap-3 px-4">
+<button type="button" class="w-11 h-11 rounded-full bg-white/10 backdrop-blur-md border border-white/25 text-white flex items-center justify-center hover:bg-brandOrange hover:border-brandOrange transition-colors" id="heroPrev" aria-label="Anterior">
+<i class="fa-solid fa-chevron-left text-sm"></i>
+</button>
+<div class="flex items-center gap-2" id="heroDots">
+<button type="button" class="w-7 bg-brandOrange h-2.5 rounded-full transition-all duration-300" aria-label="Ir a la diapositiva 1"></button>
+<button type="button" class="w-2.5 bg-white/30 h-2.5 rounded-full transition-all duration-300" aria-label="Ir a la diapositiva 2"></button>
+<button type="button" class="w-2.5 bg-white/30 h-2.5 rounded-full transition-all duration-300" aria-label="Ir a la diapositiva 3"></button>
+<button type="button" class="w-2.5 bg-white/30 h-2.5 rounded-full transition-all duration-300" aria-label="Ir a la diapositiva 4"></button>
+</div>
+<button type="button" class="w-11 h-11 rounded-full bg-white/10 backdrop-blur-md border border-white/25 text-white flex items-center justify-center hover:bg-brandOrange hover:border-brandOrange transition-colors" id="heroNext" aria-label="Siguiente">
+<i class="fa-solid fa-chevron-right text-sm"></i>
+</button>
+</div>
+<div class="absolute bottom-0 inset-x-0 h-1 bg-white/10 z-40">
+<div class="hero-progress h-full bg-brandOrange" id="heroProgress"></div>
 </div>
 </div>
 </div>
@@ -1554,6 +1667,76 @@ id="whatsappBtn" aria-label="Contactar por WhatsApp">
     document.addEventListener('keydown', function(e) {
       if (!panel.classList.contains('translate-x-full') && e.key === 'Escape') closeService();
     });
+  })();
+
+  // ===== Hero Slider =====
+  (function() {
+    var slider = document.getElementById('heroSlider');
+    if (!slider) return;
+    var slides = Array.prototype.slice.call(slider.querySelectorAll('.hero-slide'));
+    if (!slides.length) return;
+    var dots = document.getElementById('heroDots');
+    var prevBtn = document.getElementById('heroPrev');
+    var nextBtn = document.getElementById('heroNext');
+    var progress = document.getElementById('heroProgress');
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var index = 0;
+    var timer = null;
+    var DURATION = 7000;
+
+    function setActive(i) {
+      index = (i + slides.length) % slides.length;
+      slides.forEach(function(s, n) { s.classList.toggle('is-active', n === index); });
+      Array.prototype.forEach.call(dots.children, function(dot, n) {
+        dot.classList.toggle('w-7', n === index);
+        dot.classList.toggle('bg-brandOrange', n === index);
+        dot.classList.toggle('w-2.5', n !== index);
+        dot.classList.toggle('bg-white/30', n !== index);
+      });
+    }
+    function resetProgress() {
+      if (!progress) return;
+      progress.style.transition = 'none';
+      progress.style.transform = 'scaleX(0)';
+      void progress.offsetWidth;
+      progress.style.transition = 'transform ' + DURATION + 'ms linear';
+      progress.style.transform = 'scaleX(1)';
+    }
+    function start() {
+      if (reduce) return;
+      stop();
+      resetProgress();
+      timer = setTimeout(next, DURATION);
+    }
+    function stop() { if (timer) { clearTimeout(timer); timer = null; } }
+    function next() { setActive(index + 1); start(); }
+    function go(i) { setActive(i); start(); }
+
+    dots.addEventListener('click', function(e) {
+      var dot = e.target.closest('button');
+      if (!dot) return;
+      go(Array.prototype.indexOf.call(dots.children, dot));
+    });
+    prevBtn.addEventListener('click', function() { go(index - 1); });
+    nextBtn.addEventListener('click', function() { go(index + 1); });
+
+    var hero = slider.parentElement;
+    hero.addEventListener('mouseenter', stop);
+    hero.addEventListener('mouseleave', start);
+    hero.addEventListener('focusin', stop);
+    hero.addEventListener('focusout', start);
+
+    var touchX = null;
+    slider.addEventListener('touchstart', function(e) { touchX = e.touches[0].clientX; }, { passive: true });
+    slider.addEventListener('touchend', function(e) {
+      if (touchX === null) return;
+      var dx = e.changedTouches[0].clientX - touchX;
+      if (Math.abs(dx) > 48) { go(dx > 0 ? index - 1 : index + 1); }
+      touchX = null;
+    }, { passive: true });
+
+    setActive(0);
+    start();
   })();
 
   // ===== Scroll Reveal =====
