@@ -1,0 +1,24 @@
+{
+  "title": "Construction in Jacó, Costa Rica | MA Soluciones",
+  "description": "Construction and remodeling services in Jacó, Costa Rica: turnkey building, electrical, plumbing and maintenance for the Central Pacific's tourist capital.",
+  "ogTitle": "Construction Services in Jacó | MA Soluciones Integrales",
+  "ogImage": "/src/assets/obra_5.webp",
+  "h1": "Construction Services in Jacó and the Central Pacific",
+  "lead": "From your home or vacation rental to the shophouse of your business, we plan and build in Jacó with turnkey construction, certified trades and more than 300 projects completed.",
+  "kicker": "Area ",
+  "servicesOffered": ["construccion-general", "electricidad", "remodelacion", "mantenimiento", "fontaneria", "jardineria", "instalacion"],
+  "faqs": [
+    {
+      "q": "Do you work on hotels and vacation rentals in Jacó?",
+      "a": "Yes. We build and remodel hotels, condos and vacation rentals in Jacó, Herradura and Playa Hermosa, coordinating construction, electrical and plumbing with minimal disruption to your operation."
+    },
+    {
+      "q": "How do you handle construction permits in Jacó?",
+      "a": "We manage the paperwork with the Municipality of Garabito and other agencies, so your project has all permits and inspections in order without you having to wait in lines."
+    },
+    {
+      "q": "How fast can you visit a site in Jacó?",
+      "a": "Our base is in Jacó, so we arrange site visits quickly. Write to us on WhatsApp and we will reply within 48 hours with a scheduled visit and a detailed free quote."
+    }
+  ]
+}

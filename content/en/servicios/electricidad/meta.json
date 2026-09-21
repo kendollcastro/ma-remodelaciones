@@ -1,0 +1,25 @@
+{
+  "title": "Electrical Services in Jacó, Costa Rica | MA Soluciones",
+  "description": "Certified electrical services in Jacó and the Central Pacific: smart panels, industrial service drops, structured cabling and energy efficiency.",
+  "ogTitle": "Certified Electrical | MA Soluciones Integrales",
+  "h1": "Certified Electrical Services in Jacó and the Central Pacific",
+  "lead": "Installations, diagnostics and electrical modernization for homes, businesses and industry across the Central Pacific, executed by certified technicians with more than 300 projects backed since 2009.",
+  "tagline": "Electrical Code Compliance",
+  "heroAlt": "Certified MA Soluciones electrician working on a panel in Jacó, Costa Rica",
+  "zone": "jaco",
+  "relatedServices": ["fontaneria", "remodelacion", "instalacion"],
+  "faqs": [
+    {
+      "q": "When do I need a service drop upgrade or panel modernization?",
+      "a": "When your panel overheats, breakers trip frequently, or you plan to expand your electrical load. We modernize the panel and condition it for energy efficiency with certified materials, fully compliant with the Costa Rican Electrical Code."
+    },
+    {
+      "q": "What does preventive electrical maintenance include?",
+      "a": "Panel inspection, torque checks on connections, thermography of hot spots, verification of differential protection devices and load measurements. It is the most cost-effective way to avoid expensive downtime for businesses and hotels."
+    },
+    {
+      "q": "Do you work on both new builds and remodels?",
+      "a": "Yes. We participate from the electrical design stage on new construction to circuit redistribution in remodels, minimizing disruption to your operation with prior planning and certified personnel."
+    }
+  ]
+}

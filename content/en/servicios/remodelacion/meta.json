@@ -1,0 +1,25 @@
+{
+  "title": "Remodeling Services in Jacó, Costa Rica | MA Soluciones",
+  "description": "Commercial and residential remodeling in Jacó and the Central Pacific: drywall, facades, restoration and specialized paint with minimal disruption.",
+  "ogTitle": "Remodeling & Space Design | MA Soluciones Integrales",
+  "h1": "Remodeling in Jacó and the Central Pacific",
+  "lead": "We transform commercial and residential spaces with premium finishes, drywall divisions, exterior facades and restoration, planned to minimize disruption to your home or business.",
+  "tagline": "Premium Finishes",
+  "heroAlt": "Interior remodel with premium finishes executed by MA Soluciones in Jacó, Costa Rica",
+  "zone": "jaco",
+  "relatedServices": ["construccion-general", "electricidad", "instalacion"],
+  "faqs": [
+    {
+      "q": "Can we stay open while you remodel our business?",
+      "a": "In most cases, yes. We stage the work in phases, schedule around your operating hours and use dust-control and protection systems so your business keeps running during the remodel."
+    },
+    {
+      "q": "How long does a typical remodel take?",
+      "a": "A complete remodel of a home or commercial unit usually takes 2 to 6 weeks depending on scope. A minor renovation such as drywall or painting can take 1 to 2 days. We define a clear schedule before starting."
+    },
+    {
+      "q": "Do remodels include electrical and plumbing changes?",
+      "a": "Yes. We coordinate all trades in-house, including electrical redistribution, plumbing adjustments and finishes, so you deal with a single contractor and a single warranty."
+    }
+  ]
+}

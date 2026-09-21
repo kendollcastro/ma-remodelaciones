@@ -1,0 +1,24 @@
+{
+  "title": "Construction in Quepos, Costa Rica | MA Soluciones",
+  "description": "Construction, electrical and maintenance services in Quepos, near Manuel Antonio: turnkey building and remodeling across the Central Pacific.",
+  "ogTitle": "Construction Services in Quepos | MA Soluciones Integrales",
+  "ogImage": "/src/assets/obra_13.webp",
+  "h1": "Construction Services in Quepos and the Central Pacific",
+  "lead": "We build and remodel for Quepos and Manuel Antonio's hotels, homes and businesses, with scheduled site visits from our base in Jacó.",
+  "kicker": "Area ",
+  "servicesOffered": ["construccion-general", "electricidad", "remodelacion", "mantenimiento", "fontaneria"],
+  "faqs": [
+    {
+      "q": "How far is Quepos from your base in Jacó?",
+      "a": "Quepos is roughly 40 minutes south of Jacó. We schedule regular site visits to Quepos and Manuel Antonio, so we can inspect your site, quote your project and supervise the work without delays."
+    },
+    {
+      "q": "Do you serve hotels near Manuel Antonio?",
+      "a": "Yes. We build, remodel and maintain hotels, rental properties and restaurants in Quepos and Manuel Antonio, coordinating construction, electrical and plumbing to avoid downtime for your guests."
+    },
+    {
+      "q": "How fast do you reply to project inquiries in Quepos?",
+      "a": "We reply within 48 hours to every inquiry. You can reach us on WhatsApp or request a free quote through the form, and we will schedule your site visit from our base in Jacó."
+    }
+  ]
+}

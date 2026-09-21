@@ -1,0 +1,25 @@
+{
+  "title": "Instalaciones Eléctricas en Jacó, Costa Rica | MA Soluciones",
+  "description": "Electricidad certificada en Jacó y el Pacífico Central: tableros inteligentes, acometidas industriales, cableado estructurado y eficiencia.",
+  "ogTitle": "Electricidad Certificada | MA Soluciones Integrales",
+  "h1": "Electricidad Certificada en Jacó y el Pacífico Central",
+  "lead": "Instalaciones, diagnóstico y modernización eléctrica para viviendas, comercios e industria en el Pacífico Central, ejecutadas por personal certificado con más de 300 proyectos respaldados desde 2009.",
+  "tagline": "Cumplimiento de Código Eléctrico",
+  "heroAlt": "Instalador eléctrico certificado de MA Soluciones trabajando en un tablero en Jacó, Costa Rica",
+  "zone": "jaco",
+  "relatedServices": ["fontaneria", "remodelacion", "instalacion"],
+  "faqs": [
+    {
+      "q": "¿Cuándo necesito una acometida o una modernización de tablero?",
+      "a": "Cuando su tablero se sobrecalienta, las llaves saltan con frecuencia o piensa ampliar la carga eléctrica. Modernizamos el panel y lo acondicionamos para eficiencia energética, con materiales certificados y cumpliendo el Código Eléctrico de Costa Rica."
+    },
+    {
+      "q": "¿Qué incluye el mantenimiento eléctrico preventivo?",
+      "a": "Revisión de tableros, torque de conexiones, termografía de puntos calientes, verificación de protecciones diferenciales y mediciones de carga. Es la forma más económica de evitar paros costosos en comercios y hoteles."
+    },
+    {
+      "q": "¿Trabajan en obras nuevas y remodelaciones?",
+      "a": "Sí, participamos desde el diseño del plano eléctrico en obra nueva hasta la redistribución de circuitos en remodelaciones, minimizando la interrupción de su operación con planificación previa y personal certificado."
+    }
+  ]
+}

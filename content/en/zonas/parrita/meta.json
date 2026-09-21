@@ -1,0 +1,24 @@
+{
+  "title": "Construction in Parrita, Costa Rica | MA Soluciones",
+  "description": "Construction, landscaping and maintenance services in Parrita, Costa Rica: coastal, agricultural canton served from our base in Jacó.",
+  "ogTitle": "Construction Services in Parrita | MA Soluciones Integrales",
+  "ogImage": "/src/assets/obra_1.webp",
+  "h1": "Construction Services in Parrita and the Central Pacific",
+  "lead": "We build, repair and maintain properties across the agricultural-coastal canton of Parrita, with scheduled site visits and certified materials for the Central Pacific.",
+  "kicker": "Area ",
+  "servicesOffered": ["jardineria", "mantenimiento", "fontaneria", "instalacion", "construccion-general"],
+  "faqs": [
+    {
+      "q": "Do you serve rural and outlying areas of Parrita?",
+      "a": "Yes. We coordinate scheduled site visits from our base in Jacó so properties across the canton, including outlying areas, receive the same construction and maintenance service."
+    },
+    {
+      "q": "Can you help with irrigation and farmland-adjacent properties?",
+      "a": "We specialize in irrigation systems, automatic watering and landscaping for homes, plantations-adjacent and institutional properties, using water-efficient designs suited to Parrita's climate."
+    },
+    {
+      "q": "How fast is the response in Parrita?",
+      "a": "We reply to every inquiry within 48 hours via WhatsApp or the quote form, then schedule a visit to your site in Parrita from our base in Jacó."
+    }
+  ]
+}

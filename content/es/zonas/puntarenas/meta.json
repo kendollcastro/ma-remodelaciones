@@ -1,0 +1,24 @@
+{
+  "title": "Construcción en Puntarenas y su Puerto | MA Soluciones",
+  "description": "Constructora en el cantón de Puntarenas: comercio, industria y proyectos junto al mar y al puerto de Caldera, con más de 300 obras desde 2009.",
+  "ogTitle": "Construcción en Puntarenas y su puerto | MA Soluciones Integrales",
+  "ogImage": "/src/assets/obra_3.webp",
+  "h1": "Construcción Comercial e Industrial en Puntarenas y el Pacífico Central",
+  "lead": "Como capital provincial, Puntarenas concentra comercio, industria y actividad portuaria. Ejecutamos obras comerciales, industriales y residenciales con +300 proyectos desde 2009.",
+  "kicker": "Zona ",
+  "servicesOffered": ["construccion-general", "estructuras-metalicas", "instalacion", "electricidad", "mantenimiento"],
+  "faqs": [
+    {
+      "q": "¿Construyen naves y bodegas industriales en Puntarenas y Caldera?",
+      "a": "Sí. Ejecutamos naves industriales, bodegas y talleres con estructura metálica, losas industriales y cubiertas de gran luz, preparados para operaciones cercanas al puerto de Caldera."
+    },
+    {
+      "q": "¿Remodelan locales comerciales en el centro de Puntarenas?",
+      "a": "Sí. Adaptamos locales, restaurantes y espacios comerciales al nuevo uso, cuidando fachadas, accesibilidad y normativa municipal, con mínima interrupción para mantener el negocio operando."
+    },
+    {
+      "q": "¿Trabajan en viviendas de toda la provincia de Puntarenas?",
+      "a": "Sí. Además de comercio e industria, construimos y remodelamos viviendas en el cantón central y zonas aledañas, con materiales y técnicas adecuados al clima marino costero."
+    }
+  ]
+}

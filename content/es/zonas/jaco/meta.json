@@ -1,0 +1,24 @@
+{
+  "title": "Construcción y Remodelación en Jacó | MA Soluciones",
+  "description": "Empresa constructora en Jacó y el Pacífico Central: casas, locales comerciales, hoteles y alquileres vacacionales con más de 300 obras desde 2009.",
+  "ogTitle": "Construcción y Remodelación en Jacó | MA Soluciones Integrales",
+  "ogImage": "/src/assets/obra_5.webp",
+  "h1": "Servicios de Construcción en Jacó y el Pacífico Central",
+  "lead": "Atendemos proyectos residenciales, comerciales y hoteleros en Jacó desde nuestra base en el cantón de Garabito, con más de 300 obras entregadas y 15 años de experiencia en la costa pacífica.",
+  "kicker": "Zona ",
+  "servicesOffered": ["construccion-general", "remodelacion", "electricidad", "mantenimiento", "instalacion"],
+  "faqs": [
+    {
+      "q": "¿Cuánto tarda una construcción en Jacó y alrededores?",
+      "a": "Depende del alcance: una remodelación o acabado puede tomar entre 2 semanas y 2 meses, mientras que una casa o local nuevo suele tomar entre 3 y 8 meses. Antes de empezar le entregamos un cronograma detallado con fechas y entregas parciales."
+    },
+    {
+      "q": "¿Trabajan con condominios y alquileres vacacionales en Jacó?",
+      "a": "Sí. Acondicionamos villas, apartamentos y locales para alquiler vacacional, incluida la remodelación de baños y cocinas, pintura, impermeabilización de cubiertas y mantenimiento general para tener las propiedades listas para huéspedes todo el año."
+    },
+    {
+      "q": "¿Atienden obras urgentes o mantenimientos puntuales en Jacó?",
+      "a": "Sí, respondemos en menos de 48 horas. Por nuestra cercanía en el propio Jacó coordinamos visitas al sitio rápidamente, tanto para obras nuevas como para reparaciones urgentes de techos, humedad, electricidad o fontanería."
+    }
+  ]
+}

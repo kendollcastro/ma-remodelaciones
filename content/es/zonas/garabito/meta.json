@@ -1,0 +1,24 @@
+{
+  "title": "Construcción y Remodelación en Garabito | MA Soluciones",
+  "description": "Constructora en el cantón de Garabito: Jacó, Herradura y Playa Hermosa. Construcción, remodelación y mantenimiento con +300 obras desde 2009.",
+  "ogTitle": "Construcción y Remodelación en Garabito | MA Soluciones Integrales",
+  "ogImage": "/src/assets/obra_10.webp",
+  "h1": "Construcción y Remodelación en Garabito y el Pacífico Central",
+  "lead": "Cubrimos todo el cantón de Garabito: Jacó, Herradura y Playa Hermosa, con equipos con base en la zona, más de 300 obras entregadas y 15 años de experiencia en la costa pacífica.",
+  "kicker": "Zona ",
+  "servicesOffered": ["construccion-general", "remodelacion", "electricidad", "fontaneria", "jardineria"],
+  "faqs": [
+    {
+      "q": "¿Cubren todo el cantón de Garabito o solo Jacó?",
+      "a": "Cubrimos el cantón completo: Jacó, Herradura, Playa Hermosa y las zonas rurales del distrito. Por tener la base en la propia zona, atendemos obras en cualquier punto del cantón con visitas en menos de 48 horas."
+    },
+    {
+      "q": "¿Trabajan con hoteles y condominios en Herradura y Playa Hermosa?",
+      "a": "Sí. Ejecutamos construcción general y remodelaciones para hoteles, condominios y villas privadas, respetando horarios de operación y temporadas altas para no afectar la experiencia de los huéspedes."
+    },
+    {
+      "q": "¿Hacen obras en terrenos con pendiente o suelo arenoso?",
+      "a": "Sí. El cantón tiene desde lomas hasta litoral arenoso, y cada caso exige un estudio de suelo y fundaciones distintas. Nuestros ingenieros y constructores locales eligen la solución adecuada para cada lote."
+    }
+  ]
+}

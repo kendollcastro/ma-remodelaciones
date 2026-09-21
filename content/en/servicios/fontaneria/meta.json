@@ -1,0 +1,25 @@
+{
+  "title": "Plumbing Services in Jacó, Costa Rica | MA Soluciones",
+  "description": "Complete plumbing in Jacó and the Central Pacific: storm, sanitary and potable systems, leaks, hydro-pneumatic pumps, water heaters and drainage.",
+  "ogTitle": "Complete Plumbing Systems | MA Soluciones Integrales",
+  "h1": "Plumbing in Jacó and the Central Pacific",
+  "lead": "Complete hydraulic systems for new builds and remodels across the Central Pacific: storm, sanitary and potable water, leak detection, pumps, water heaters and drainage — all with warranty.",
+  "tagline": "Certified Systems",
+  "heroAlt": "Plumber from MA Soluciones installing a hydraulic system in Jacó, Costa Rica",
+  "zone": "jaco",
+  "relatedServices": ["mantenimiento", "instalacion", "electricidad"],
+  "faqs": [
+    {
+      "q": "How quickly can you fix a leak?",
+      "a": "For urgent leaks we prioritize emergency response across the Central Pacific. Write to us on WhatsApp and we will reply within 48 hours to schedule a technician or dispatch right away depending on severity."
+    },
+    {
+      "q": "Do you install hydro-pneumatic pumps and water heaters?",
+      "a": "Yes. We design and install hydro-pneumatic pressure systems and water heaters for homes and businesses, sized to your water demand and coordinated with certified electrical work when needed."
+    },
+    {
+      "q": "Is plumbing work covered by a warranty?",
+      "a": "Yes, all our work is guaranteed: from 3 months for repairs up to 24 months for major installations. We use certified materials and test every system before handover."
+    }
+  ]
+}

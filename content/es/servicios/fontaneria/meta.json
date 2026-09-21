@@ -1,0 +1,25 @@
+{
+  "title": "Fontanería en Jacó, Costa Rica | MA Soluciones",
+  "description": "Fontanería en Jacó y el Pacífico Central: agua potable, pluvial y sanitaria, bombas hidroneumáticas, calentadores, drenajes y reparación de fugas.",
+  "ogTitle": "Fontanería Profesional | MA Soluciones Integrales",
+  "h1": "Fontanería en Jacó y el Pacífico Central",
+  "lead": "Instalación y reparación de sistemas hidráulicos completos en el Pacífico Central: agua potable, pluvial y sanitaria, con diagnóstico de fugas, bombas, calentadores y drenajes respaldados por garantía.",
+  "tagline": "Sistemas Hidráulicos con Garantía",
+  "heroAlt": "Fontanero certificado de MA Soluciones trabajando en el sistema hidráulico de una propiedad en Jacó",
+  "zone": "jaco",
+  "relatedServices": ["electricidad", "mantenimiento", "remodelacion"],
+  "faqs": [
+    {
+      "q": "¿Cómo detectan las fugas de agua?",
+      "a": "Combinamos diagnóstico tradicional con pruebas en los puntos sospechosos: presión, revisión de tuberías expuestas y detección donde el acceso es difícil. Así ubicamos la fuga exacta antes de romper nada innecesariamente."
+    },
+    {
+      "q": "¿Instalan bombas hidroneumáticas y calentadores?",
+      "a": "Sí, instalamos y mantenemos bombas hidroneumáticas que garantizan presión constante en casas y hoteles, así como calentadores de agua, coordinando la parte eléctrica para un funcionamiento seguro y eficiente."
+    },
+    {
+      "q": "¿Qué garantía cubre los trabajos de fontanería?",
+      "a": "Todas nuestras reparaciones e instalaciones llevan garantía de 3 meses, y los trabajos mayores quedan cubiertos hasta 24 meses. Si algo de lo que instalamos falla dentro del plazo, respondemos sin costo adicional."
+    }
+  ]
+}

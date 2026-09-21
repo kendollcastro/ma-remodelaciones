@@ -1,0 +1,25 @@
+{
+  "title": "Instalaciones Especializadas en Jacó | MA Soluciones",
+  "description": "Instalación de mobiliario comercial, equipo industrial, HVAC y estructuras modulares en Jacó y el Pacífico Central, con logística y montaje completos.",
+  "ogTitle": "Instalación Especializada | MA Soluciones Integrales",
+  "h1": "Instalación Especializada en Jacó y el Pacífico Central",
+  "lead": "Mobiliario comercial, equipo industrial, aire acondicionado y estructuras modulares instalados con logística integral: recepción, montaje, pruebas y entrega operativa en el Pacífico Central.",
+  "tagline": "Logística y Montaje Completos",
+  "heroAlt": "Equipo de MA Soluciones realizando el montaje e instalación de equipos en una propiedad en Jacó",
+  "zone": "jaco",
+  "relatedServices": ["electricidad", "estructuras-metalicas", "remodelacion"],
+  "faqs": [
+    {
+      "q": "¿Qué incluye la logística de instalación?",
+      "a": "Todo el proceso llave en mano: coordinación de entrega del equipo, recepción en sitio, montaje, pruebas funcionales y entrega operativa. Usted solo recibe el resultado funcionando, con el desglose de cada etapa por escrito."
+    },
+    {
+      "q": "¿Instalan equipos de climas y HVAC para hoteles?",
+      "a": "Sí, instalamos unidades de aire acondicionado, sistemas de ventilación y equipos de refrigeración para hoteles, restaurantes y comercios, coordinando con electricidad y obra civil para que todo quede integrado y probado."
+    },
+    {
+      "q": "¿Trabajan con equipos del cliente o solo los que ustedes proveen?",
+      "a": "Con ambos. Coordinamos la recepción y montaje de equipos que usted ya adquirió, o le asesoramos en la compra a través de nuestros aliados, garantizando que la instalación cumpla con las especificaciones del fabricante."
+    }
+  ]
+}

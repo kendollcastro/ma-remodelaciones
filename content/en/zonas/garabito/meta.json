@@ -1,0 +1,24 @@
+{
+  "title": "Construction in Garabito, Costa Rica | MA Soluciones",
+  "description": "Construction services across Garabito, Costa Rica: building, remodeling and maintenance for Jacó, Herradura, Playa Hermosa and the whole canton.",
+  "ogTitle": "Construction Services in Garabito | MA Soluciones Integrales",
+  "ogImage": "/src/assets/obra_10.webp",
+  "h1": "Construction Services in Garabito and the Central Pacific",
+  "lead": "We build, remodel and maintain properties across the canton of Garabito — Jacó, Herradura and Playa Hermosa — with site visits scheduled from our local base.",
+  "kicker": "Area ",
+  "servicesOffered": ["construccion-general", "remodelacion", "electricidad", "jardineria", "estructuras-metalicas"],
+  "faqs": [
+    {
+      "q": "Do you serve all of Garabito, not just Jacó?",
+      "a": "Yes. We cover the whole canton, including Herradura, Playa Hermosa and surrounding beach communities, with scheduled site visits coordinated from our base in Jacó."
+    },
+    {
+      "q": "Do you help with municipal permits in Garabito?",
+      "a": "We manage the paperwork with the Municipality of Garabito, including construction permits, ICE inspections and CFIA approvals, so your project is fully compliant from start to finish."
+    },
+    {
+      "q": "What warranty do you offer in Garabito?",
+      "a": "All work is guaranteed: from 3 months for repairs to 24 months for major works. We use certified materials suited to the saline coastal air of the Central Pacific."
+    }
+  ]
+}

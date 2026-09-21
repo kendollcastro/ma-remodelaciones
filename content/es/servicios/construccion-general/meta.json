@@ -1,0 +1,29 @@
+{
+  "title": "Construcción General en Jacó, Costa Rica | MA Soluciones",
+  "description": "Empresa constructora en Jacó y el Pacífico Central: obra gris, acabados finos, plazas comerciales y naves industriales llave en mano desde 2009.",
+  "ogTitle": "Construcción General Llave en Mano | MA Soluciones Integrales",
+  "h1": "Construcción General en Jacó y el Pacífico Central",
+  "lead": "Desde la obra gris hasta los acabados finos, ejecutamos proyectos residenciales, comerciales e industriales con gestión llave en mano y más de 300 obras entregadas en Costa Rica.",
+  "tagline": "Gestión Llave en Mano",
+  "heroAlt": "Proyecto de construcción general ejecutado por MA Soluciones en el Pacífico Central",
+  "zone": "jaco",
+  "relatedServices": ["electricidad", "estructuras-metalicas", "remodelacion"],
+  "faqs": [
+    {
+      "q": "¿Cuánto tiempo tarda una construcción general en el Pacífico Central?",
+      "a": "Depende del alcance: una casa o local comercial suele tomar entre 3 y 8 meses, y una nave industrial entre 4 y 12 meses. Le entregamos un cronograma detallado antes de iniciar y lo cumplimos con supervisión permanente."
+    },
+    {
+      "q": "¿Incluyen la gestión de permisos de construcción en Costa Rica?",
+      "a": "Sí. Nos encargamos de la tramitología ante la Municipalidad de Garabito, el ICE y demás entidades, para que su proyecto cuente con todos los permisos y revisiones en regla sin que usted tenga que hacer filas."
+    },
+    {
+      "q": "¿Qué garantía tienen las obras de construcción?",
+      "a": "Todas nuestras obras incluyen garantía estructural y de acabados: desde 3 meses para reparaciones hasta 24 meses para obras mayores. Trabajamos con materiales certificados y cédula jurídica al día."
+    },
+    {
+      "q": "¿Trabajan tanto en residenciales como en negocios?",
+      "a": "Sí, ejecutamos casas de lujo, condominios, plazas comerciales, locales gastronómicos, bodegas y naves industriales en Jacó, Quepos, Puntarenas y todo el Pacífico Central, con el mismo estándar de calidad."
+    }
+  ]
+}

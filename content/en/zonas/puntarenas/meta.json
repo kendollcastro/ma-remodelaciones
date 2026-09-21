@@ -1,0 +1,24 @@
+{
+  "title": "Construction in Puntarenas, Costa Rica | MA Soluciones",
+  "description": "Construction, steel structures and installation services in Puntarenas, Costa Rica: commercial and industrial projects across the Central Pacific.",
+  "ogTitle": "Construction Services in Puntarenas | MA Soluciones Integrales",
+  "ogImage": "/src/assets/obra_3.webp",
+  "h1": "Construction Services in Puntarenas and the Central Pacific",
+  "lead": "We deliver commercial and industrial projects in the provincial capital of Puntarenas — warehouses, steel structures and installations — with scheduled visits from Jacó.",
+  "kicker": "Area ",
+  "servicesOffered": ["construccion-general", "estructuras-metalicas", "electricidad", "instalacion", "mantenimiento"],
+  "faqs": [
+    {
+      "q": "Do you build industrial warehouses in Puntarenas?",
+      "a": "Yes. We design, fabricate and assemble steel structures for warehouses, galeras and workshops in Puntarenas, and build them turnkey from foundations to roofing."
+    },
+    {
+      "q": "How do you coordinate work so far from Jacó?",
+      "a": "We maintain a regular schedule of site visits to Puntarenas and keep permanent supervision on active projects, so distance never affects quality or timelines."
+    },
+    {
+      "q": "What warranty do commercial projects include?",
+      "a": "All work is guaranteed from 3 months for repairs to 24 months for major works, with certified materials and structural steel suited to the coastal environment."
+    }
+  ]
+}

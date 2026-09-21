@@ -1,0 +1,24 @@
+{
+  "title": "Construcción y Remodelación en Quepos | MA Soluciones",
+  "description": "Constructora en Quepos, Manuel Antonio y el Pacífico Central: hoteles, restaurantes, negocios y viviendas con más de 300 obras desde 2009.",
+  "ogTitle": "Construcción en Quepos y Manuel Antonio | MA Soluciones Integrales",
+  "ogImage": "/src/assets/obra_13.webp",
+  "h1": "Construcción y Remodelación en Quepos y el Pacífico Central",
+  "lead": "Atendemos Quepos, Manuel Antonio y Aguirre con equipos del Pacífico Central: hotelería, comercio, viviendas y obras marino-costeras, con +300 proyectos desde 2009.",
+  "kicker": "Zona ",
+  "servicesOffered": ["construccion-general", "remodelacion", "estructuras-metalicas", "instalacion", "electricidad"],
+  "faqs": [
+    {
+      "q": "¿Construyen hoteles y restaurantes en Manuel Antonio?",
+      "a": "Sí. Tenemos experiencia en hotelería, gastronomía y comercio turístico: construimos y remodelamos instalaciones en zonas de laderas, con buena ventilación natural y materiales que resisten la humedad de la selva próxima a la playa."
+    },
+    {
+      "q": "¿Trabajan en Quepos y todo el cantón de Aguirre?",
+      "a": "Sí, cubrimos Quepos, Manuel Antonio y las comunidades del cantón. Nos desplazamos desde nuestra base en Jacó/Garabito con un tiempo de respuesta de menos de 48 horas para coordinar la visita al sitio."
+    },
+    {
+      "q": "¿Hacen obras industriales o portuarias en la zona de Quepos?",
+      "a": "Ejecutamos bodegas, talleres, muelles menores y estructuras metálicas para operaciones marino-costero y agroindustriales de la zona, con ingeniería y materiales certificados."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Estructuras Metálicas en Jacó, Costa Rica | MA Soluciones",
+  "description": "Estructuras de acero en Jacó y el Pacífico Central: naves industriales, galeras, techos, entrepisos y cerchas de gran luz con soldadura certificada.",
+  "ogTitle": "Estructuras de Acero | MA Soluciones Integrales",
+  "h1": "Estructuras Metálicas en Jacó y el Pacífico Central",
+  "lead": "Diseñamos, fabricamos y montamos estructuras de acero para naves industriales, galeras, techos, entrepisos y cerchas de gran luz, con acero certificado y soldadura según estándares internacionales.",
+  "tagline": "Acero Certificado y Soldadura Internacional",
+  "heroAlt": "Estructura metálica de acero fabricada y ensamblada por MA Soluciones en un proyecto en el Pacífico Central",
+  "zone": "jaco",
+  "relatedServices": ["construccion-general", "electricidad", "instalacion"],
+  "faqs": [
+    {
+      "q": "¿Qué tipos de estructuras metálicas fabrican?",
+      "a": "Naves industriales, galeras, cubiertas y techos, entrepisos, mezzanines, cerchas de gran luz para parqueos y bodegas, además de escaleras, barandas, pasarelas y pasillos de mantenimiento."
+    },
+    {
+      "q": "¿Qué norma de soldadura utilizan?",
+      "a": "Nuestros soldadores trabajan bajo estándares internacionales con inspección visual y control de calidad en cada cordón, y usamos acero estructural certificado, esencial para soportar el clima húmedo y salino del Pacífico."
+    },
+    {
+      "q": "¿Hacen el diseño o solo la fabricación?",
+      "a": "Realizamos el ciclo completo: diseño estructural con memoria de cálculo, fabricación en taller y montaje en sitio. También ejecutamos solo una etapa, por ejemplo fabricación para otro constructor o contratista general."
+    }
+  ]
+}

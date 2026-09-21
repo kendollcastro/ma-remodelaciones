@@ -1,0 +1,25 @@
+{
+  "title": "Jardinería y Riego en Jacó, Costa Rica | MA Soluciones",
+  "description": "Jardinería y riego en Jacó y el Pacífico Central: sistemas de riego automático, paisajismo para residencias y hoteles, poda y fertilización.",
+  "ogTitle": "Jardinería y Riego Inteligente | MA Soluciones Integrales",
+  "h1": "Jardinería y Riego en Jacó y el Pacífico Central",
+  "lead": "Diseño e instalación de sistemas de riego, paisajismo planificado y mantenimiento de jardines para residencias, hoteles y condominios en el Pacífico Central, con gestión inteligente del agua.",
+  "tagline": "Riego Inteligente y Paisajismo",
+  "heroAlt": "Jardines y sistema de riego automatizado diseñados por MA Soluciones en una propiedad en Jacó",
+  "zone": "jaco",
+  "relatedServices": ["mantenimiento", "instalacion", "remodelacion"],
+  "faqs": [
+    {
+      "q": "¿Cuánto puedo ahorrar con un sistema de riego automático?",
+      "a": "Un riego bien programado puede reducir el desperdicio de agua notablemente, porque riega solo lo necesario, en las horas correctas y con sensores según clima y tipo de suelo. Es la mejor inversión para jardines grandes de hoteles y condominios."
+    },
+    {
+      "q": "¿Mantienen jardines de hoteles e instituciones?",
+      "a": "Sí, conocemos la exigencia de la hotelería. Ofrecemos planes de mantenimiento integral con visitas programadas de poda, fertilización y control de plagas para que el paisaje se vea impecable sin que el equipo interno se preocupe."
+    },
+    {
+      "q": "¿Qué incluye el diseño de paisajismo?",
+      "a": "Levantamiento de la zona, propuesta de especies adaptadas al clima del Pacífico, distribución de áreas verdes, diseño del sistema de riego y plan de mantenimiento. Puede ser solo el diseño o el diseño con la obra completa."
+    }
+  ]
+}

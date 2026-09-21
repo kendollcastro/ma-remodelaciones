@@ -12,6 +12,18 @@ dist
 dist-ssr
 *.local
 
+# Páginas estáticas generadas por scripts/build-site.mjs (prebuild)
+/servicios/
+/zonas/
+/blog/
+/en/servicios/
+/en/zonas/
+/en/blog/
+
+# Imágenes de og:image copiadas a public/ por el prebuild
+/public/hero-industrial.webp
+/public/obra_*.webp
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

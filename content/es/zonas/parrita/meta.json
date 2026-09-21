@@ -1,0 +1,24 @@
+{
+  "title": "Construcción y Remodelación en Parrita | MA Soluciones",
+  "description": "Constructora en Parrita y el Pacífico Central: viviendas, bodegas y obras agrícolas con materiales resistentes al clima costero y +300 obras.",
+  "ogTitle": "Construcción en Parrita | MA Soluciones Integrales",
+  "ogImage": "/src/assets/obra_1.webp",
+  "h1": "Construcción y Remodelación en Parrita y el Pacífico Central",
+  "lead": "Entre Quepos y Jacó, Parrita es un cantón agrícola-costero con oportunidades para la construcción. Ejecutamos viviendas, bodegas y obras rurales con +300 proyectos desde 2009.",
+  "kicker": "Zona ",
+  "servicesOffered": ["construccion-general", "estructuras-metalicas", "mantenimiento", "instalacion", "jardineria"],
+  "faqs": [
+    {
+      "q": "¿Construyen bodegas y obras agrícolas en Parrita?",
+      "a": "Sí. Ejecutamos bodegas, galpones, casas de finca e instalaciones para la actividad agrícola costera, con estructura metálica, techos de gran luz y cimentaciones adecuadas al suelo de la zona."
+    },
+    {
+      "q": "¿Atienden proyectos residenciales en Parrita y alrededores?",
+      "a": "Sí, construimos y remodelamos viviendas para habitantes locales y para quienes buscan una casa cerca del mar sin el bullicio de Jacó, incluidas mejoras contra humedad, salitre y lluvias intensas."
+    },
+    {
+      "q": "¿Cómo se coordina una obra en Parrita si su base está en Jacó?",
+      "a": "Cubrimos el cantón con visitas coordinadas en menos de 48 horas. Parrita está a poco más de media hora de nuestra base, por lo que los equipos y materiales llegan sin dificultad y el seguimiento es permanente."
+    }
+  ]
+}
