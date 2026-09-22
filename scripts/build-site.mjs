@@ -276,7 +276,10 @@ function navbar(locale, texts) {
   return `<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm transition-all" id="navbar">
 <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
 <a class="flex items-center gap-3" data-purpose="site-logo" href="${base}">
-<img alt="MA Soluciones Integrales Logo" class="h-11 md:h-12 w-auto object-contain" src="/src/assets/main-ma-logo.png"/>
+<picture>
+<source srcset="/src/assets/main-ma-logo-1x.webp 1x, /src/assets/main-ma-logo-2x.webp 2x" type="image/webp"/>
+<img alt="MA Soluciones Integrales Logo" class="h-11 md:h-12 w-auto object-contain" src="/src/assets/main-ma-logo.png" width="230" height="98"/>
+</picture>
 </a>
 <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-700">
 ${desktop}
@@ -329,7 +332,10 @@ function footer(locale, texts) {
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-12 border-b border-white/10">
 <div class="md:col-span-4">
-<img alt="MA Soluciones Integrales Logo" class="h-12 w-auto object-contain mb-4 brightness-0 invert" src="/src/assets/main-ma-logo.png"/>
+<picture>
+<source srcset="/src/assets/main-ma-logo-1x.webp 1x, /src/assets/main-ma-logo-2x.webp 2x" type="image/webp"/>
+<img alt="MA Soluciones Integrales Logo" class="h-12 w-auto object-contain mb-4 brightness-0 invert" src="/src/assets/main-ma-logo.png" width="230" height="98"/>
+</picture>
 <p class="text-xs text-slate-300 leading-relaxed max-w-sm">${f.about}</p>
 <div class="flex items-center space-x-3 mt-5">
 <a aria-label="${esc(f.whatsapp)}" class="w-8 h-8 rounded-full bg-white/10 hover:bg-brandOrange hover:text-white flex items-center justify-center text-slate-300 transition-colors text-xs" href="${FACTS.waPlain}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
