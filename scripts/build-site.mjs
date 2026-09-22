@@ -20,16 +20,16 @@ const TODAY = new Date().toISOString().slice(0, 10)
 const LASTMOD = '2026-09-21'
 
 const FACTS = {
-  years: '15+',
+  years: '16+',
   projects: '+300',
   satisfaction: '98%',
   allies: '+50',
-  founding: '2009',
+  founding: '2010',
   phoneDisplay: '+(506) 8452-2328',
   phoneTel: '+50684522328',
   wa: 'https://wa.me/50684522328?text=Hola%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n',
   waPlain: 'https://wa.me/50684522328',
-  email: 'robertmatarrita18@gmail.com',
+  email: 'grupomacrc@gmail.com',
   telRobert: '+50686649651',
 }
 
