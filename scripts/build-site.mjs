@@ -16,6 +16,8 @@ const ROOT = join(__dirname, '..')
 const CONTENT = join(ROOT, 'content')
 const SITE = 'https://www.grupoma.cr'
 
+const CSP = "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://*.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' data: https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: blob: https:; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://formspree.io https://maps.googleapis.com; frame-src 'self' https://www.googletagmanager.com https://www.google.com; object-src 'none'; base-uri 'self'; form-action 'self' https://formspree.io"
+
 const TODAY = new Date().toISOString().slice(0, 10)
 const LASTMOD = '2026-09-21'
 
@@ -729,11 +731,12 @@ function head(locale, meta, url, kind, alternate) {
   const text = L[locale]
   const og = meta.ogImage || (kind === 'service' ? SERVICE_CATALOG[locale][meta.slug].img : '/src/assets/hero-industrial.webp')
   const ogUrl = ogImageUrl(og, locale)
-  return `<!DOCTYPE html>
-<html class="scroll-smooth" lang="${locale}">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+return `<!DOCTYPE html>
+ <html class="scroll-smooth" lang="${locale}">
+ <head>
+ <meta charset="utf-8"/>
+ <meta http-equiv="Content-Security-Policy" content="${CSP}"/>
+ <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>${esc(meta.title)}</title>
 <meta name="description" content="${esc(meta.description)}" />
 <meta name="author" content="MA Soluciones Integrales" />
