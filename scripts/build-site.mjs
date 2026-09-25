@@ -288,7 +288,7 @@ ${desktop}
 </div>
 <div class="flex items-center space-x-3 sm:space-x-4">
 <a class="hidden sm:inline-flex items-center justify-center px-4 py-2 rounded-full text-xs font-bold border border-slate-300 text-slate-600 hover:border-brandOrange hover:text-brandOrange transition-colors" href="${switchHref}" rel="alternate" hreflang="${altLocale(locale)}">${texts.switchTitle}</a>
-<a class="hidden sm:inline-flex items-center justify-center px-6 py-2.5 rounded-full text-sm font-semibold bg-brandOrange text-white shadow-sm hover:bg-brandOrangeHover hover:shadow-md transition-all duration-200 active:scale-95" href="${base}#cotizacion">
+<a class="hidden sm:inline-flex items-center justify-center px-6 py-2.5 rounded-full text-sm font-semibold bg-brandOrange text-brandNavy shadow-sm hover:bg-brandNavy hover:text-brandOrange hover:shadow-md transition-all duration-200 active:scale-95" href="${base}#cotizacion">
   ${t.quote}
 </a>
 <button aria-label="${texts.switchTitle} menú" class="md:hidden text-slate-700 hover:text-brandOrange p-2 focus:outline-none" id="menuBtn" type="button" aria-expanded="false">
@@ -308,7 +308,7 @@ ${desktop}
 ${mobile}
 <a class="text-lg font-bold text-brandNavy py-2.5 border-b border-slate-100 hover:text-brandOrange transition-colors" href="${base}#cotizacion">${t.contact}</a>
 <div class="flex items-center gap-3 mt-6">
-<a class="flex-1 text-center py-3 rounded-full bg-brandOrange text-white font-bold text-sm hover:bg-brandOrangeHover transition-colors" href="${base}#cotizacion">${t.quote}</a>
+<a class="flex-1 text-center py-3 rounded-full bg-brandOrange text-brandNavy font-bold text-sm hover:bg-brandNavy hover:text-brandOrange transition-colors" href="${base}#cotizacion">${t.quote}</a>
 <a class="flex-1 text-center py-3 rounded-full border border-slate-300 text-slate-600 font-bold text-sm hover:border-brandOrange hover:text-brandOrange transition-colors" href="${switchHref}" rel="alternate" hreflang="${altLocale(locale)}">${texts.switchLabel}</a>
 </div>
 </nav>
@@ -340,9 +340,9 @@ function footer(locale, texts) {
 </picture>
 <p class="text-xs text-slate-300 leading-relaxed max-w-sm">${f.about}</p>
 <div class="flex items-center space-x-3 mt-5">
-<a aria-label="${esc(f.whatsapp)}" class="w-8 h-8 rounded-full bg-white/10 hover:bg-brandOrange hover:text-white flex items-center justify-center text-slate-300 transition-colors text-xs" href="${FACTS.waPlain}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
-<a aria-label="${esc(f.llamar)}" class="w-8 h-8 rounded-full bg-white/10 hover:bg-brandOrange hover:text-white flex items-center justify-center text-slate-300 transition-colors text-xs" href="tel:${FACTS.phoneTel}"><i class="fa-solid fa-phone"></i></a>
-<a aria-label="${esc(f.correo)}" class="w-8 h-8 rounded-full bg-white/10 hover:bg-brandOrange hover:text-white flex items-center justify-center text-slate-300 transition-colors text-xs" href="mailto:${FACTS.email}"><i class="fa-solid fa-envelope"></i></a>
+<a aria-label="${esc(f.whatsapp)}" class="w-8 h-8 rounded-full bg-white/10 hover:bg-brandOrange hover:text-brandNavy flex items-center justify-center text-slate-300 transition-colors text-xs" href="${FACTS.waPlain}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+<a aria-label="${esc(f.llamar)}" class="w-8 h-8 rounded-full bg-white/10 hover:bg-brandOrange hover:text-brandNavy flex items-center justify-center text-slate-300 transition-colors text-xs" href="tel:${FACTS.phoneTel}"><i class="fa-solid fa-phone"></i></a>
+<a aria-label="${esc(f.correo)}" class="w-8 h-8 rounded-full bg-white/10 hover:bg-brandOrange hover:text-brandNavy flex items-center justify-center text-slate-300 transition-colors text-xs" href="mailto:${FACTS.email}"><i class="fa-solid fa-envelope"></i></a>
 </div>
 </div>
 <div class="md:col-span-2">
@@ -386,7 +386,7 @@ title="${esc(f.mapTitle)}"></iframe>
 </div>
 </div>
 <div class="relative py-8 select-none pointer-events-none text-center overflow-hidden">
-<span class="text-huge-watermark font-black text-white/5 uppercase tracking-wider leading-none block whitespace-nowrap opacity-65">MA SOLUCIONES</span>
+<span aria-hidden="true" class="text-huge-watermark font-black text-white/5 uppercase tracking-wider leading-none block whitespace-nowrap opacity-65"></span>
 </div>
 <div class="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-400 gap-4">
 <p>${f.copyright}</p>
@@ -573,7 +573,7 @@ ${meta.heroAlt ? `<img class="absolute inset-0 w-full h-full object-cover opacit
 <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20">
 ${breadcrumbBand(locale, L[locale], meta._crumbs)}
 <div class="mt-6 flex items-start gap-4">
-<span class="w-12 h-12 rounded-2xl bg-brandOrange flex items-center justify-center text-white text-xl flex-shrink-0"><i class="fa-solid ${sv.icon}"></i></span>
+<span class="w-12 h-12 rounded-2xl bg-brandOrange flex items-center justify-center text-brandNavy text-xl flex-shrink-0"><i class="fa-solid ${sv.icon}"></i></span>
 <div>
 <span class="text-xs uppercase font-bold tracking-widest text-brandOrange">${esc(meta.tagline || sv.tag)}</span>
 <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight tracking-tight mt-1">${esc(meta.h1)}</h1>
@@ -581,7 +581,7 @@ ${breadcrumbBand(locale, L[locale], meta._crumbs)}
 </div>
 <p class="mt-5 max-w-3xl text-base sm:text-lg text-slate-300 leading-relaxed">${esc(meta.lead)}</p>
 <div class="mt-7 flex flex-wrap items-center gap-4">
-<a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full text-sm font-bold bg-brandOrange text-white hover:bg-brandOrangeHover shadow-lg hover:shadow-orange-500/30 transition-all" href="${FACTS.wa}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp mr-2"></i> ${L[locale].cta.wa}</a>
+<a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full text-sm font-bold bg-brandOrange text-brandNavy hover:bg-brandNavy hover:text-brandOrange shadow-lg hover:shadow-orange-500/30 transition-all" href="${FACTS.wa}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp mr-2"></i> ${L[locale].cta.wa}</a>
 <a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full text-sm font-semibold bg-white text-brandNavy hover:bg-slate-100 shadow-md transition-all" href="${locale === 'es' ? `${SITE}/#cotizacion` : `${SITE}/en/#cotizacion`}">${L[locale].cta.quote} <i class="fa-solid fa-arrow-right ml-2 text-xs"></i></a>
 </div>
 </div>
@@ -597,7 +597,7 @@ ${breadcrumbBand(locale, L[locale], meta._crumbs)}
 <h1 class="mt-1 max-w-3xl text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight tracking-tight">${esc(meta.h1)}</h1>
 <p class="mt-5 max-w-3xl text-base sm:text-lg text-slate-300 leading-relaxed">${esc(meta.lead)}</p>
 <div class="mt-7 flex flex-wrap items-center gap-4">
-<a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full text-sm font-bold bg-brandOrange text-white hover:bg-brandOrangeHover shadow-lg hover:shadow-orange-500/30 transition-all" href="${FACTS.wa}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp mr-2"></i> ${L[locale].cta.wa}</a>
+<a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full text-sm font-bold bg-brandOrange text-brandNavy hover:bg-brandNavy hover:text-brandOrange shadow-lg hover:shadow-orange-500/30 transition-all" href="${FACTS.wa}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp mr-2"></i> ${L[locale].cta.wa}</a>
 <a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full text-sm font-semibold bg-white text-brandNavy hover:bg-slate-100 shadow-md transition-all" href="${locale === 'es' ? `${SITE}/#cotizacion` : `${SITE}/en/#cotizacion`}">${L[locale].cta.quote} <i class="fa-solid fa-arrow-right ml-2 text-xs"></i></a>
 </div>
 </div>
@@ -619,7 +619,7 @@ function ctaBand(locale) {
 <p class="text-sm text-slate-300 mt-3">${esc(t.text)}</p>
 </div>
 <div class="flex flex-col sm:flex-row items-center gap-4 flex-shrink-0">
-<a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full text-sm font-bold bg-brandOrange text-white hover:bg-brandOrangeHover shadow-lg transition-all" href="${FACTS.wa}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp mr-2"></i> ${esc(t.wa)}</a>
+<a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full text-sm font-bold bg-brandOrange text-brandNavy hover:bg-brandNavy hover:text-brandOrange shadow-lg transition-all" href="${FACTS.wa}" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp mr-2"></i> ${esc(t.wa)}</a>
 <a class="inline-flex items-center justify-center px-7 py-3.5 rounded-full text-sm font-semibold bg-white text-brandNavy hover:bg-slate-100 shadow-md transition-all" href="${root}">${esc(t.quote)} <i class="fa-solid fa-arrow-right ml-2 text-xs"></i></a>
 </div>
 </div>
@@ -661,7 +661,7 @@ function zonesNavBlock(locale, active) {
   const t = L[locale]
   const chips = SITE_PAGES[locale].zonas.map((slug) =>
     slug === active
-      ? `<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-brandOrange text-white text-sm font-bold" href="${SITE + routeFor(locale, 'zonas', slug)}"><i class="fa-solid fa-location-dot text-xs"></i> ${ZONE_CATALOG[locale][slug].name}</a>`
+      ? `<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-brandOrange text-brandNavy text-sm font-bold" href="${SITE + routeFor(locale, 'zonas', slug)}"><i class="fa-solid fa-location-dot text-xs"></i> ${ZONE_CATALOG[locale][slug].name}</a>`
       : `<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-slate-300 text-slate-600 hover:border-brandOrange hover:text-brandOrange text-sm font-semibold" href="${SITE + routeFor(locale, 'zonas', slug)}"><i class="fa-solid fa-location-dot text-xs text-brandOrange"></i> ${ZONE_CATALOG[locale][slug].name}</a>`
   ).join('\n')
   return `<section class="py-12 bg-white border-y border-slate-100">
@@ -776,10 +776,13 @@ ${hreflangLinks(locale, alternate.type, alternate.slug)}
       background-color: #fdfdfd;
       overflow-x: hidden;
     }
-    .text-huge-watermark {
+        .text-huge-watermark {
       font-size: clamp(3.5rem, 12vw, 11rem);
       line-height: 0.85;
       letter-spacing: -0.04em;
+    }
+    .text-huge-watermark::after {
+      content: "MA SOLUCIONES";
     }
     @font-face {
       font-family: 'Font Awesome 6 Free';
@@ -815,7 +818,7 @@ ${hreflangLinks(locale, alternate.type, alternate.slug)}
   </style>
 <link rel="stylesheet" href="/src/style.css">
 </head>
-<body class="antialiased selection:bg-brandOrange selection:text-white">
+<body class="antialiased selection:bg-brandOrange selection:text-brandNavy">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54LXDZ4P"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
