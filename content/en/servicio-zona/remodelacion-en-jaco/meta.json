@@ -1,0 +1,50 @@
+{
+  "service": "remodelacion",
+  "zone": "jaco",
+  "title": "Remodeling in Jacó: Homes & Condos | MA Soluciones",
+  "description": "Remodeling in Jacó for homes, condos and vacation rentals. Bathrooms, kitchens, floors and painting with minimal disruption. Quotes within 48 h.",
+  "h1": "Remodeling in Jacó, Costa Rica",
+  "tagline": "Homes · Condos · Vacation rentals",
+  "lead": "We remodel homes, condos and vacation villas in Jacó, upgrading kitchens, bathrooms, floors and façades with phased planning that reduces the impact on your routine or your guests.",
+  "heroAlt": "Interior remodeling in a Jacó condo, Costa Rica",
+  "whyKicker": "Remodeling on the coast",
+  "highlightsTitle": "Remodeling in Jacó, without the headaches",
+  "highlights": [
+    {
+      "icon": "fa-key",
+      "title": "Rental-ready results",
+      "text": "We renovate villas and apartments for guests: durable finishes, modern lighting and updated bathrooms that help reviews and occupancy."
+    },
+    {
+      "icon": "fa-clock",
+      "title": "Phased construction",
+      "text": "We plan by areas and schedules so the property stays habitable — or the condo keeps operating — during the remodel."
+    },
+    {
+      "icon": "fa-image",
+      "title": "Documented progress",
+      "text": "Weekly photo and video updates, with a single point of contact for owners living in San José or abroad."
+    }
+  ],
+  "zoneLinkText": "Jacó is the tourist and residential hub of the Central Pacific, between Garabito, Herradura and Playa Hermosa. We serve the area from our local base.",
+  "zoneLinkLabel": "See our Jacó service area",
+  "relatedServices": [
+    "electricidad",
+    "mantenimiento",
+    "fontaneria"
+  ],
+  "faqs": [
+    {
+      "q": "Can you remodel just one bathroom or kitchen?",
+      "a": "Yes. We take on partial projects: one bathroom, one kitchen, floors or painting. You can also start with one area and continue later."
+    },
+    {
+      "q": "How long does a full remodel take?",
+      "a": "It depends on scope, but a full home or condo remodel usually takes between 2 weeks and 2 months. We deliver a schedule before starting."
+    },
+    {
+      "q": "Do you work in condos with house rules?",
+      "a": "Yes. We coordinate with management on working hours, common areas and noise limits, following your building regulations."
+    }
+  ]
+}

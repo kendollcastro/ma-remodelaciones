@@ -1,0 +1,50 @@
+{
+  "service": "jardineria",
+  "zone": "jaco",
+  "title": "Jardinería en Jacó: Jardines, Césped y Riego | MA Soluciones",
+  "description": "Jardinería en Jacó: siembra de césped, poda, palmeras y sistemas de riego automático para villas, condominios y comercios. Cotización en 48 h.",
+  "h1": "Jardinería en Jacó, Costa Rica",
+  "tagline": "Diseño y mantenimiento de jardines",
+  "lead": "Diseñamos y mantenemos jardines en Jacó adaptados al clima tropical: césped, palmeras, setos y riego automático. Un jardín cuidado es la primera impresión de su villa, condominio o negocio frente a huéspedes y clientes.",
+  "heroAlt": "Jardinería y paisajismo en villa de Jacó, Costa Rica",
+  "whyKicker": "Jardines tropicales",
+  "highlightsTitle": "Jardines que lucen todo el año en Jacó",
+  "highlights": [
+    {
+      "icon": "fa-seedling",
+      "title": "Siembra y diseño",
+      "text": "Selección de especies resistentes al sol y la brisa de la costa, con distribución que reduce mantenimiento y consumo de agua."
+    },
+    {
+      "icon": "fa-droplet",
+      "title": "Riego automático",
+      "text": "Sistemas de riego programados que cuidan el jardín aunque la propiedad esté vacía o cerrada por temporada."
+    },
+    {
+      "icon": "fa-scissors",
+      "title": "Poda y limpieza",
+      "text": "Poda de setos, limpieza de terrenos y recogida de material vegetal lista para la temporada de huéspedes."
+    }
+  ],
+  "zoneLinkText": "Jacó es el centro turístico y residencial del Pacífico Central, entre Garabito, Herradura y Playa Hermosa. Atendemos la zona desde nuestra base local.",
+  "zoneLinkLabel": "Ver nuestra zona de Jacó",
+  "relatedServices": [
+    "mantenimiento",
+    "instalacion",
+    "construccion-general"
+  ],
+  "faqs": [
+    {
+      "q": "¿Mantienen jardines de villas de alquiler?",
+      "a": "Sí. Ofrecemos visitas programadas de corte, poda y limpieza, coordinadas entre llegadas de huéspedes."
+    },
+    {
+      "q": "¿Instalan riego automático?",
+      "a": "Sí. Diseñamos e instalamos sistemas de riego por sectores con programadores, ideales para propiedades que se usan por temporada."
+    },
+    {
+      "q": "¿Hacen limpieza de terrenos abandonados?",
+      "a": "Sí. Corta de maleza, recogida de escombros vegetales y dejado en regla para construcción o venta del terreno."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "service": "estructuras-metalicas",
+  "zone": "jaco",
+  "title": "Estructuras Metálicas en Jacó: Techos y Cobertizos | MA Soluciones",
+  "description": "Estructuras metálicas en Jacó: techos, marquesinas, cobertizos y refuerzos en acero galvanizado, diseñados para el clima costero. Cotización 48 h.",
+  "h1": "Estructuras Metálicas en Jacó, Costa Rica",
+  "tagline": "Acero certificado para la costa",
+  "lead": "Fabricamos e instalamos estructuras metálicas en Jacó: techos, marquesinas, cobertizos y ampliaciones en acero galvanizado, con diseño que considera vientos costeros, corrosión por salinidad y cargas de lluvia del Pacífico Central.",
+  "heroAlt": "Estructura metálica techada en Jacó, Costa Rica",
+  "whyKicker": "Acero junto al océano",
+  "highlightsTitle": "Estructuras que resisten el viento y la sal",
+  "highlights": [
+    {
+      "icon": "fa-industry",
+      "title": "Acero galvanizado",
+      "text": "Perfiles y láminas con protección anticorrosiva, esenciales a pocos metros del océano Pacífico."
+    },
+    {
+      "icon": "fa-wind",
+      "title": "Diseño para viento costero",
+      "text": "Cálculo de anclajes y separación de elementos considerando los vientos del Pacífico y las temporadas de lluvia."
+    },
+    {
+      "icon": "fa-warehouse",
+      "title": "Cobertizos y marquesinas",
+      "text": "Ampliaciones techadas para vehículos, bodegas y áreas de servicio de villas y negocios en Jacó."
+    }
+  ],
+  "zoneLinkText": "Jacó es el centro turístico y residencial del Pacífico Central, entre Garabito, Herradura y Playa Hermosa. Atendemos la zona desde nuestra base local.",
+  "zoneLinkLabel": "Ver nuestra zona de Jacó",
+  "relatedServices": [
+    "construccion-general",
+    "mantenimiento",
+    "remodelacion"
+  ],
+  "faqs": [
+    {
+      "q": "¿Diseñan y ejecutan la estructura?",
+      "a": "Sí. Nos encargamos del diseño estructural, fabricación e instalación, con planos y memoria de cálculo cuando el proyecto lo requiere."
+    },
+    {
+      "q": "¿Pueden reforzar un techo existente?",
+      "a": "Sí. Evaluamos la estructura actual y proponemos refuerzos o renovación de lámina según el estado y la necesidad."
+    },
+    {
+      "q": "¿Cuánto demora una marquesina o cobertizo?",
+      "a": "Depende del metraje, pero la mayoría de cobertizos residenciales se instalan en entre 1 y 3 semanas desde la aprobación del diseño."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "service": "electricidad",
+  "zone": "jaco",
+  "title": "Electrical Services in Jacó: Certified Installations | MA Soluciones",
+  "description": "Electrical services in Jacó: panels, circuits, lighting and CFIA certification for homes, villas and condos. Response within 48 hours.",
+  "h1": "Electrical Services in Jacó, Costa Rica",
+  "tagline": "CFIA certified · Residential & commercial",
+  "lead": "We perform electrical installations in Jacó for homes, villas and businesses: panels, circuits, interior and exterior lighting, and certifications. The coastal environment punishes connections, so we use materials and protections rated for humidity and salinity.",
+  "heroAlt": "Certified electrical installation in a Jacó villa, Costa Rica",
+  "whyKicker": "Electricity on the coast",
+  "highlightsTitle": "Safe installations meters from the ocean",
+  "highlights": [
+    {
+      "icon": "fa-bolt",
+      "title": "Certified work",
+      "text": "All work follows the Technical Electrical Regulation with CFIA certification and approved materials."
+    },
+    {
+      "icon": "fa-shield-halved",
+      "title": "Coast-proof protection",
+      "text": "Sealed connections protected against humidity and salinity — the number one enemy of electrical systems in Jacó."
+    },
+    {
+      "icon": "fa-lightbulb",
+      "title": "Lighting & remodeling",
+      "text": "We integrate light points, garden exteriors and panel upgrades inside your remodeling projects."
+    }
+  ],
+  "zoneLinkText": "Jacó is the tourist and residential hub of the Central Pacific, between Garabito, Herradura and Playa Hermosa. We serve the area from our local base.",
+  "zoneLinkLabel": "See our Jacó service area",
+  "relatedServices": [
+    "remodelacion",
+    "mantenimiento",
+    "instalacion"
+  ],
+  "faqs": [
+    {
+      "q": "Do you issue electrical certificates?",
+      "a": "Yes. We perform the installation or repair and handle the corresponding CFIA certification so everything is compliant."
+    },
+    {
+      "q": "Do you handle urgent electrical failures?",
+      "a": "Yes. From our local base we respond within 48 hours for outages, panel failures or damaged circuits in Jacó."
+    },
+    {
+      "q": "Can you add circuits during a remodel?",
+      "a": "Yes. It is the right time: we anticipate kitchen, A/C, pool or EV charger needs before walls and ceilings are closed."
+    }
+  ]
+}

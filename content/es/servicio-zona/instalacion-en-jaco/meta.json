@@ -1,0 +1,50 @@
+{
+  "service": "instalacion",
+  "zone": "jaco",
+  "title": "Instalación en Jacó: Montaje Especializado | MA Soluciones",
+  "description": "Servicio de instalación en Jacó: cocinas, baños, equipos, toldos y mobiliario. Montaje profesional para villas y comercios. Cotización en 48 h.",
+  "h1": "Instalación en Jacó, Costa Rica",
+  "tagline": "Montaje profesional y limpio",
+  "lead": "Instalamos cocinas, baños, equipos, persianas, toldos y mobiliario en Jacó, con el mismo cuidado que una obra mayor: alineación, nivelación y acabado impecable, ideal para villas de alquiler y locales comerciales que no pueden esperar.",
+  "heroAlt": "Instalación especializada en villa de Jacó, Costa Rica",
+  "whyKicker": "Montaje en la costa",
+  "highlightsTitle": "Instalaciones que quedan perfectas a la primera",
+  "highlights": [
+    {
+      "icon": "fa-toolbox",
+      "title": "Montaje integral",
+      "text": "De gabinetes y encimeras a equipos especiales: un solo punto de contacto para todo el montaje de su propiedad."
+    },
+    {
+      "icon": "fa-broom",
+      "title": "Trabajo limpio",
+      "text": "Protegemos pisos y muebles, y dejamos el espacio listo para usar el mismo día."
+    },
+    {
+      "icon": "fa-clock",
+      "title": "Coordinado con su agenda",
+      "text": "Programamos instalaciones en ventanas cortas, respetando horarios de condominios y operación de negocios."
+    }
+  ],
+  "zoneLinkText": "Jacó es el centro turístico y residencial del Pacífico Central, entre Garabito, Herradura y Playa Hermosa. Atendemos la zona desde nuestra base local.",
+  "zoneLinkLabel": "Ver nuestra zona de Jacó",
+  "relatedServices": [
+    "remodelacion",
+    "fontaneria",
+    "electricidad"
+  ],
+  "faqs": [
+    {
+      "q": "¿Instalan electrodomésticos y equipos?",
+      "a": "Sí. Instalamos cocinas, camas, persianas, toldos, lámparas y equipos que requieran anclaje o conexión especial."
+    },
+    {
+      "q": "¿Pueden instalar en un condominio con horarios?",
+      "a": "Sí. Coordinamos con administración el horario permitido y el uso del ascensor o áreas comunes para el traslado de materiales."
+    },
+    {
+      "q": "¿Cuánto demora una instalación típica?",
+      "a": "La mayoría de instalaciones se completan en un día. Los montajes más complejos, como cocinas completas, toman de 1 a 3 días."
+    }
+  ]
+}

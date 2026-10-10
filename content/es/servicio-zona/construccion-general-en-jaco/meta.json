@@ -1,0 +1,50 @@
+{
+  "service": "construccion-general",
+  "zone": "jaco",
+  "title": "Construcción en Jacó: Casas y Comerciales | MA Soluciones",
+  "description": "Constructora en Jacó con +300 obras y 16 años en el Pacífico Central. Casas, villas y locales comerciales con gestión CFIA y cotización en 48 h.",
+  "h1": "Construcción en Jacó, Costa Rica",
+  "tagline": "Residencial · Comercial · Turístico",
+  "lead": "Construimos casas, villas y locales comerciales en Jacó y sus alrededores, conociendo de primera mano el clima costero: humedad alta, lluvias intensas y aire salino que exigen buenos detalles desde la fundación hasta la techumbre.",
+  "heroAlt": "Obra de construcción residencial en Jacó, Pacífico Central de Costa Rica",
+  "whyKicker": "Condiciones de la costa",
+  "highlightsTitle": "Construir en Jacó requiere experiencia local",
+  "highlights": [
+    {
+      "icon": "fa-cloud-rain",
+      "title": "Materiales para clima costero",
+      "text": "Especificamos bloque, acero y acabados resistentes a la humedad y la salinidad del Pacífico, para que la obra envejezca bien sin costos sorpresa de mantenimiento."
+    },
+    {
+      "icon": "fa-clipboard-check",
+      "title": "Permisos y CFIA",
+      "text": "Gestionamos planos, permisos con la Municipalidad de Garabito y trámites ante el CFIA, para que su proyecto avance sin detenerse por papeles."
+    },
+    {
+      "icon": "fa-camera",
+      "title": "Seguimiento para dueños ausentes",
+      "text": "Muchos proyectos en Jacó son de propietarios que viven fuera del país. Entregamos fotos y videos del avance en cada etapa, con un solo punto de contacto."
+    }
+  ],
+  "zoneLinkText": "Jacó es el centro turístico y residencial del Pacífico Central, entre Garabito, Herradura y Playa Hermosa. Atendemos la zona desde nuestra base local.",
+  "zoneLinkLabel": "Ver nuestra zona de Jacó",
+  "relatedServices": [
+    "remodelacion",
+    "estructuras-metalicas",
+    "mantenimiento"
+  ],
+  "faqs": [
+    {
+      "q": "¿Cuánto tarda construir una casa en Jacó?",
+      "a": "Una casa residencial suele tomar entre 4 y 8 meses según metraje y acabados. Antes de empezar le entregamos un cronograma con hitos y fechas de entrega parcial."
+    },
+    {
+      "q": "¿Conocen las normas de construcción de Garabito?",
+      "a": "Sí. Trabajamos habitualmente en Jacó y el cantón de Garabito: conocemos los requisitos de la municipalidad, los suelos de la zona y las exigencias del CFIA para proyectos en la costa."
+    },
+    {
+      "q": "¿Pueden construir si estoy fuera de Costa Rica?",
+      "a": "Sí. Coordinamos la obra localmente y le reportamos el avance con fotos, videos y videollamadas. Un punto de contacto centraliza decisiones, compras y pagos."
+    }
+  ]
+}

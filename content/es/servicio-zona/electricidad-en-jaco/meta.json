@@ -1,0 +1,50 @@
+{
+  "service": "electricidad",
+  "zone": "jaco",
+  "title": "Electricidad en Jacó: Instalaciones Certificadas | MA Soluciones",
+  "description": "Servicios eléctricos en Jacó: tableros, circuitos, iluminación y certificación CFIA para casas, villas y condominios. Respuesta en menos de 48 h.",
+  "h1": "Electricidad en Jacó, Costa Rica",
+  "tagline": "Certificado CFIA · Residencial y comercial",
+  "lead": "Realizamos instalaciones eléctricas en Jacó para casas, villas y negocios: tableros, circuitos, iluminación interior y exterior, y certificaciones. El ambiente costero castiga las conexiones, por eso trabajamos con materiales y protecciones adecuados para la humedad y la salinidad.",
+  "heroAlt": "Instalación eléctrica certificada en villa de Jacó, Costa Rica",
+  "whyKicker": "Electricidad en la costa",
+  "highlightsTitle": "Instalaciones seguras a metros del océano",
+  "highlights": [
+    {
+      "icon": "fa-bolt",
+      "title": "Instalaciones certificadas",
+      "text": "Todos los trabajos se ejecutan bajo el Reglamento Técnico Eléctrico y con certificación del CFIA, con materiales aprobados."
+    },
+    {
+      "icon": "fa-shield-halved",
+      "title": "Protección contra la costa",
+      "text": "Conexiones selladas y protegidas contra humedad y salinidad, el principal enemigo de la electricidad en Jacó."
+    },
+    {
+      "icon": "fa-lightbulb",
+      "title": "Iluminación y remodelación",
+      "text": "Integramos puntos de luz, exteriores de jardín y actualización de tableros dentro de sus proyectos de remodelación."
+    }
+  ],
+  "zoneLinkText": "Jacó es el centro turístico y residencial del Pacífico Central, entre Garabito, Herradura y Playa Hermosa. Atendemos la zona desde nuestra base local.",
+  "zoneLinkLabel": "Ver nuestra zona de Jacó",
+  "relatedServices": [
+    "remodelacion",
+    "mantenimiento",
+    "instalacion"
+  ],
+  "faqs": [
+    {
+      "q": "¿Emiten certificado eléctrico?",
+      "a": "Sí. Ejecutamos la instalación o reparación y gestionamos la certificación correspondiente ante el CFIA para que todo quede en regla."
+    },
+    {
+      "q": "¿Atienden fallas eléctricas urgentes?",
+      "a": "Sí. Por nuestra base en la zona respondemos en menos de 48 horas para cortes, fallas de tablero o circuitos dañados en Jacó."
+    },
+    {
+      "q": "¿Pueden añadir circuitos durante una remodelación?",
+      "a": "Sí. Es el mejor momento: anticipamos necesidades de cocina, clima, piscina o cargadores de vehículo antes de cerrar paredes y techos."
+    }
+  ]
+}

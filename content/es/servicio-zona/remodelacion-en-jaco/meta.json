@@ -1,0 +1,50 @@
+{
+  "service": "remodelacion",
+  "zone": "jaco",
+  "title": "Remodelación en Jacó: Casas y Condominios | MA Soluciones",
+  "description": "Remodelación en Jacó para casas, condominios y alquileres vacacionales. Baños, cocinas, pisos y pintura con mínimo desorden. Cotización en 48 h.",
+  "h1": "Remodelación en Jacó, Costa Rica",
+  "tagline": "Casas · Condominios · Alquiler vacacional",
+  "lead": "Remodelamos casas, condominios y villas de alquiler vacacional en Jacó, modernizando cocinas, baños, pisos y fachadas con obras planificadas por fases para reducir el impacto en su rutina o en sus huéspedes.",
+  "heroAlt": "Remodelación de interiores en condominio de Jacó, Costa Rica",
+  "whyKicker": "Remodelar en la costa",
+  "highlightsTitle": "Remodelar en Jacó, sin dolores de cabeza",
+  "highlights": [
+    {
+      "icon": "fa-key",
+      "title": "Listo para alquiler vacacional",
+      "text": "Renovamos villas y apartamentos para huéspedes: acabados resistentes, iluminación actual y baños modernos que ayudan a mejorar reseñas y ocupación."
+    },
+    {
+      "icon": "fa-clock",
+      "title": "Obras por fases",
+      "text": "Planificamos por áreas y horarios para que la propiedad siga habitable o el condominio siga operando durante la remodelación."
+    },
+    {
+      "icon": "fa-image",
+      "title": "Avance documentado",
+      "text": "Fotos y videos semanales del avance, con un solo punto de contacto para propietarios que viven en San José o en el exterior."
+    }
+  ],
+  "zoneLinkText": "Jacó es el centro turístico y residencial del Pacífico Central, entre Garabito, Herradura y Playa Hermosa. Atendemos la zona desde nuestra base local.",
+  "zoneLinkLabel": "Ver nuestra zona de Jacó",
+  "relatedServices": [
+    "electricidad",
+    "mantenimiento",
+    "fontaneria"
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo remodelar solo un baño o una cocina?",
+      "a": "Sí. Aceptamos proyectos parciales: un baño, una cocina, pisos o pintura. También podemos empezar por un área y continuar con el resto en una segunda fase."
+    },
+    {
+      "q": "¿Cuánto demora una remodelación completa?",
+      "a": "Depende del alcance, pero una remodelación integral de casa o condominio suele tomar entre 2 semanas y 2 meses. Le entregamos un cronograma antes de iniciar."
+    },
+    {
+      "q": "¿Trabajan en condominios con reglamento?",
+      "a": "Sí. Coordinamos con la administración los horarios de obra, el uso de áreas comunes y los ruidos permitidos, para cumplir el reglamento de su unidad."
+    }
+  ]
+}

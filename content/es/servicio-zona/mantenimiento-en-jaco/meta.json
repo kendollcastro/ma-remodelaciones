@@ -1,0 +1,50 @@
+{
+  "service": "mantenimiento",
+  "zone": "jaco",
+  "title": "Mantenimiento en Jacó: Preventivo y Correctivo | MA Soluciones",
+  "description": "Mantenimiento de propiedades en Jacó: techos, humedad, pintura y reparaciones. Contratos para condominios y alquileres vacacionales. Respuesta 48 h.",
+  "h1": "Mantenimiento en Jacó, Costa Rica",
+  "tagline": "Preventivo · Correctivo · Contratos",
+  "lead": "Ofrecemos mantenimiento general en Jacó para casas, condominios y alquileres vacacionales: techos, filtraciones, pintura, electricidad y reparaciones. Un solo equipo para las tareas preventivas del año y para los arreglos urgentes de la temporada de lluvias.",
+  "heroAlt": "Mantenimiento de propiedad residencial en Jacó, Costa Rica",
+  "whyKicker": "Mantenimiento en el Pacífico",
+  "highlightsTitle": "Que su propiedad en Jacó esté siempre lista",
+  "highlights": [
+    {
+      "icon": "fa-calendar",
+      "title": "Contratos preventivos",
+      "text": "Planes mensuales o trimestrales de inspección y arreglo menor que evitan que una filtración pequeña se convierta en una reparación grande."
+    },
+    {
+      "icon": "fa-umbrella",
+      "title": "Temporada de lluvias lista",
+      "text": "Antes de mayo revisamos techos, canaletas y sellados; después de la temporada atendemos los daños de viento y agua con prioridad."
+    },
+    {
+      "icon": "fa-screwdriver-wrench",
+      "title": "Respuesta en 48 horas",
+      "text": "Por estar en la zona, coordinamos visitas en Jacó en menos de 48 horas para urgencias de humedad, electricidad o fontanería."
+    }
+  ],
+  "zoneLinkText": "Jacó es el centro turístico y residencial del Pacífico Central, entre Garabito, Herradura y Playa Hermosa. Atendemos la zona desde nuestra base local.",
+  "zoneLinkLabel": "Ver nuestra zona de Jacó",
+  "relatedServices": [
+    "jardineria",
+    "fontaneria",
+    "electricidad"
+  ],
+  "faqs": [
+    {
+      "q": "¿Ofrecen contratos de mantenimiento?",
+      "a": "Sí. Trabajamos con propietarios, administradoras de condominio y operadores de alquiler vacacional con planes preventivos personalizados."
+    },
+    {
+      "q": "¿Atienden emergencias después de tormentas?",
+      "a": "Sí. Después de eventos de lluvia o viento priorizamos visitas de evaluación y reparación de techos, filtraciones y daños eléctricos."
+    },
+    {
+      "q": "¿Mantienen propiedades de alquiler vacacional?",
+      "a": "Sí. Coordinamos arreglos y revisiones entre estancias de huéspedes, para que la propiedad quede lista sin afectar las reservas."
+    }
+  ]
+}

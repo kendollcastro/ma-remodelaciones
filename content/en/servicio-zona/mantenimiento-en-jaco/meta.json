@@ -1,0 +1,50 @@
+{
+  "service": "mantenimiento",
+  "zone": "jaco",
+  "title": "Maintenance in Jacó: Preventive & Corrective | MA Soluciones",
+  "description": "Property maintenance in Jacó: roofs, humidity, painting and repairs. Contracts for condos and vacation rentals. 48 h response.",
+  "h1": "Maintenance in Jacó, Costa Rica",
+  "tagline": "Preventive · Corrective · Contracts",
+  "lead": "General maintenance in Jacó for homes, condos and vacation rentals: roofs, leaks, painting, electrical and repairs. One team for yearly preventive tasks and for urgent fixes during the rainy season.",
+  "heroAlt": "Residential property maintenance in Jacó, Costa Rica",
+  "whyKicker": "Maintenance on the Pacific",
+  "highlightsTitle": "Your Jacó property, always ready",
+  "highlights": [
+    {
+      "icon": "fa-calendar",
+      "title": "Preventive contracts",
+      "text": "Monthly or quarterly inspection and minor-repair plans that stop a small leak from becoming a major repair."
+    },
+    {
+      "icon": "fa-umbrella",
+      "title": "Rainy-season ready",
+      "text": "Before May we inspect roofs, gutters and seals; after the season we prioritize wind and water damage repairs."
+    },
+    {
+      "icon": "fa-screwdriver-wrench",
+      "title": "48-hour response",
+      "text": "Being local, we schedule visits in Jacó within 48 hours for humidity, electrical or plumbing emergencies."
+    }
+  ],
+  "zoneLinkText": "Jacó is the tourist and residential hub of the Central Pacific, between Garabito, Herradura and Playa Hermosa. We serve the area from our local base.",
+  "zoneLinkLabel": "See our Jacó service area",
+  "relatedServices": [
+    "jardineria",
+    "fontaneria",
+    "electricidad"
+  ],
+  "faqs": [
+    {
+      "q": "Do you offer maintenance contracts?",
+      "a": "Yes. We work with owners, condo managers and vacation rental operators with personalized preventive plans."
+    },
+    {
+      "q": "Do you respond after storms?",
+      "a": "Yes. After rain or wind events we prioritize inspection visits and roof, leak and electrical damage repairs."
+    },
+    {
+      "q": "Do you maintain vacation rental properties?",
+      "a": "Yes. We schedule fixes and inspections between guest stays so the property is ready without affecting bookings."
+    }
+  ]
+}

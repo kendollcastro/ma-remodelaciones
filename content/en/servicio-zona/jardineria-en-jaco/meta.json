@@ -1,0 +1,50 @@
+{
+  "service": "jardineria",
+  "zone": "jaco",
+  "title": "Landscaping in Jacó: Gardens, Lawns & Irrigation | MA Soluciones",
+  "description": "Landscaping in Jacó: lawn installation, pruning, palms and automatic irrigation for villas, condos and businesses. 48 h quotes.",
+  "h1": "Landscaping in Jacó, Costa Rica",
+  "tagline": "Garden design and maintenance",
+  "lead": "We design and maintain gardens in Jacó adapted to the tropical climate: lawns, palms, hedges and automatic irrigation. A well-kept garden is the first impression of your villa, condo or business for guests and customers.",
+  "heroAlt": "Landscaping work at a Jacó villa, Costa Rica",
+  "whyKicker": "Tropical gardens",
+  "highlightsTitle": "Gardens that look great all year in Jacó",
+  "highlights": [
+    {
+      "icon": "fa-seedling",
+      "title": "Planting and design",
+      "text": "Species selected for coastal sun and breeze, arranged to reduce maintenance and water use."
+    },
+    {
+      "icon": "fa-droplet",
+      "title": "Automatic irrigation",
+      "text": "Programmed irrigation systems that care for the garden even when the property is empty or closed for the season."
+    },
+    {
+      "icon": "fa-scissors",
+      "title": "Pruning and cleanup",
+      "text": "Hedge pruning, lot cleanup and removal of green debris, ready for guest season."
+    }
+  ],
+  "zoneLinkText": "Jacó is the tourist and residential hub of the Central Pacific, between Garabito, Herradura and Playa Hermosa. We serve the area from our local base.",
+  "zoneLinkLabel": "See our Jacó service area",
+  "relatedServices": [
+    "mantenimiento",
+    "instalacion",
+    "construccion-general"
+  ],
+  "faqs": [
+    {
+      "q": "Do you maintain vacation villa gardens?",
+      "a": "Yes. We offer scheduled visits for mowing, pruning and cleanup, coordinated between guest arrivals."
+    },
+    {
+      "q": "Do you install automatic irrigation?",
+      "a": "Yes. We design and install zone-based irrigation with controllers, ideal for properties used seasonally."
+    },
+    {
+      "q": "Do you clear overgrown lots?",
+      "a": "Yes. We cut weeds, remove green debris and leave the lot clean for construction or sale."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "service": "instalacion",
+  "zone": "jaco",
+  "title": "Installation Services in Jacó | MA Soluciones",
+  "description": "Installation services in Jacó: kitchens, bathrooms, equipment, awnings and furniture. Professional assembly for villas and businesses. 48 h quotes.",
+  "h1": "Installation in Jacó, Costa Rica",
+  "tagline": "Professional, clean assembly",
+  "lead": "We install kitchens, bathroom fixtures, equipment, shutters, awnings and furniture in Jacó with the care of a full construction project: alignment, leveling and flawless finishes — ideal for rental villas and businesses that cannot wait.",
+  "heroAlt": "Specialized installation work in a Jacó villa, Costa Rica",
+  "whyKicker": "Assembly on the coast",
+  "highlightsTitle": "Installations that come out right the first time",
+  "highlights": [
+    {
+      "icon": "fa-toolbox",
+      "title": "Complete assembly",
+      "text": "From cabinets and countertops to special equipment: one point of contact for the full setup of your property."
+    },
+    {
+      "icon": "fa-broom",
+      "title": "Clean work",
+      "text": "We protect floors and furniture and leave the space ready to use the same day."
+    },
+    {
+      "icon": "fa-clock",
+      "title": "Around your schedule",
+      "text": "We book short installation windows, respecting condo hours and business operations."
+    }
+  ],
+  "zoneLinkText": "Jacó is the tourist and residential hub of the Central Pacific, between Garabito, Herradura and Playa Hermosa. We serve the area from our local base.",
+  "zoneLinkLabel": "See our Jacó service area",
+  "relatedServices": [
+    "remodelacion",
+    "fontaneria",
+    "electricidad"
+  ],
+  "faqs": [
+    {
+      "q": "Do you install appliances and equipment?",
+      "a": "Yes. We install stoves, beds, shutters, awnings, lamps and equipment requiring anchoring or special connections."
+    },
+    {
+      "q": "Can you work in a condo with restricted hours?",
+      "a": "Yes. We coordinate with management on permitted hours and elevator or common-area access for moving materials."
+    },
+    {
+      "q": "How long does a typical installation take?",
+      "a": "Most installations finish in one day. More complex jobs, like full kitchens, take 1 to 3 days."
+    }
+  ]
+}

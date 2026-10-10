@@ -1,0 +1,50 @@
+{
+  "service": "fontaneria",
+  "zone": "jaco",
+  "title": "Fontanería en Jacó: Fugas, Destaqueo y Redes | MA Soluciones",
+  "description": "Fontanería en Jacó: reparación de fugas, destaqueo de cañerías, calentadores y redes para condominios. Respuesta en menos de 48 horas.",
+  "h1": "Fontanería en Jacó, Costa Rica",
+  "tagline": "Reparación e instalación de redes",
+  "lead": "Atendemos fontanería en Jacó para casas, villas y condominios: fugas, destaqueo, cambio de calentadores, griferías y redes de agua. El clima costero acelera la corrosión, por eso usamos materiales aptos para humedad y salinidad.",
+  "heroAlt": "Trabajo de fontanería en propiedad de Jacó, Costa Rica",
+  "whyKicker": "Fontanería en la costa",
+  "highlightsTitle": "Redes de agua que resisten el clima de Jacó",
+  "highlights": [
+    {
+      "icon": "fa-faucet-drip",
+      "title": "Fugas y destaqueo",
+      "text": "Detección y reparación de fugas, destaqueo de cañerías y arreglo de drenajes con respuesta rápida."
+    },
+    {
+      "icon": "fa-temperature-high",
+      "title": "Calentadores y agua caliente",
+      "text": "Instalación y cambio de calentadores, puntos de agua caliente y soluciones de presión para villas y condominios."
+    },
+    {
+      "icon": "fa-building",
+      "title": "Redes para condominios",
+      "text": "Mantenimiento de redes comunes, tanques y bombas en conjunto con las administraciones de condominio."
+    }
+  ],
+  "zoneLinkText": "Jacó es el centro turístico y residencial del Pacífico Central, entre Garabito, Herradura y Playa Hermosa. Atendemos la zona desde nuestra base local.",
+  "zoneLinkLabel": "Ver nuestra zona de Jacó",
+  "relatedServices": [
+    "mantenimiento",
+    "instalacion",
+    "remodelacion"
+  ],
+  "faqs": [
+    {
+      "q": "¿Atienden fugas urgentes?",
+      "a": "Sí. Coordinamos visita en menos de 48 horas para fugas activas, y en urgencias graves priorizamos el mismo día según disponibilidad."
+    },
+    {
+      "q": "¿Pueden cambiar un calentador?",
+      "a": "Sí. Evaluamos la capacidad necesaria, cambiamos el equipo y verificamos conexiones y presión antes de entregar."
+    },
+    {
+      "q": "¿Dan garantía en sus trabajos de fontanería?",
+      "a": "Sí. Todos los trabajos incluyen garantía por escrito sobre mano de obra y materiales instalados."
+    }
+  ]
+}

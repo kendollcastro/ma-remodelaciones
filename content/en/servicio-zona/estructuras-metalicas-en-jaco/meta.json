@@ -1,0 +1,50 @@
+{
+  "service": "estructuras-metalicas",
+  "zone": "jaco",
+  "title": "Steel Structures in Jacó: Roofs & Carports | MA Soluciones",
+  "description": "Steel structures in Jacó: roofs, carports, canopies and reinforcements in galvanized steel, designed for coastal conditions. 48 h quotes.",
+  "h1": "Steel Structures in Jacó, Costa Rica",
+  "tagline": "Certified steel for the coast",
+  "lead": "We fabricate and install steel structures in Jacó: roofs, carports, canopies and extensions in galvanized steel, designed for coastal winds, salt corrosion and Central Pacific rain loads.",
+  "heroAlt": "Steel roof structure in Jacó, Costa Rica",
+  "whyKicker": "Steel by the ocean",
+  "highlightsTitle": "Structures that resist wind and salt",
+  "highlights": [
+    {
+      "icon": "fa-industry",
+      "title": "Galvanized steel",
+      "text": "Profiles and sheets with anti-corrosion protection — essential meters from the Pacific Ocean."
+    },
+    {
+      "icon": "fa-wind",
+      "title": "Coastal wind design",
+      "text": "Anchor and span calculations that account for Pacific winds and rainy seasons."
+    },
+    {
+      "icon": "fa-warehouse",
+      "title": "Carports and canopies",
+      "text": "Roofed extensions for vehicles, storage and service areas for villas and businesses in Jacó."
+    }
+  ],
+  "zoneLinkText": "Jacó is the tourist and residential hub of the Central Pacific, between Garabito, Herradura and Playa Hermosa. We serve the area from our local base.",
+  "zoneLinkLabel": "See our Jacó service area",
+  "relatedServices": [
+    "construccion-general",
+    "mantenimiento",
+    "remodelacion"
+  ],
+  "faqs": [
+    {
+      "q": "Do you design and build the structure?",
+      "a": "Yes. We handle structural design, fabrication and installation, with drawings and calculation reports when the project requires them."
+    },
+    {
+      "q": "Can you reinforce an existing roof?",
+      "a": "Yes. We assess the current structure and propose reinforcements or sheet replacement based on condition and needs."
+    },
+    {
+      "q": "How long does a carport take?",
+      "a": "It depends on size, but most residential carports are installed within 1 to 3 weeks after design approval."
+    }
+  ]
+}

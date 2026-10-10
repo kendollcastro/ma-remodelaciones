@@ -138,41 +138,41 @@ const L = {
 
 const SERVICE_CATALOG = {
   es: {
-    'construccion-general': { name: 'Construcción General', icon: 'fa-building', img: '/src/assets/obra_3.webp', tag: 'Gestión Llave en Mano' },
-    electricidad: { name: 'Electricidad', icon: 'fa-bolt', img: '/src/assets/obra_6.webp', tag: 'Certificado' },
-    remodelacion: { name: 'Remodelación', icon: 'fa-paint-roller', img: '/src/assets/obra_13.webp', tag: 'Acabados Premium' },
-    mantenimiento: { name: 'Mantenimiento', icon: 'fa-screwdriver-wrench', img: '/src/assets/obra_15.webp', tag: 'Inspección In situ' },
-    jardineria: { name: 'Jardinería', icon: 'fa-seedling', img: '/src/assets/obra_1.webp', tag: 'Riego Automático' },
-    instalacion: { name: 'Instalación', icon: 'fa-toolbox', img: '/src/assets/obra_5.webp', tag: 'Montaje Especializado' },
-    fontaneria: { name: 'Fontanería', icon: 'fa-faucet-drip', img: '/src/assets/obra_7.webp', tag: 'Sistemas Certificados' },
-    'estructuras-metalicas': { name: 'Estructuras Metálicas', icon: 'fa-industry', img: '/src/assets/obra_10.webp', tag: 'Acero Certificado' },
+    'construccion-general': { name: 'Construcción General', icon: 'fa-building', img: '/src/assets/construccion-general-01.webp', tag: 'Gestión Llave en Mano' },
+    electricidad: { name: 'Electricidad', icon: 'fa-bolt', img: '/src/assets/remodelacion-pintura-01.webp', tag: 'Certificado' },
+    remodelacion: { name: 'Remodelación', icon: 'fa-paint-roller', img: '/src/assets/remodelacion-pintura-02.webp', tag: 'Acabados Premium' },
+    mantenimiento: { name: 'Mantenimiento', icon: 'fa-screwdriver-wrench', img: '/src/assets/mantenimiento-techos-01.webp', tag: 'Inspección In situ' },
+    jardineria: { name: 'Jardinería', icon: 'fa-seedling', img: '/src/assets/jardineria-siembra-01.webp', tag: 'Riego Automático' },
+    instalacion: { name: 'Instalación', icon: 'fa-toolbox', img: '/src/assets/construccion-general-02.webp', tag: 'Montaje Especializado' },
+    fontaneria: { name: 'Fontanería', icon: 'fa-faucet-drip', img: '/src/assets/remodelacion-pintura-04.webp', tag: 'Sistemas Certificados' },
+    'estructuras-metalicas': { name: 'Estructuras Metálicas', icon: 'fa-industry', img: '/src/assets/mantenimiento-techos-02.webp', tag: 'Acero Certificado' },
   },
   en: {
-    'construccion-general': { name: 'General Construction', icon: 'fa-building', img: '/src/assets/obra_3.webp', tag: 'Turnkey Management' },
-    electricidad: { name: 'Electrical', icon: 'fa-bolt', img: '/src/assets/obra_6.webp', tag: 'Certified' },
-    remodelacion: { name: 'Remodeling', icon: 'fa-paint-roller', img: '/src/assets/obra_13.webp', tag: 'Premium Finishes' },
-    mantenimiento: { name: 'Maintenance', icon: 'fa-screwdriver-wrench', img: '/src/assets/obra_15.webp', tag: 'On-site Inspection' },
-    jardineria: { name: 'Landscaping', icon: 'fa-seedling', img: '/src/assets/obra_1.webp', tag: 'Automatic Irrigation' },
-    instalacion: { name: 'Installation', icon: 'fa-toolbox', img: '/src/assets/obra_5.webp', tag: 'Specialized Assembly' },
-    fontaneria: { name: 'Plumbing', icon: 'fa-faucet-drip', img: '/src/assets/obra_7.webp', tag: 'Certified Systems' },
-    'estructuras-metalicas': { name: 'Steel Structures', icon: 'fa-industry', img: '/src/assets/obra_10.webp', tag: 'Certified Steel' },
+    'construccion-general': { name: 'General Construction', icon: 'fa-building', img: '/src/assets/construccion-general-01.webp', tag: 'Turnkey Management' },
+    electricidad: { name: 'Electrical', icon: 'fa-bolt', img: '/src/assets/remodelacion-pintura-01.webp', tag: 'Certified' },
+    remodelacion: { name: 'Remodeling', icon: 'fa-paint-roller', img: '/src/assets/remodelacion-pintura-02.webp', tag: 'Premium Finishes' },
+    mantenimiento: { name: 'Maintenance', icon: 'fa-screwdriver-wrench', img: '/src/assets/mantenimiento-techos-01.webp', tag: 'On-site Inspection' },
+    jardineria: { name: 'Landscaping', icon: 'fa-seedling', img: '/src/assets/jardineria-siembra-01.webp', tag: 'Automatic Irrigation' },
+    instalacion: { name: 'Installation', icon: 'fa-toolbox', img: '/src/assets/construccion-general-02.webp', tag: 'Specialized Assembly' },
+    fontaneria: { name: 'Plumbing', icon: 'fa-faucet-drip', img: '/src/assets/remodelacion-pintura-04.webp', tag: 'Certified Systems' },
+    'estructuras-metalicas': { name: 'Steel Structures', icon: 'fa-industry', img: '/src/assets/mantenimiento-techos-02.webp', tag: 'Certified Steel' },
   },
 }
 
 const ZONE_CATALOG = {
   es: {
-    jaco: { name: 'Jacó', img: '/src/assets/obra_5.webp', short: 'Centro turístico y residencial del Pacífico Central.' },
-    garabito: { name: 'Garabito', img: '/src/assets/obra_10.webp', short: 'Cantón que incluye Jacó, Herradura y Playa Hermosa.' },
-    quepos: { name: 'Quepos', img: '/src/assets/obra_13.webp', short: 'Puerto y zona turística cerca de Manuel Antonio.' },
-    parrita: { name: 'Parrita', img: '/src/assets/obra_1.webp', short: 'Cantón agrícola y costero entre Quepos y Jacó.' },
-    puntarenas: { name: 'Puntarenas', img: '/src/assets/obra_3.webp', short: 'Capital provincial con proyecto comercial e industrial.' },
+    jaco: { name: 'Jacó', img: '/src/assets/mantenimiento-techos-01.webp', short: 'Centro turístico y residencial del Pacífico Central.' },
+    garabito: { name: 'Garabito', img: '/src/assets/remodelacion-pintura-03.webp', short: 'Cantón que incluye Jacó, Herradura y Playa Hermosa.' },
+    quepos: { name: 'Quepos', img: '/src/assets/mantenimiento-techos-03.webp', short: 'Puerto y zona turística cerca de Manuel Antonio.' },
+    parrita: { name: 'Parrita', img: '/src/assets/jardineria-siembra-02.webp', short: 'Cantón agrícola y costero entre Quepos y Jacó.' },
+    puntarenas: { name: 'Puntarenas', img: '/src/assets/construccion-movimiento-tierras-01.webp', short: 'Capital provincial con proyecto comercial e industrial.' },
   },
   en: {
-    jaco: { name: 'Jacó', img: '/src/assets/obra_5.webp', short: 'Tourist and residential hub of the Central Pacific.' },
-    garabito: { name: 'Garabito', img: '/src/assets/obra_10.webp', short: 'Canton including Jacó, Herradura and Playa Hermosa.' },
-    quepos: { name: 'Quepos', img: '/src/assets/obra_13.webp', short: 'Port town near Manuel Antonio.' },
-    parrita: { name: 'Parrita', img: '/src/assets/obra_1.webp', short: 'Coastal canton between Quepos and Jacó.' },
-    puntarenas: { name: 'Puntarenas', img: '/src/assets/obra_3.webp', short: 'Provincial capital with commercial and industrial projects.' },
+    jaco: { name: 'Jacó', img: '/src/assets/mantenimiento-techos-01.webp', short: 'Tourist and residential hub of the Central Pacific.' },
+    garabito: { name: 'Garabito', img: '/src/assets/remodelacion-pintura-03.webp', short: 'Canton including Jacó, Herradura and Playa Hermosa.' },
+    quepos: { name: 'Quepos', img: '/src/assets/jardineria-poda-01.webp', short: 'Port town near Manuel Antonio.' },
+    parrita: { name: 'Parrita', img: '/src/assets/remodelacion-piso-ceramico-01.webp', short: 'Coastal canton between Quepos and Jacó.' },
+    puntarenas: { name: 'Puntarenas', img: '/src/assets/mantenimiento-techos-03.webp', short: 'Provincial capital with commercial and industrial projects.' },
   },
 }
 
@@ -610,7 +610,7 @@ function ctaBand(locale) {
   return `<section class="py-14 bg-white">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="bg-brandNavy rounded-3xl relative overflow-hidden shadow-2xl">
-<img class="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-luminosity" src="/src/assets/obra_3.webp" alt="" loading="lazy" decoding="async" width="1600" height="400"/>
+<img class="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-luminosity" src="/src/assets/mantenimiento-techos-03.webp" alt="" loading="lazy" decoding="async" width="1600" height="400"/>
 <div class="absolute inset-0 bg-gradient-to-t from-brandNavy via-brandNavy/85 to-brandNavy/70"></div>
 <div class="relative z-10 px-6 py-12 sm:px-12 md:py-16 flex flex-col lg:flex-row items-center justify-between gap-8">
 <div class="max-w-2xl text-center lg:text-left">
@@ -867,6 +867,76 @@ ${ctaBand(locale)}
   return assemble(locale, meta, url, schemaNodes, bodyMain, { type: 'servicios', slug })
 }
 
+// ---------- landing servicio × zona ----------
+function buildServiceZonePage(locale, pageSlug) {
+  const dir = join(CONTENT, locale, 'servicio-zona', pageSlug)
+  if (!exists(dir)) return null
+  const meta = readJSON(join(dir, 'meta.json'))
+  const { service, zone } = meta
+  if (!SERVICE_CATALOG[locale][service] || !ZONE_CATALOG[locale][zone]) {
+    console.error(`[build-site] servicio-zona inválido: ${pageSlug}`)
+    return null
+  }
+  if (pageSlug !== `${service}-en-${zone}`) {
+    console.error(`[build-site] slug no coincide con service/zone: ${pageSlug}`)
+    return null
+  }
+  meta.slug = service
+  const url = absolute(locale, 'servicios', pageSlug)
+  const text = L[locale]
+  const base = locale === 'es' ? `${SITE}/` : `${SITE}/en/`
+  const zoneUrl = absolute(locale, 'zonas', zone)
+  meta._crumbs = [
+    { name: text.crumbHome, url: base },
+    { name: SERVICE_CATALOG[locale][service].name, url: absolute(locale, 'servicios', service) },
+    { name: meta.h1, url },
+  ]
+  const svcSchema = serviceSchema(meta, locale, url)
+  svcSchema.areaServed = [
+    { '@type': 'Place', name: ZONE_CATALOG[locale][zone].name },
+    { '@type': 'Place', name: 'Pacífico Central, Costa Rica' },
+  ]
+  const schemaNodes = [
+    svcSchema,
+    breadcrumbSchema(meta._crumbs.map((c) => ({ name: c.name, url: c.url }))),
+    faqSchema(meta.faqs || []),
+  ]
+  const highlights = (meta.highlights || []).slice(0, 3)
+  const highlightsHtml = highlights.length
+    ? `<section class="py-14 bg-slate-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-10">
+<span class="text-xs uppercase font-bold tracking-widest text-brandOrange">${esc(meta.whyKicker || '')}</span>
+<h2 class="text-2xl sm:text-3xl font-extrabold text-brandNavy tracking-tight mt-2">${esc(meta.highlightsTitle || '')}</h2>
+</div>
+<div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+${highlights.map((h) => `<div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+<span class="w-11 h-11 rounded-xl bg-brandNavy/5 flex items-center justify-center text-brandOrange"><i class="fa-solid ${esc(h.icon)}"></i></span>
+<h3 class="font-bold text-brandNavy mt-4">${esc(h.title)}</h3>
+<p class="text-sm text-slate-600 mt-2 leading-relaxed">${esc(h.text)}</p>
+</div>`).join('\n')}
+</div>
+</div>
+</section>`
+    : ''
+  const related = (meta.relatedServices || []).filter((s) => s !== service).slice(0, 3)
+  const zoneLinkHtml = `<section class="py-12 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<p class="text-slate-600 max-w-2xl mx-auto">${esc(meta.zoneLinkText || '')}</p>
+<a class="inline-flex items-center gap-2 mt-4 font-bold text-brandOrange hover:text-brandNavy transition-colors" href="${zoneUrl}">${esc(meta.zoneLinkLabel || '')} <i class="fa-solid fa-arrow-right text-xs"></i></a>
+</div>
+</section>`
+  const bodyMain = `<main>
+${pageHeader(locale, meta, 'service')}
+${highlightsHtml}
+${related.length ? relatedServicesBlock(locale, related) : ''}
+${zoneLinkHtml}
+${faqBlock(locale, meta.faqs || [])}
+${ctaBand(locale)}
+</main>`
+  return assemble(locale, meta, url, schemaNodes, bodyMain, { type: 'servicios', slug: pageSlug })
+}
+
 function buildZonaPage(locale, slug) {
   const dir = join(CONTENT, locale, 'zonas', slug)
   if (!exists(dir)) return null
@@ -972,7 +1042,7 @@ function buildBlogIndex(locale) {
     lead: locale === 'es'
       ? 'Información útil para su próximo proyecto de construcción o remodelación en Jacó y todo el Pacífico Central.'
       : 'Useful information for your next construction or remodeling project in Jacó and the Central Pacific.',
-    ogImage: '/src/assets/obra_1.webp',
+    ogImage: '/src/assets/remodelacion-piso-ceramico-01.webp',
     _crumbs: [
       { name: text.crumbHome, url: base },
       { name: text.crumbBlog, url },
@@ -1029,6 +1099,13 @@ function buildSitemap() {
   urls.push({ loc: `${SITE}/en/`, lastmod: LASTMOD, priority: '0.9', freq: 'monthly' })
   const add = (locale, type, slug, priority) => urls.push({ loc: absolute(locale, type, slug), lastmod: LASTMOD, priority, freq: 'monthly' })
   for (const slug of SITE_PAGES.es.servicios) { add('es', 'servicios', slug, '0.9'); add('en', 'servicios', slug, '0.8') }
+  const szDir = join(CONTENT, 'es', 'servicio-zona')
+  if (exists(szDir)) {
+    for (const slug of readdirSync(szDir)) {
+      if (slug.startsWith('.')) continue
+      add('es', 'servicios', slug, '0.8'); add('en', 'servicios', slug, '0.7')
+    }
+  }
   for (const slug of SITE_PAGES.es.zonas) { add('es', 'zonas', slug, '0.8'); add('en', 'zonas', slug, '0.7') }
   add('es', 'blog', 'index', '0.7'); add('en', 'blog', 'index', '0.6')
   for (const slug of blogSlugs()) { add('es', 'blog', slug, '0.6'); add('en', 'blog', slug, '0.5') }
@@ -1080,6 +1157,21 @@ for (const locale of locales) {
   }
 }
 
+// landing servicio × zona (ej. /servicios/remodelacion-en-jaco)
+for (const locale of locales) {
+  const baseDir = join(CONTENT, locale, 'servicio-zona')
+  if (!exists(baseDir)) continue
+  for (const dirSlug of readdirSync(baseDir)) {
+    if (dirSlug.startsWith('.')) continue
+    const html = buildServiceZonePage(locale, dirSlug)
+    if (!html) continue
+    const outPath = join(ROOT, fileFor(locale, 'servicios', dirSlug))
+    mkdirSync(dirname(outPath), { recursive: true })
+    writeFileSync(outPath, html, 'utf8')
+    built.push((locale === 'es' ? '' : '/en') + '/servicios/' + dirSlug)
+  }
+}
+
 // Solo assets referenciados vía meta.json / catálogos (og:image, schema image)
 function ensurePublicAssets() {
   const need = new Set(['/src/assets/hero-industrial.webp'])
@@ -1098,7 +1190,7 @@ function ensurePublicAssets() {
   for (const loc of locales) {
     for (const slug in SERVICE_CATALOG[loc]) need.add(SERVICE_CATALOG[loc][slug].img)
     for (const slug in ZONE_CATALOG[loc]) need.add(ZONE_CATALOG[loc][slug].img)
-    for (const type of ['servicios', 'zonas', 'blog']) pushMetaImages(loc, type)
+    for (const type of ['servicios', 'zonas', 'blog', 'servicio-zona']) pushMetaImages(loc, type)
   }
   for (const p of need) {
     if (!p || !p.startsWith('/src/')) continue

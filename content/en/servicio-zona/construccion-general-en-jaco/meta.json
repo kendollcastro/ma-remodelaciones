@@ -1,0 +1,50 @@
+{
+  "service": "construccion-general",
+  "zone": "jaco",
+  "title": "Construction in Jacó: Homes & Commercial | MA Soluciones",
+  "description": "Construction company in Jacó with 300+ projects and 16 years in the Central Pacific. Homes, villas and commercial buildings with CFIA management and 48h quotes.",
+  "h1": "Construction in Jacó, Costa Rica",
+  "tagline": "Residential · Commercial · Hospitality",
+  "lead": "We build homes, villas and commercial spaces in Jacó and nearby areas, with first-hand knowledge of the coastal climate: high humidity, heavy rain and salty air that demand solid details from the foundation to the roof.",
+  "heroAlt": "Residential construction project in Jacó, Central Pacific Costa Rica",
+  "whyKicker": "Coastal conditions",
+  "highlightsTitle": "Building in Jacó requires local experience",
+  "highlights": [
+    {
+      "icon": "fa-cloud-rain",
+      "title": "Materials for coastal weather",
+      "text": "We specify block, steel and finishes resistant to Pacific humidity and salinity, so the building ages well without surprise maintenance costs."
+    },
+    {
+      "icon": "fa-clipboard-check",
+      "title": "Permits and CFIA",
+      "text": "We handle drawings, permits with the Municipality of Garabito and CFIA filings, so your project never stops over paperwork."
+    },
+    {
+      "icon": "fa-camera",
+      "title": "Updates for absent owners",
+      "text": "Many Jacó projects belong to owners living abroad. We deliver photo and video progress reports at every stage, with a single point of contact."
+    }
+  ],
+  "zoneLinkText": "Jacó is the tourist and residential hub of the Central Pacific, between Garabito, Herradura and Playa Hermosa. We serve the area from our local base.",
+  "zoneLinkLabel": "See our Jacó service area",
+  "relatedServices": [
+    "remodelacion",
+    "estructuras-metalicas",
+    "mantenimiento"
+  ],
+  "faqs": [
+    {
+      "q": "How long does it take to build a house in Jacó?",
+      "a": "A residential home usually takes 4 to 8 months depending on size and finishes. Before starting, we deliver a schedule with milestones and partial delivery dates."
+    },
+    {
+      "q": "Do you know Garabito building regulations?",
+      "a": "Yes. We regularly work in Jacó and Garabito canton: we know the municipality requirements, local soils and CFIA rules for coastal projects."
+    },
+    {
+      "q": "Can you build if I am outside Costa Rica?",
+      "a": "Yes. We coordinate the site locally and report progress with photos, videos and video calls. One point of contact centralizes decisions, purchases and payments."
+    }
+  ]
+}

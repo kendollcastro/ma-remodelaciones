@@ -1,0 +1,50 @@
+{
+  "service": "fontaneria",
+  "zone": "jaco",
+  "title": "Plumbing in Jacó: Leaks, Drains & Water Systems | MA Soluciones",
+  "description": "Plumbing in Jacó: leak repair, drain clearing, water heaters and condo systems. Response within 48 hours.",
+  "h1": "Plumbing in Jacó, Costa Rica",
+  "tagline": "Repair and installation of water systems",
+  "lead": "Plumbing services in Jacó for homes, villas and condos: leaks, drain clearing, water heater replacement, fixtures and water lines. The coastal climate accelerates corrosion, so we use materials rated for humidity and salinity.",
+  "heroAlt": "Plumbing work at a property in Jacó, Costa Rica",
+  "whyKicker": "Plumbing on the coast",
+  "highlightsTitle": "Water systems built for Jacó’s climate",
+  "highlights": [
+    {
+      "icon": "fa-faucet-drip",
+      "title": "Leaks and drain clearing",
+      "text": "Leak detection and repair, drain clearing and sewer fixes with fast response."
+    },
+    {
+      "icon": "fa-temperature-high",
+      "title": "Water heaters",
+      "text": "Installation and replacement of heaters, hot-water points and pressure solutions for villas and condos."
+    },
+    {
+      "icon": "fa-building",
+      "title": "Condo systems",
+      "text": "Maintenance of common lines, tanks and pumps together with condo administrations."
+    }
+  ],
+  "zoneLinkText": "Jacó is the tourist and residential hub of the Central Pacific, between Garabito, Herradura and Playa Hermosa. We serve the area from our local base.",
+  "zoneLinkLabel": "See our Jacó service area",
+  "relatedServices": [
+    "mantenimiento",
+    "instalacion",
+    "remodelacion"
+  ],
+  "faqs": [
+    {
+      "q": "Do you handle emergency leaks?",
+      "a": "Yes. We schedule a visit within 48 hours for active leaks, and for serious emergencies we prioritize same-day when available."
+    },
+    {
+      "q": "Can you replace a water heater?",
+      "a": "Yes. We assess the required capacity, replace the unit and verify connections and pressure before handover."
+    },
+    {
+      "q": "Do you warranty plumbing work?",
+      "a": "Yes. All work includes a written warranty on labor and installed materials."
+    }
+  ]
+}
