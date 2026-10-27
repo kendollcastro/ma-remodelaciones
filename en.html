@@ -97,6 +97,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .accordion-content.open { max-height: 320px; }
     .accordion-btn .accordion-icon { transition: transform 0.45s cubic-bezier(0.22,1,0.36,1); }
     .accordion-btn.open .accordion-icon { transform: rotate(180deg); }
+    .about-dropdown > summary::-webkit-details-marker { display: none; }
+    .about-dropdown .about-dropdown-icon { transition: transform 0.3s ease; }
+    .about-dropdown[open] .about-dropdown-icon { transform: rotate(180deg); }
     /* Scroll reveal */
     .js [data-reveal] > * {
       opacity: 0;
@@ -797,57 +800,57 @@ Get a Quote
 </div>
 <!-- Column 3: Mission / Vision / Values -->
 <div class="lg:col-span-4 space-y-4">
-<div class="bg-brandOrange text-brandNavy rounded-2xl p-5 shadow-lg relative transition-transform hover:scale-[1.01]">
-<div class="flex items-center justify-between">
+<details class="about-dropdown bg-brandOrange text-brandNavy rounded-2xl p-5 shadow-lg relative transition-transform hover:scale-[1.01]" open>
+<summary class="flex items-center justify-between gap-3 cursor-pointer list-none rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brandNavy focus-visible:ring-offset-2 focus-visible:ring-offset-brandOrange">
 <h3 class="text-base font-bold flex items-center gap-2">
 <i class="fa-solid fa-bullseye text-sm"></i> Our Mission
-                </h3>
-<span class="w-6 h-6 rounded-full bg-white/25 flex items-center justify-center text-xs">
-<i class="fa-solid fa-chevron-up"></i>
+</h3>
+<span class="w-6 h-6 rounded-full bg-white/25 flex items-center justify-center text-xs flex-shrink-0">
+<i class="fa-solid fa-chevron-down about-dropdown-icon"></i>
 </span>
-</div>
+</summary>
 <p class="text-xs text-brandNavy mt-3 leading-relaxed font-medium">
-                To build and protect our clients' works to the most demanding standards, guaranteeing honesty in costs, extreme durability and aesthetic innovation.
-              </p>
-</div>
-<div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:border-brandOrange/40 transition-colors">
-<div class="flex items-center justify-between">
+To build and protect our clients' works to the most demanding standards, guaranteeing honesty in costs, extreme durability and aesthetic innovation.
+</p>
+</details>
+<details class="about-dropdown bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:border-brandOrange/40 transition-colors">
+<summary class="flex items-center justify-between gap-3 cursor-pointer list-none rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brandOrange focus-visible:ring-offset-2">
 <h3 class="text-base font-bold text-brandNavy flex items-center gap-2">
 <i class="fa-solid fa-eye text-brandOrange text-sm"></i> Our Vision
-                </h3>
-<span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs">
-<i class="fa-solid fa-chevron-down"></i>
+</h3>
+<span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs flex-shrink-0">
+<i class="fa-solid fa-chevron-down about-dropdown-icon"></i>
 </span>
-</div>
-<p class="text-xs text-slate-500 mt-2 leading-relaxed">
-                To establish ourselves as the reference construction firm on the Pacific for reliability, sustainable projects and uncompromising quality.
-              </p>
-</div>
-<div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:border-brandOrange/40 transition-colors">
-<div class="flex items-center justify-between">
+</summary>
+<p class="text-xs text-slate-500 mt-3 leading-relaxed">
+To establish ourselves as the reference construction firm on the Pacific for reliability, sustainable projects and uncompromising quality.
+</p>
+</details>
+<details class="about-dropdown bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:border-brandOrange/40 transition-colors">
+<summary class="flex items-center justify-between gap-3 cursor-pointer list-none rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brandOrange focus-visible:ring-offset-2">
 <h3 class="text-base font-bold text-brandNavy flex items-center gap-2">
 <i class="fa-solid fa-handshake-simple text-brandOrange text-sm"></i> Our Values
-                </h3>
-<span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs">
-<i class="fa-solid fa-chevron-down"></i>
+</h3>
+<span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs flex-shrink-0">
+<i class="fa-solid fa-chevron-down about-dropdown-icon"></i>
 </span>
-</div>
-<p class="text-xs text-slate-500 mt-2 leading-relaxed">
-                Radical transparency, on-time delivery, occupational safety and excellence in after-sales service.
-              </p>
-</div>
+</summary>
+<p class="text-xs text-slate-500 mt-3 leading-relaxed">
+Radical transparency, on-time delivery, occupational safety and excellence in after-sales service.
+</p>
+</details>
 </div>
 </div>
 <!-- Founders & Trust Badges -->
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-14" data-reveal>
 <div class="grid grid-cols-2 gap-4">
 <div class="bg-white p-6 border border-slate-200 text-center rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-<img alt="Robert Matarrita" class="w-24 h-24 object-cover rounded-full mx-auto mb-3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTOhLmMM8TEX_yWzDJ708dxlzvq0q0M6cxoikSlFr9X2SYpRzTaWWD947nzagjauA_t8iOmZ0YplsXdd5kugY6DLlFsRj--tC-voZOOMHtcFUZzjwpF5kipFPBwLvXrhGg80F1VG0h0cBQoF9qLmWcrxHBhtlq5AIxzNjgDEFjLjDcVO4Vl_gGb8qXd4uuFjVHqhRhXPGtpvZslEKnbU9mwbI97Eq1ffniXkrCFtVtPmQZiGDqWfA0Mmb75OMWhBm5rnX6ycI_bD4X" loading="lazy" decoding="async" width="96" height="96"/>
+<img alt="Robert Matarrita, Founder and CEO of MA Soluciones Integrales" class="w-24 h-24 object-cover object-top rounded-full mx-auto mb-3" src="/src/assets/ceo-robert-ma.webp" loading="lazy" decoding="async" width="384" height="480"/>
 <h3 class="font-bold text-brandNavy">Robert Matarrita</h3>
 <p class="text-brandOrange text-xs font-semibold">Founder &amp; CEO</p>
 </div>
 <div class="bg-white p-6 border border-slate-200 text-center rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-<img alt="José Matarrita" class="w-24 h-24 object-cover rounded-full mx-auto mb-3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9rvGEsSIss7C--LQ8_1qnxunqFRM5CHfu-RBLPlSa2aGUGIsOCd81Gf81zFG_L1M9NELLp_VSB3PUHrrJgVPrk_2Id0FPnHINSGauTvj_QBusAtDvtbvq3Wsd0jbGlRRQB3kEolQkwF5YO6TBh_fRuT_RLQ562AffWBc8eZDeq1NOalKHDMuWKN3YQ-gnQ0F2MBFQKUvOjdLyYDchpU1cDA4yCf4GW0r93jhTyVES1MWHC0V7TGoc4U0JkaXkeohRQLlV8uPivdzo" loading="lazy" decoding="async" width="96" height="96"/>
+<img alt="José Matarrita, Director of Operations of MA Soluciones Integrales" class="w-24 h-24 object-cover object-top rounded-full mx-auto mb-3" src="/src/assets/operaciones-jose-ma.webp" loading="lazy" decoding="async" width="384" height="480"/>
 <h3 class="font-bold text-brandNavy">José Matarrita</h3>
 <p class="text-brandOrange text-xs font-semibold">Director of Operations</p>
 </div>
@@ -936,58 +939,58 @@ Get a Quote
 <button class="filter-btn bg-white text-slate-600 border border-slate-300 px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-full hover:text-brandOrange" data-filter="mantenimiento">Maintenance</button>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative" id="projectGrid" data-reveal>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item shadow-sm" data-project="0" data-category="construccion" data-scope="Complete construction of a 3-level commercial building" data-location="Puntarenas" data-outcome="Delivered ahead of schedule, 0 defects on final inspection">
-<button type="button" aria-label="View project" class="absolute inset-0 z-10 w-full h-full"></button>
-<img alt="Real Estate Developments" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/mantenimiento-techos-03.webp" loading="lazy" decoding="async" width="600" height="400"/>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item shadow-sm" data-project="0" data-category="construccion" data-scope="Complete construction of a two-storey residence" data-location="Puntarenas">
+<button type="button" aria-label="View project: Residential Construction" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Residential Construction" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/construccion-general-01.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
 <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
-<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Real Estate Developments</h4>
-<p class="text-white/70 text-sm">3-level commercial building · Puntarenas</p>
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Residential Construction</h4>
+<p class="text-white/70 text-sm">Two-storey residence · Puntarenas</p>
 </div>
 </div>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item shadow-sm" data-project="1" data-category="construccion" data-scope="Storm and sanitary pipeline network for a shopping center" data-location="Puntarenas" data-outcome="Certified system, zero leaks in 2 years">
-<button type="button" aria-label="View project" class="absolute inset-0 z-10 w-full h-full"></button>
-<img alt="Infrastructure Projects" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/remodelacion-pintura-04.webp" loading="lazy" decoding="async" width="600" height="400"/>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item shadow-sm" data-project="1" data-category="construccion" data-scope="Excavation and site preparation for construction" data-location="Puntarenas">
+<button type="button" aria-label="View project: Earthworks" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Earthworks" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/construccion-movimiento-tierras-01.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
 <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
-<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Infrastructure Projects</h4>
-<p class="text-white/70 text-sm">Storm and sanitary works · Puntarenas</p>
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Earthworks</h4>
+<p class="text-white/70 text-sm">Excavation and site preparation · Puntarenas</p>
 </div>
 </div>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item shadow-sm" data-project="2" data-category="remodelacion" data-scope="Complete structural remodel of a restaurant" data-location="Puntarenas" data-outcome="Opened on the committed date, +30% capacity">
-<button type="button" aria-label="View project" class="absolute inset-0 z-10 w-full h-full"></button>
-<img alt="Commercial Projects" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/jardineria-poda-01.webp" loading="lazy" decoding="async" width="600" height="400"/>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item shadow-sm" data-project="2" data-category="remodelacion" data-scope="Remodeling and painting of roof and exterior surfaces" data-location="Puntarenas">
+<button type="button" aria-label="View project: Painting and Remodeling" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Painting and Remodeling" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/remodelacion-pintura-02.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
 <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
-<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Commercial Projects</h4>
-<p class="text-white/70 text-sm">Restaurant · Puntarenas</p>
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Painting &amp; Remodeling</h4>
+<p class="text-white/70 text-sm">Roof and exterior painting · Puntarenas</p>
 </div>
 </div>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="3" data-category="remodelacion" data-scope="Full remodel of a single-family home" data-location="Puntarenas" data-outcome="Premium finishes, 6 weeks execution">
-<button type="button" aria-label="View project" class="absolute inset-0 z-10 w-full h-full"></button>
-<img alt="Residential Remodeling" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/remodelacion-pintura-03.webp" loading="lazy" decoding="async" width="600" height="400"/>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="3" data-category="remodelacion" data-scope="Building facade remodeling and painting" data-location="Puntarenas">
+<button type="button" aria-label="View project: Facade Remodeling" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Facade Remodeling" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/remodelacion-pintura-03.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
 <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
-<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Residential Remodeling</h4>
-<p class="text-white/70 text-sm">Private residence · Puntarenas</p>
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Facade Remodeling</h4>
+<p class="text-white/70 text-sm">Building facade · Puntarenas</p>
 </div>
 </div>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="4" data-category="construccion" data-scope="Turnkey project: design + construction of a commercial unit" data-location="Puntarenas" data-outcome="Delivered 2 weeks ahead of deadline">
-<button type="button" aria-label="View project" class="absolute inset-0 z-10 w-full h-full"></button>
-<img alt="Design &amp; Build" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/mantenimiento-techos-01.webp" loading="lazy" decoding="async" width="600" height="400"/>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="4" data-category="construccion" data-scope="Vehicle access construction and finishes" data-location="Puntarenas">
+<button type="button" aria-label="View project: General Construction" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="General Construction" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/construccion-general-02.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
 <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
-<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Design &amp; Build</h4>
-<p class="text-white/70 text-sm">Turnkey commercial unit · Puntarenas</p>
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">General Construction</h4>
+<p class="text-white/70 text-sm">Vehicle access and finishes · Puntarenas</p>
 </div>
 </div>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="5" data-category="mantenimiento" data-scope="Preventive and corrective maintenance plan for a corporate building" data-location="Puntarenas" data-outcome="100% operational availability in 12 months">
-<button type="button" aria-label="View project" class="absolute inset-0 z-10 w-full h-full"></button>
-<img alt="General Maintenance" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/jardineria-siembra-01.webp" loading="lazy" decoding="async" width="600" height="400"/>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="5" data-category="mantenimiento" data-scope="Roof surface maintenance and finishing" data-location="Puntarenas">
+<button type="button" aria-label="View project: Roof Maintenance" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Roof Maintenance" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/mantenimiento-techos-02.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
 <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
-<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">General Maintenance</h4>
-<p class="text-white/70 text-sm">Corporate property · Puntarenas</p>
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Roof Maintenance</h4>
+<p class="text-white/70 text-sm">Roof surface and finish · Puntarenas</p>
 </div>
 </div>
 </div>
@@ -1340,12 +1343,12 @@ Get a Quote
 </div>
 <div class="md:col-span-4">
 <h3 class="text-xs font-bold text-white uppercase tracking-wider mb-4">Location &amp; Service Area</h3>
-<div class="rounded-2xl overflow-hidden border border-white/20 relative h-32">
-<iframe src="https://www.google.com/maps?q=Jac%C3%B3,+Garabito,+Costa+Rica&output=embed"
+<div class="rounded-2xl overflow-hidden border border-white/20 relative h-40">
+<iframe src="https://www.google.com/maps?q=Puntarenas%20Province%2C%20Costa%20Rica&z=6&output=embed"
 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-title="MA Soluciones Integrales location"></iframe>
+title="MA Soluciones Integrales coverage map for Puntarenas Province"></iframe>
 </div>
-<p class="text-[11px] text-slate-400 mt-2">Base in Jacó, Garabito. Scheduled technical visits and immediate attention throughout the Pacific.</p>
+<p class="text-[11px] text-slate-400 mt-2">Based in Jacó, Garabito, with coverage throughout Puntarenas Province.</p>
 </div>
 </div>
 <div class="relative py-8 select-none pointer-events-none text-center overflow-hidden">

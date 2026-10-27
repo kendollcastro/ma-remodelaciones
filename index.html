@@ -97,6 +97,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .accordion-content.open { max-height: 320px; }
     .accordion-btn .accordion-icon { transition: transform 0.45s cubic-bezier(0.22,1,0.36,1); }
     .accordion-btn.open .accordion-icon { transform: rotate(180deg); }
+    .about-dropdown > summary::-webkit-details-marker { display: none; }
+    .about-dropdown .about-dropdown-icon { transition: transform 0.3s ease; }
+    .about-dropdown[open] .about-dropdown-icon { transform: rotate(180deg); }
     /* Scroll reveal */
     .js [data-reveal] > * {
       opacity: 0;
@@ -797,57 +800,57 @@ Cotizar Ahora
 </div>
 <!-- Column 3: Mission / Vision / Values -->
 <div class="lg:col-span-4 space-y-4">
-<div class="bg-brandOrange text-brandNavy rounded-2xl p-5 shadow-lg relative transition-transform hover:scale-[1.01]">
-<div class="flex items-center justify-between">
+<details class="about-dropdown bg-brandOrange text-brandNavy rounded-2xl p-5 shadow-lg relative transition-transform hover:scale-[1.01]" open>
+<summary class="flex items-center justify-between gap-3 cursor-pointer list-none rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brandNavy focus-visible:ring-offset-2 focus-visible:ring-offset-brandOrange">
 <h3 class="text-base font-bold flex items-center gap-2">
 <i class="fa-solid fa-bullseye text-sm"></i> Nuestra Misión
-                </h3>
-<span class="w-6 h-6 rounded-full bg-white/25 flex items-center justify-center text-xs">
-<i class="fa-solid fa-chevron-up"></i>
+</h3>
+<span class="w-6 h-6 rounded-full bg-white/25 flex items-center justify-center text-xs flex-shrink-0">
+<i class="fa-solid fa-chevron-down about-dropdown-icon"></i>
 </span>
-</div>
+</summary>
 <p class="text-xs text-brandNavy mt-3 leading-relaxed font-medium">
-                Edificar y proteger las obras de nuestros clientes con los estándares más exigentes, garantizando honestidad en costos, durabilidad extrema e innovación estética.
-              </p>
-</div>
-<div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:border-brandOrange/40 transition-colors">
-<div class="flex items-center justify-between">
+Edificar y proteger las obras de nuestros clientes con los estándares más exigentes, garantizando honestidad en costos, durabilidad extrema e innovación estética.
+</p>
+</details>
+<details class="about-dropdown bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:border-brandOrange/40 transition-colors">
+<summary class="flex items-center justify-between gap-3 cursor-pointer list-none rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brandOrange focus-visible:ring-offset-2">
 <h3 class="text-base font-bold text-brandNavy flex items-center gap-2">
 <i class="fa-solid fa-eye text-brandOrange text-sm"></i> Nuestra Visión
-                </h3>
-<span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs">
-<i class="fa-solid fa-chevron-down"></i>
+</h3>
+<span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs flex-shrink-0">
+<i class="fa-solid fa-chevron-down about-dropdown-icon"></i>
 </span>
-</div>
-<p class="text-xs text-slate-500 mt-2 leading-relaxed">
-                Consolidarnos como la firma constructora de referencia en el Pacífico por confiabilidad, proyectos sostenibles y calidad sin concesiones.
-              </p>
-</div>
-<div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:border-brandOrange/40 transition-colors">
-<div class="flex items-center justify-between">
+</summary>
+<p class="text-xs text-slate-500 mt-3 leading-relaxed">
+Consolidarnos como la firma constructora de referencia en el Pacífico por confiabilidad, proyectos sostenibles y calidad sin concesiones.
+</p>
+</details>
+<details class="about-dropdown bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:border-brandOrange/40 transition-colors">
+<summary class="flex items-center justify-between gap-3 cursor-pointer list-none rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brandOrange focus-visible:ring-offset-2">
 <h3 class="text-base font-bold text-brandNavy flex items-center gap-2">
 <i class="fa-solid fa-handshake-simple text-brandOrange text-sm"></i> Nuestros Valores
-                </h3>
-<span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs">
-<i class="fa-solid fa-chevron-down"></i>
+</h3>
+<span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs flex-shrink-0">
+<i class="fa-solid fa-chevron-down about-dropdown-icon"></i>
 </span>
-</div>
-<p class="text-xs text-slate-500 mt-2 leading-relaxed">
-                Transparencia radical, puntualidad en la entrega, seguridad ocupacional y excelencia en el servicio post-venta.
-              </p>
-</div>
+</summary>
+<p class="text-xs text-slate-500 mt-3 leading-relaxed">
+Transparencia radical, puntualidad en la entrega, seguridad ocupacional y excelencia en el servicio post-venta.
+</p>
+</details>
 </div>
 </div>
 <!-- Founders & Trust Badges -->
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-14" data-reveal>
 <div class="grid grid-cols-2 gap-4">
 <div class="bg-white p-6 border border-slate-200 text-center rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-<img alt="Robert Matarrita" class="w-24 h-24 object-cover rounded-full mx-auto mb-3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTOhLmMM8TEX_yWzDJ708dxlzvq0q0M6cxoikSlFr9X2SYpRzTaWWD947nzagjauA_t8iOmZ0YplsXdd5kugY6DLlFsRj--tC-voZOOMHtcFUZzjwpF5kipFPBwLvXrhGg80F1VG0h0cBQoF9qLmWcrxHBhtlq5AIxzNjgDEFjLjDcVO4Vl_gGb8qXd4uuFjVHqhRhXPGtpvZslEKnbU9mwbI97Eq1ffniXkrCFtVtPmQZiGDqWfA0Mmb75OMWhBm5rnX6ycI_bD4X" loading="lazy" decoding="async" width="96" height="96"/>
+<img alt="Robert Matarrita, Fundador y CEO de MA Soluciones Integrales" class="w-24 h-24 object-cover object-top rounded-full mx-auto mb-3" src="/src/assets/ceo-robert-ma.webp" loading="lazy" decoding="async" width="384" height="480"/>
 <h3 class="font-bold text-brandNavy">Robert Matarrita</h3>
 <p class="text-brandOrange text-xs font-semibold">Fundador &amp; CEO</p>
 </div>
 <div class="bg-white p-6 border border-slate-200 text-center rounded-2xl shadow-sm hover:shadow-md transition-shadow">
-<img alt="José Matarrita" class="w-24 h-24 object-cover rounded-full mx-auto mb-3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9rvGEsSIss7C--LQ8_1qnxunqFRM5CHfu-RBLPlSa2aGUGIsOCd81Gf81zFG_L1M9NELLp_VSB3PUHrrJgVPrk_2Id0FPnHINSGauTvj_QBusAtDvtbvq3Wsd0jbGlRRQB3kEolQkwF5YO6TBh_fRuT_RLQ562AffWBc8eZDeq1NOalKHDMuWKN3YQ-gnQ0F2MBFQKUvOjdLyYDchpU1cDA4yCf4GW0r93jhTyVES1MWHC0V7TGoc4U0JkaXkeohRQLlV8uPivdzo" loading="lazy" decoding="async" width="96" height="96"/>
+<img alt="José Matarrita, Director de Operaciones de MA Soluciones Integrales" class="w-24 h-24 object-cover object-top rounded-full mx-auto mb-3" src="/src/assets/operaciones-jose-ma.webp" loading="lazy" decoding="async" width="384" height="480"/>
 <h3 class="font-bold text-brandNavy">José Matarrita</h3>
 <p class="text-brandOrange text-xs font-semibold">Director de Operaciones</p>
 </div>
@@ -936,59 +939,58 @@ Cotizar Ahora
 <button class="filter-btn bg-white text-slate-600 border border-slate-300 px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-full hover:text-brandOrange" data-filter="mantenimiento">Mantenimiento</button>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative" id="projectGrid" data-reveal>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item shadow-sm"
-     data-project="0" data-category="construccion" data-scope="Construcción completa de edificio comercial de 3 niveles" data-location="Puntarenas" data-outcome="Entregado en tiempo récord, 0 defectos en inspección final">
-<button type="button" aria-label="Ver proyecto" class="absolute inset-0 z-10 w-full h-full"></button>
-<img alt="Desarrollos Inmobiliarios" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/mantenimiento-techos-03.webp" loading="lazy" decoding="async" width="600" height="400"/>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item shadow-sm" data-project="0" data-category="construccion" data-scope="Construcción integral de residencia de dos niveles" data-location="Puntarenas">
+<button type="button" aria-label="Ver proyecto: Construcción Residencial" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Construcción Residencial" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/construccion-general-01.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
 <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
-<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Desarrollos Inmobiliarios</h4>
-<p class="text-white/70 text-sm">Edificio comercial de 3 niveles · Puntarenas</p>
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Construcción Residencial</h4>
+<p class="text-white/70 text-sm">Residencia de dos niveles · Puntarenas</p>
 </div>
 </div>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item shadow-sm" data-project="1" data-category="construccion" data-scope="Red de tubería pluvial y sanitaria para centro comercial" data-location="Puntarenas" data-outcome="Sistema certificado, cero filtraciones en 2 años">
-<button type="button" aria-label="Ver proyecto" class="absolute inset-0 z-10 w-full h-full"></button>
-<img alt="Proyectos de Infraestructura" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/remodelacion-pintura-04.webp" loading="lazy" decoding="async" width="600" height="400"/>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item shadow-sm" data-project="1" data-category="construccion" data-scope="Excavación y preparación de terreno para construcción" data-location="Puntarenas">
+<button type="button" aria-label="Ver proyecto: Movimiento de Tierras" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Movimiento de Tierras" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/construccion-movimiento-tierras-01.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
 <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
-<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Proyectos de Infraestructura</h4>
-<p class="text-white/70 text-sm">Obras pluviales y sanitarias · Puntarenas</p>
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Movimiento de Tierras</h4>
+<p class="text-white/70 text-sm">Excavación y preparación de terreno · Puntarenas</p>
 </div>
 </div>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item shadow-sm" data-project="2" data-category="remodelacion" data-scope="Remodelación estructural completa de restaurante" data-location="Puntarenas" data-outcome="Apertura en fecha compromiso, +30% capacidad">
-<button type="button" aria-label="Ver proyecto" class="absolute inset-0 z-10 w-full h-full"></button>
-<img alt="Proyectos Comerciales" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/jardineria-poda-01.webp" loading="lazy" decoding="async" width="600" height="400"/>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item shadow-sm" data-project="2" data-category="remodelacion" data-scope="Remodelación y pintura de techo y superficies exteriores" data-location="Puntarenas">
+<button type="button" aria-label="Ver proyecto: Pintura y Remodelación" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Pintura y Remodelación" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/remodelacion-pintura-02.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
 <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
-<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Proyectos Comerciales</h4>
-<p class="text-white/70 text-sm">Restaurante · Puntarenas</p>
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Pintura y Remodelación</h4>
+<p class="text-white/70 text-sm">Pintura de techo y exteriores · Puntarenas</p>
 </div>
 </div>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="3" data-category="remodelacion" data-scope="Remodelación integral de vivienda unifamiliar" data-location="Puntarenas" data-outcome="Acabados premium, 6 semanas de ejecución">
-<button type="button" aria-label="Ver proyecto" class="absolute inset-0 z-10 w-full h-full"></button>
-<img alt="Remodelaciones Residenciales" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/remodelacion-pintura-03.webp" loading="lazy" decoding="async" width="600" height="400"/>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="3" data-category="remodelacion" data-scope="Remodelación y pintura de fachada de edificio" data-location="Puntarenas">
+<button type="button" aria-label="Ver proyecto: Remodelación de Fachadas" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Remodelación de Fachadas" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/remodelacion-pintura-03.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
 <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
-<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Remodelaciones Residenciales</h4>
-<p class="text-white/70 text-sm">Residencia particular · Puntarenas</p>
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Remodelación de Fachadas</h4>
+<p class="text-white/70 text-sm">Fachada de edificio · Puntarenas</p>
 </div>
 </div>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="4" data-category="construccion" data-scope="Proyecto llave en mano: diseño + construcción de local comercial" data-location="Puntarenas" data-outcome="Entregado 2 semanas antes del deadline">
-<button type="button" aria-label="Ver proyecto" class="absolute inset-0 z-10 w-full h-full"></button>
-<img alt="Diseño y Construcción" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/mantenimiento-techos-01.webp" loading="lazy" decoding="async" width="600" height="400"/>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="4" data-category="construccion" data-scope="Construcción y acabados de acceso vehicular" data-location="Puntarenas">
+<button type="button" aria-label="Ver proyecto: Construcción General" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Construcción General" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/construccion-general-02.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
 <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
-<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Diseño y Construcción</h4>
-<p class="text-white/70 text-sm">Local comercial llave en mano · Puntarenas</p>
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Construcción General</h4>
+<p class="text-white/70 text-sm">Acceso vehicular y acabados · Puntarenas</p>
 </div>
 </div>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="5" data-category="mantenimiento" data-scope="Plan de mantenimiento preventivo y correctivo para edificio corporativo" data-location="Puntarenas" data-outcome="100% disponibilidad operativa en 12 meses">
-<button type="button" aria-label="Ver proyecto" class="absolute inset-0 z-10 w-full h-full"></button>
-<img alt="Mantenimiento General" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/jardineria-siembra-01.webp" loading="lazy" decoding="async" width="600" height="400"/>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="5" data-category="mantenimiento" data-scope="Mantenimiento y acabado de cubierta de techo" data-location="Puntarenas">
+<button type="button" aria-label="Ver proyecto: Mantenimiento de Techos" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Mantenimiento de Techos" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/mantenimiento-techos-02.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
 <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
-<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Mantenimiento General</h4>
-<p class="text-white/70 text-sm">Propiedad corporativa · Puntarenas</p>
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Mantenimiento de Techos</h4>
+<p class="text-white/70 text-sm">Cubierta y acabado de techo · Puntarenas</p>
 </div>
 </div>
 </div>
@@ -1341,12 +1343,12 @@ Cotizar Ahora
 </div>
 <div class="md:col-span-4">
 <h3 class="text-xs font-bold text-white uppercase tracking-wider mb-4">Ubicación y Área de Operaciones</h3>
-<div class="rounded-2xl overflow-hidden border border-white/20 relative h-32">
-<iframe src="https://www.google.com/maps?q=Jac%C3%B3,+Garabito,+Costa+Rica&output=embed"
+<div class="rounded-2xl overflow-hidden border border-white/20 relative h-40">
+<iframe src="https://www.google.com/maps?q=Puntarenas%20Province%2C%20Costa%20Rica&z=6&output=embed"
 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-title="Ubicación de MA Soluciones Integrales"></iframe>
+title="Mapa de cobertura de MA Soluciones Integrales en la provincia de Puntarenas"></iframe>
 </div>
-<p class="text-[11px] text-slate-400 mt-2">Base en Jacó, Garabito. Visitas técnicas programadas y atención inmediata en todo el Pacífico.</p>
+<p class="text-[11px] text-slate-400 mt-2">Base en Jacó, Garabito, con cobertura en toda la provincia de Puntarenas.</p>
 </div>
 </div>
 <div class="relative py-8 select-none pointer-events-none text-center overflow-hidden">

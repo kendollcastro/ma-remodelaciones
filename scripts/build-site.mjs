@@ -56,8 +56,8 @@ const L = {
       zonas: 'Zonas que Atendemos',
       blog: 'Blog',
       ubicacion: 'Ubicación y Área de Operaciones',
-      mapTitle: 'Ubicación de MA Soluciones Integrales',
-      mapNote: 'Base en Jacó, Garabito. Visitas técnicas programadas y atención inmediata en todo el Pacífico.',
+      mapTitle: 'Mapa de cobertura de MA Soluciones Integrales en la provincia de Puntarenas',
+      mapNote: 'Base en Jacó, Garabito, con cobertura en toda la provincia de Puntarenas.',
       copyright: '© 2026 MA Soluciones Integrales. Todos los derechos reservados.',
       english: 'English',
       whatsapp: 'WhatsApp',
@@ -105,8 +105,8 @@ const L = {
       zonas: 'Areas We Cover',
       blog: 'Blog',
       ubicacion: 'Location & Service Area',
-      mapTitle: 'MA Soluciones Integrales location',
-      mapNote: 'Based in Jacó, Garabito. Scheduled site visits and fast response across the Pacific.',
+      mapTitle: 'MA Soluciones Integrales coverage map for Puntarenas Province',
+      mapNote: 'Based in Jacó, Garabito, with coverage throughout Puntarenas Province.',
       copyright: '© 2026 MA Soluciones Integrales. All rights reserved.',
       english: 'Español',
       whatsapp: 'WhatsApp',
@@ -377,8 +377,8 @@ ${blogLinks}
 </div>
 </div>
 <h3 class="text-xs font-bold text-white uppercase tracking-wider mb-2 mt-6">${f.ubicacion}</h3>
-<div class="rounded-2xl overflow-hidden border border-white/20 relative h-28">
-<iframe src="https://www.google.com/maps?q=Jac%C3%B3,+Garabito,+Costa+Rica&output=embed"
+<div class="rounded-2xl overflow-hidden border border-white/20 relative h-40">
+<iframe src="https://www.google.com/maps?q=Puntarenas%20Province%2C%20Costa%20Rica&z=6&output=embed"
 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
 title="${esc(f.mapTitle)}"></iframe>
 </div>
