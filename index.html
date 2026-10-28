@@ -97,9 +97,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .accordion-content.open { max-height: 320px; }
     .accordion-btn .accordion-icon { transition: transform 0.45s cubic-bezier(0.22,1,0.36,1); }
     .accordion-btn.open .accordion-icon { transform: rotate(180deg); }
-    .about-dropdown > summary::-webkit-details-marker { display: none; }
     .about-dropdown .about-dropdown-icon { transition: transform 0.3s ease; }
-    .about-dropdown[open] .about-dropdown-icon { transform: rotate(180deg); }
+    .about-dropdown.open .about-dropdown-icon { transform: rotate(180deg); }
+    .about-dropdown-content { max-height: 0; overflow: hidden; transition: max-height 0.45s cubic-bezier(0.22,1,0.36,1); }
+    .about-dropdown.open .about-dropdown-content { max-height: 600px; }
     /* Scroll reveal */
     .js [data-reveal] > * {
       opacity: 0;
@@ -607,7 +608,7 @@ Cotizar Ahora
 <span class="text-xs font-bold text-brandOrange uppercase tracking-wider"><i class="fa-solid fa-bolt mr-1"></i></span>
 <h4 class="text-lg font-bold text-brandNavy group-hover:text-brandOrange transition-colors">Electricidad</h4>
 <p class="text-xs text-slate-500 mt-2 leading-relaxed">
-                Soluciones eléctricas certificadas: automatización de cuartos, acometidas industriales, cableado estructurado y paneles inteligentes.
+                Electricidad residencial e industrial: instalaciones, acometidas, cableado estructurado y paneles inteligentes.
               </p>
 </div>
 <div class="pt-4 flex items-center justify-between border-t border-slate-100 mt-4">
@@ -800,45 +801,51 @@ Cotizar Ahora
 </div>
 <!-- Column 3: Mission / Vision / Values -->
 <div class="lg:col-span-4 space-y-4">
-<details class="about-dropdown bg-brandOrange text-brandNavy rounded-2xl p-5 shadow-lg relative transition-transform hover:scale-[1.01]" open>
-<summary class="flex items-center justify-between gap-3 cursor-pointer list-none rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brandNavy focus-visible:ring-offset-2 focus-visible:ring-offset-brandOrange">
+<div class="about-dropdown bg-brandOrange text-brandNavy rounded-2xl p-5 shadow-lg relative transition-transform hover:scale-[1.01] open">
+<button class="about-dropdown-btn flex items-center justify-between gap-3 cursor-pointer list-none rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brandNavy focus-visible:ring-offset-2 focus-visible:ring-offset-brandOrange w-full" type="button">
 <h3 class="text-base font-bold flex items-center gap-2">
 <i class="fa-solid fa-bullseye text-sm"></i> Nuestra Misión
 </h3>
 <span class="w-6 h-6 rounded-full bg-white/25 flex items-center justify-center text-xs flex-shrink-0">
 <i class="fa-solid fa-chevron-down about-dropdown-icon"></i>
 </span>
-</summary>
-<p class="text-xs text-brandNavy mt-3 leading-relaxed font-medium">
+</button>
+<div class="about-dropdown-content mt-3">
+<p class="text-xs text-brandNavy leading-relaxed font-medium">
 Edificar y proteger las obras de nuestros clientes con los estándares más exigentes, garantizando honestidad en costos, durabilidad extrema e innovación estética.
 </p>
-</details>
-<details class="about-dropdown bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:border-brandOrange/40 transition-colors">
-<summary class="flex items-center justify-between gap-3 cursor-pointer list-none rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brandOrange focus-visible:ring-offset-2">
+</div>
+</div>
+<div class="about-dropdown bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:border-brandOrange/40 transition-colors">
+<button class="about-dropdown-btn flex items-center justify-between gap-3 cursor-pointer list-none rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brandOrange focus-visible:ring-offset-2 w-full" type="button">
 <h3 class="text-base font-bold text-brandNavy flex items-center gap-2">
 <i class="fa-solid fa-eye text-brandOrange text-sm"></i> Nuestra Visión
 </h3>
 <span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs flex-shrink-0">
 <i class="fa-solid fa-chevron-down about-dropdown-icon"></i>
 </span>
-</summary>
-<p class="text-xs text-slate-500 mt-3 leading-relaxed">
+</button>
+<div class="about-dropdown-content mt-3">
+<p class="text-xs text-slate-500 leading-relaxed">
 Consolidarnos como la firma constructora de referencia en el Pacífico por confiabilidad, proyectos sostenibles y calidad sin concesiones.
 </p>
-</details>
-<details class="about-dropdown bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:border-brandOrange/40 transition-colors">
-<summary class="flex items-center justify-between gap-3 cursor-pointer list-none rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brandOrange focus-visible:ring-offset-2">
+</div>
+</div>
+<div class="about-dropdown bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:border-brandOrange/40 transition-colors">
+<button class="about-dropdown-btn flex items-center justify-between gap-3 cursor-pointer list-none rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brandOrange focus-visible:ring-offset-2 w-full" type="button">
 <h3 class="text-base font-bold text-brandNavy flex items-center gap-2">
 <i class="fa-solid fa-handshake-simple text-brandOrange text-sm"></i> Nuestros Valores
 </h3>
 <span class="w-6 h-6 rounded-full bg-brandOrange/10 text-brandOrange flex items-center justify-center text-xs flex-shrink-0">
 <i class="fa-solid fa-chevron-down about-dropdown-icon"></i>
 </span>
-</summary>
-<p class="text-xs text-slate-500 mt-3 leading-relaxed">
-Transparencia radical, puntualidad en la entrega, seguridad ocupacional y excelencia en el servicio post-venta.
-</p>
-</details>
+</button>
+<div class="about-dropdown-content mt-3 space-y-3 text-xs text-slate-500 leading-relaxed">
+<p><strong class="text-brandNavy">Confiabilidad:</strong> Proyectos con la calidad correcta, entregados a tiempo y realizados de acuerdo con lo solicitado por el cliente.</p>
+<p><strong class="text-brandNavy">Servicio:</strong> Somos una empresa en la que nuestros clientes son la prioridad y nuestro personal se esfuerza por brindarles soluciones integrales.</p>
+<p><strong class="text-brandNavy">Costo:</strong> Somos una empresa con precios adecuados para los clientes y para la empresa, generando valor agregado.</p>
+</div>
+</div>
 </div>
 </div>
 <!-- Founders & Trust Badges -->
@@ -932,12 +939,14 @@ Transparencia radical, puntualidad en la entrega, seguridad ocupacional y excele
 <p class="text-sm text-slate-500 mt-2 max-w-xl">Una selección de nuestras obras más emblemáticas en la costa del Pacífico.</p>
 </div>
 </div>
-<div class="flex flex-wrap gap-3 mb-10">
-<button class="filter-btn active bg-brandNavy text-white px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-full" data-filter="all">Todos</button>
-<button class="filter-btn bg-white text-slate-600 border border-slate-300 px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-full hover:text-brandOrange" data-filter="construccion">Construcción</button>
-<button class="filter-btn bg-white text-slate-600 border border-slate-300 px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-full hover:text-brandOrange" data-filter="remodelacion">Remodelación</button>
-<button class="filter-btn bg-white text-slate-600 border border-slate-300 px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-full hover:text-brandOrange" data-filter="mantenimiento">Mantenimiento</button>
+<div class="flex flex-wrap gap-3 mb-4" role="group" aria-label="Filtrar proyectos">
+<button type="button" class="filter-btn active bg-brandNavy text-white px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-full" data-filter="all" aria-pressed="true">Todos</button>
+<button type="button" class="filter-btn bg-white text-slate-600 border border-slate-300 px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-full hover:text-brandOrange" data-filter="construccion" aria-pressed="false">Construcción</button>
+<button type="button" class="filter-btn bg-white text-slate-600 border border-slate-300 px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-full hover:text-brandOrange" data-filter="remodelacion" aria-pressed="false">Remodelación</button>
+<button type="button" class="filter-btn bg-white text-slate-600 border border-slate-300 px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-full hover:text-brandOrange" data-filter="servicios-generales" aria-pressed="false">Servicios Generales</button>
+<button type="button" class="filter-btn bg-white text-slate-600 border border-slate-300 px-5 py-2 text-sm font-bold uppercase tracking-wider rounded-full hover:text-brandOrange" data-filter="electricidad" aria-pressed="false">Electricidad</button>
 </div>
+<p id="projectFilterDescription" class="text-sm text-slate-500 mb-10" aria-live="polite">Construcción, remodelación, servicios generales y electricidad.</p>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative" id="projectGrid" data-reveal>
 <div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item shadow-sm" data-project="0" data-category="construccion" data-scope="Construcción integral de residencia de dos niveles" data-location="Puntarenas">
 <button type="button" aria-label="Ver proyecto: Construcción Residencial" class="absolute inset-0 z-10 w-full h-full"></button>
@@ -966,13 +975,13 @@ Transparencia radical, puntualidad en la entrega, seguridad ocupacional y excele
 <p class="text-white/70 text-sm">Pintura de techo y exteriores · Puntarenas</p>
 </div>
 </div>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="3" data-category="remodelacion" data-scope="Remodelación y pintura de fachada de edificio" data-location="Puntarenas">
-<button type="button" aria-label="Ver proyecto: Remodelación de Fachadas" class="absolute inset-0 z-10 w-full h-full"></button>
-<img alt="Remodelación de Fachadas" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/remodelacion-pintura-03.webp" loading="lazy" decoding="async" width="600" height="450"/>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="3" data-category="remodelacion" data-scope="Remodelación y pintura de techos" data-location="Puntarenas">
+<button type="button" aria-label="Ver proyecto: Techos" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Techos" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/remodelacion-pintura-04.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
 <div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
-<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Remodelación de Fachadas</h4>
-<p class="text-white/70 text-sm">Fachada de edificio · Puntarenas</p>
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Techos</h4>
+<p class="text-white/70 text-sm">Remodelación y pintura de techos · Puntarenas</p>
 </div>
 </div>
 <div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="4" data-category="construccion" data-scope="Construcción y acabados de acceso vehicular" data-location="Puntarenas">
@@ -984,7 +993,16 @@ Transparencia radical, puntualidad en la entrega, seguridad ocupacional y excele
 <p class="text-white/70 text-sm">Acceso vehicular y acabados · Puntarenas</p>
 </div>
 </div>
-<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="5" data-category="mantenimiento" data-scope="Mantenimiento y acabado de cubierta de techo" data-location="Puntarenas">
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="6" data-category="construccion" data-scope="Construcción de estructuras e instalaciones industriales" data-location="Puntarenas">
+<button type="button" aria-label="Ver proyecto: Construcción Industrial" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Construcción Industrial" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/hero-industrial.webp" loading="lazy" decoding="async" width="600" height="450"/>
+<div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
+<div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Construcción Industrial</h4>
+<p class="text-white/70 text-sm">Estructuras e instalaciones industriales · Puntarenas</p>
+</div>
+</div>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="5" data-category="servicios-generales" data-scope="Mantenimiento y acabado de cubierta de techo" data-location="Puntarenas">
 <button type="button" aria-label="Ver proyecto: Mantenimiento de Techos" class="absolute inset-0 z-10 w-full h-full"></button>
 <img alt="Mantenimiento de Techos" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/mantenimiento-techos-02.webp" loading="lazy" decoding="async" width="600" height="450"/>
 <div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
@@ -993,7 +1011,26 @@ Transparencia radical, puntualidad en la entrega, seguridad ocupacional y excele
 <p class="text-white/70 text-sm">Cubierta y acabado de techo · Puntarenas</p>
 </div>
 </div>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="7" data-category="servicios-generales" data-scope="Diseño, siembra y mantenimiento de áreas verdes" data-location="Puntarenas">
+<button type="button" aria-label="Ver proyecto: Jardinería" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Jardinería" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/jardineria-siembra-01.webp" loading="lazy" decoding="async" width="600" height="450"/>
+<div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
+<div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Jardinería</h4>
+<p class="text-white/70 text-sm">Siembra y mantenimiento de áreas verdes · Puntarenas</p>
 </div>
+</div>
+<div class="group cursor-pointer overflow-hidden relative aspect-[4/3] rounded-3xl project-item hidden shadow-sm" data-more-project data-project="8" data-category="servicios-generales" data-scope="Corte de árboles, poda y retiro de ramas" data-location="Puntarenas">
+<button type="button" aria-label="Ver proyecto: Corte de Árboles" class="absolute inset-0 z-10 w-full h-full"></button>
+<img alt="Corte de Árboles" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/src/assets/jardineria-poda-01.webp" loading="lazy" decoding="async" width="600" height="450"/>
+<div class="absolute inset-0 bg-brandNavy/30 group-hover:bg-brandNavy/55 transition-all"></div>
+<div class="absolute bottom-0 left-0 p-6 w-full bg-gradient-to-t from-brandNavy/90 to-transparent">
+<h4 class="font-heading text-lg text-white font-bold" style="font-weight:700">Corte de Árboles</h4>
+<p class="text-white/70 text-sm">Poda y retiro de ramas · Puntarenas</p>
+</div>
+</div>
+</div>
+<p id="projectEmpty" class="hidden rounded-2xl border border-dashed border-slate-300 bg-white px-6 py-10 text-center text-sm text-slate-500" role="status"></p>
 <div class="text-center mt-10">
 <button class="bg-brandOrange text-brandNavy px-8 py-3 font-bold rounded-full text-sm hover:bg-brandNavy hover:text-brandOrange transition-all inline-flex items-center gap-2" id="loadMoreProjects">
         Cargar más proyectos <i class="fa-solid fa-chevron-down text-xs"></i>
@@ -1277,13 +1314,13 @@ Transparencia radical, puntualidad en la entrega, seguridad ocupacional y excele
 <a class="text-sm font-bold text-white hover:text-brandOrange transition-colors" href="https://wa.me/50684522328?text=Hola%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n" target="_blank" rel="noopener noreferrer">+(506) 8452-2328</a>
 </div>
 </div>
-<div class="flex items-start gap-4">
+<!-- <div class="flex items-start gap-4">
 <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-brandOrange text-base flex-shrink-0"><i class="fa-solid fa-phone"></i></div>
 <div>
 <p class="text-xs text-slate-300">Robert Matarrita</p>
 <a class="text-sm font-bold text-white hover:text-brandOrange transition-colors" href="tel:+50686649651">+(506) 8664-9651</a>
 </div>
-</div>
+</div> -->
 <div class="flex items-start gap-4">
 <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-brandOrange text-base flex-shrink-0"><i class="fa-solid fa-envelope"></i></div>
 <div>
@@ -1437,13 +1474,28 @@ id="whatsappBtn" aria-label="Contactar por WhatsApp">
   // ===== FAQ Accordion =====
   document.querySelectorAll('.accordion-btn').forEach(btn => {
     btn.addEventListener('click', function() {
-      const target = document.getElementById(this.dataset.target);
+      const target = this.nextElementSibling;
+      if (!target || !target.classList.contains('accordion-content')) return;
       const isOpen = target.classList.contains('open');
       document.querySelectorAll('.accordion-content.open').forEach(el => {
         el.classList.remove('open');
         el.previousElementSibling?.classList?.remove('open');
       });
       if (!isOpen) { target.classList.add('open'); this.classList.add('open'); }
+    });
+  });
+
+  // ===== Mision / Vision / Valores Accordion =====
+  document.querySelectorAll('.about-dropdown-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      const wrapper = this.parentElement;
+      const content = wrapper.querySelector('.about-dropdown-content');
+      if (!content) return;
+      const isOpen = wrapper.classList.contains('open');
+      document.querySelectorAll('.about-dropdown.open').forEach(el => {
+        el.classList.remove('open');
+      });
+      if (!isOpen) { wrapper.classList.add('open'); }
     });
   });
 
@@ -1521,25 +1573,54 @@ id="whatsappBtn" aria-label="Contactar por WhatsApp">
   })();
 
   // ===== Project Filter + Load More =====
+  const projectFilterDescriptions = {
+    all: 'Construcción, remodelación, servicios generales y electricidad.',
+    construccion: 'Construcción residencial, construcción industrial y movimiento de tierras.',
+    remodelacion: 'Pintura, cocina, cielorrasos, techos y baños.',
+    'servicios-generales': 'Mantenimiento, jardinería, fontanería y corte de árboles.',
+    electricidad: 'Electricidad residencial e industrial.'
+  };
+  const projectFilterDescription = document.getElementById('projectFilterDescription');
+  const projectEmpty = document.getElementById('projectEmpty');
+  const loadMoreProjects = document.getElementById('loadMoreProjects');
+  let activeProjectFilter = 'all';
+  let showAllProjects = false;
+
   function applyFilter(filter) {
+    activeProjectFilter = filter;
+    let visibleCount = 0;
     document.querySelectorAll('#projectGrid > .project-item').forEach(el => {
-      if (filter === 'all' || el.dataset.category === filter) { el.classList.remove('hidden'); }
-      else { el.classList.add('hidden'); }
+      const matches = filter === 'all' || el.dataset.category === filter;
+      const isAvailable = filter !== 'all' || showAllProjects || !el.hasAttribute('data-more-project');
+      const show = matches && isAvailable;
+      el.classList.toggle('hidden', !show);
+      if (show) visibleCount++;
     });
+    projectFilterDescription.textContent = projectFilterDescriptions[filter] || '';
+    projectEmpty.textContent = filter === 'electricidad'
+      ? 'Próximamente: proyectos de electricidad residencial e industrial. Estamos preparando fotografías de estos trabajos.'
+      : 'Próximamente agregaremos proyectos a esta categoría.';
+    projectEmpty.classList.toggle('hidden', visibleCount !== 0);
+    loadMoreProjects.style.display = filter === 'all' && !showAllProjects ? 'inline-flex' : 'none';
   }
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', function() {
-      document.querySelectorAll('.filter-btn').forEach(b => { b.classList.remove('active', 'bg-brandNavy', 'text-white'); b.classList.add('bg-white', 'text-slate-600', 'border', 'border-slate-300'); });
+      document.querySelectorAll('.filter-btn').forEach(b => {
+        b.classList.remove('active', 'bg-brandNavy', 'text-white');
+        b.classList.add('bg-white', 'text-slate-600', 'border', 'border-slate-300');
+        b.setAttribute('aria-pressed', 'false');
+      });
       this.classList.add('active', 'bg-brandNavy', 'text-white');
       this.classList.remove('bg-white', 'text-slate-600', 'border', 'border-slate-300');
+      this.setAttribute('aria-pressed', 'true');
       applyFilter(this.dataset.filter);
     });
   });
-  document.getElementById('loadMoreProjects')?.addEventListener('click', function() {
-    document.querySelectorAll('[data-more-project]').forEach(el => el.classList.remove('hidden'));
-    this.style.display = 'none';
-    applyFilter(document.querySelector('.filter-btn.active')?.dataset.filter || 'all');
+  loadMoreProjects?.addEventListener('click', function() {
+    showAllProjects = true;
+    applyFilter(activeProjectFilter);
   });
+  applyFilter('all');
 
   // ===== Lightbox =====
   (function() {
@@ -1581,9 +1662,9 @@ id="whatsappBtn" aria-label="Contactar por WhatsApp">
     function next() { if (currentIndex < projects.length - 1) open(currentIndex + 1); }
 
     document.querySelectorAll('#projectGrid .project-item').forEach(card => {
-      card.addEventListener('click', function(e) {
-        if (e.target.closest('button')) return;
-        open(parseInt(this.dataset.project));
+      card.addEventListener('click', function() {
+        getProjects();
+        open(projects.indexOf(this));
       });
     });
     closeBtn.addEventListener('click', closeLb);
@@ -1621,7 +1702,7 @@ id="whatsappBtn" aria-label="Contactar por WhatsApp">
         icon: 'fa-bolt',
         title: 'Electricidad',
         details: [
-          'Soluciones eléctricas certificadas. Brindamos automatización de cuartos, acometidas industriales, cableado estructurado e instalación de paneles residenciales inteligentes.',
+          'Electricidad residencial e industrial. Brindamos automatización de cuartos, acometidas, cableado estructurado e instalación de paneles inteligentes.',
           'Nuestro equipo de electricistas certificados diseña e instala sistemas eléctricos completos para todo tipo de proyectos: residenciales, comerciales e industriales. Trabajamos con materiales de primera calidad y siguiendo todas las normas vigentes.',
           'Ofrecemos servicios de diagnóstico, mantenimiento preventivo y correctivo, así como modernización de instalaciones existentes para mejorar eficiencia energética y seguridad.'
         ]
